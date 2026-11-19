@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0F2A47">
+<title>Song Leader Ministry</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Song Leader">
+<script src="config.js"></script>
+<style>
+@font-face{font-family:Inter;font-weight:400;font-display:swap;src:url(fonts/inter-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Inter;font-weight:500;font-display:swap;src:url(fonts/inter-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Inter;font-weight:600;font-display:swap;src:url(fonts/inter-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:Cinzel;font-weight:700;font-display:swap;src:url(fonts/cinzel-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Source Serif 4";font-weight:400;font-display:swap;src:url(fonts/source-serif-4-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Source Serif 4";font-weight:600;font-display:swap;src:url(fonts/source-serif-4-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Source Serif 4";font-weight:400;font-style:italic;font-display:swap;src:url(fonts/source-serif-4-latin-400-italic.woff2) format("woff2")}
+:root{
+  --navy:#0F2A47; --navy-2:#16365C; --navy-3:#2B5583;
+  --gold:#D9A53A; --gold-soft:#F3D27A;
+  --bg:#F6F3EC; --card:#FFFFFF; --ink:#18212E; --muted:#667085; --line:#E4DED2;
+  --en:#2B5583; --lyrics-size:20px;
+  --safe-top:env(safe-area-inset-top,0px); --safe-bot:env(safe-area-inset-bottom,0px);
+}
+body.dark{ --bg:#08131F; --card:#0F1F31; --ink:#EAF0F7; --muted:#93A3B8; --line:#1E3149; --en:#9CC0EA; }
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+button,input{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer;padding:0}
+.app{max-width:760px;margin:0 auto;min-height:100vh;padding-bottom:calc(72px + var(--safe-bot))}
+/* En-tête */
+.top{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;padding:calc(10px + var(--safe-top)) 12px 10px 16px;display:flex;align-items:center;gap:8px;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+.brand{font-family:Cinzel,serif;font-weight:700;letter-spacing:.05em;font-size:17px;line-height:1.15;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand small{display:block;font-family:Inter;font-weight:400;letter-spacing:0;font-size:11px;color:var(--gold-soft)}
+.icon-btn{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;flex:none}
+.icon-btn:active{background:rgba(255,255,255,.12)}
+.icon-btn svg{width:22px;height:22px}
+.view{padding:14px 16px}
+/* Recherche */
+.search{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:0 12px;margin:2px 0 10px}
+.search svg{width:18px;height:18px;color:var(--muted);flex:none}
+.search input{flex:1;border:0;outline:0;background:transparent;padding:13px 0;font-size:16px;min-width:0}
+.search .clear{color:var(--muted);font-size:20px;width:28px;height:28px;display:none}
+.search.has .clear{display:block}
+.count{font-size:12px;color:var(--muted);margin:0 2px 6px}
+/* Liste */
+.letter{position:sticky;top:calc(60px + var(--safe-top));z-index:5;background:var(--bg);font-family:Cinzel,serif;font-weight:700;color:var(--gold);font-size:15px;padding:10px 4px 6px;margin-right:26px}
+.row{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 14px;margin-bottom:8px}
+.row:active{transform:scale(.99)}
+.row .t{flex:1;min-width:0}
+.row .t b{display:block;font-family:"Source Serif 4",serif;font-weight:600;font-size:17px;line-height:1.3}
+.row .t span{display:block;font-size:12.5px;color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .star{color:var(--gold);font-size:16px}
+.row mark{background:#FBE7A7;color:inherit;border-radius:3px;padding:0 1px}
+body.dark .row mark{background:#5A4510}
+.list-wrap{padding-right:26px;position:relative}
+.az{position:fixed;right:max(4px,calc((100vw - 760px)/2 + 4px));top:calc(130px + var(--safe-top));bottom:calc(84px + var(--safe-bot));display:flex;flex-direction:column;justify-content:center;z-index:15;touch-action:none}
+.az button{font-size:11px;font-weight:600;color:var(--navy-3);padding:1px 6px;line-height:1.35}
+body.dark .az button{color:var(--gold-soft)}
+.az button.off{color:var(--line)}
+.empty{text-align:center;color:var(--muted);padding:40px 16px;line-height:1.6}
+.hint{background:var(--card);border:1px solid var(--gold);border-radius:14px;padding:12px 14px;margin-bottom:12px;font-size:13.5px;line-height:1.5}
+.hint b{display:block;margin-bottom:2px}
+.hint button{color:var(--navy-3);font-weight:600;margin-top:6px}
+/* Cantique */
+.s-head{padding:4px 2px 12px;border-bottom:1px solid var(--line);margin-bottom:12px}
+.s-id{font-size:11px;letter-spacing:.12em;color:var(--gold);font-weight:600}
+.s-title{font-family:"Source Serif 4",serif;font-weight:600;font-size:26px;line-height:1.25;margin:6px 0 0;color:var(--navy-2)}
+body.dark .s-title{color:var(--gold-soft)}
+.tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:12px 0 4px}
+.seg{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:99px;padding:3px}
+.seg button{font-size:13px;font-weight:500;padding:7px 12px;border-radius:99px;color:var(--muted)}
+.seg button.on{background:var(--navy);color:#fff}
+body.dark .seg button.on{background:var(--gold);color:#08131F}
+.mini{display:inline-flex;align-items:center;justify-content:center;min-width:38px;height:38px;border:1px solid var(--line);background:var(--card);border-radius:99px;font-weight:600;font-size:14px;padding:0 10px}
+.mini.on{border-color:var(--gold);color:var(--gold)}
+.lang{margin-top:18px}
+.lang h4{margin:0 0 8px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.stanza{font-family:"Source Serif 4",serif;font-size:var(--lyrics-size);line-height:1.55;margin:0 0 1em}
+.stanza.refrain{border-left:3px solid var(--gold);padding-left:12px}
+.lang.en .stanza{color:var(--en);font-style:italic}
+.nav-songs{display:flex;gap:10px;margin:26px 0 8px}
+.nav-songs button{flex:1;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;font-size:12px;color:var(--muted);min-width:0}
+.nav-songs button b{display:block;color:var(--ink);font-family:"Source Serif 4",serif;font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.nav-songs button:last-child{text-align:right}
+/* Barre du bas */
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--card);border-top:1px solid var(--line);padding:6px 0 calc(6px + var(--safe-bot));display:flex;justify-content:center}
+.tabbar .in{display:flex;max-width:760px;width:100%}
+.tabbar button{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;color:var(--muted);padding:4px 0}
+.tabbar button svg{width:22px;height:22px}
+.tabbar button.on{color:var(--navy-3)}
+body.dark .tabbar button.on{color:var(--gold-soft)}
+/* Réglages */
+.set{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 14px;margin-bottom:12px}
+.set .line{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid var(--line)}
+.set .line:last-child{border-bottom:0}
+.set .line span{font-size:14.5px}
+.about{font-size:12.5px;color:var(--muted);line-height:1.6;padding:4px 4px 20px}
+.toast{position:fixed;left:50%;bottom:calc(84px + var(--safe-bot));transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 16px;border-radius:99px;font-size:13.5px;z-index:50;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:0;transition:opacity .25s;pointer-events:none}
+.toast.show{opacity:1}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <button class="icon-btn" id="back" aria-label="Retour" style="display:none"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+    <div class="brand" id="brand">Song Leader Ministry<small id="sub">Recueil de cantiques</small></div>
+    <button class="icon-btn" id="fav" aria-label="Favori" style="display:none"></button>
+    <button class="icon-btn" id="theme" aria-label="Mode nuit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+  </header>
+  <main class="view" id="view"></main>
+</div>
+<nav class="tabbar"><div class="in">
+  <button data-tab="list"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>Cantiques</button>
+  <button data-tab="favs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>Favoris</button>
+  <button data-tab="settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>Réglages</button>
+</div></nav>
+<div class="toast" id="toast"></div>
+<script>
+(function(){
+"use strict";
+const $ = s => document.querySelector(s);
+const view = $("#view");
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem("slm:"+k); return v ? JSON.parse(v) : d }catch(e){ return d } },
+  set(k, v){ try{ localStorage.setItem("slm:"+k, JSON.stringify(v)) }catch(e){} }
+};
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm = s => String(s).toLowerCase().replace(/œ/g,"oe").replace(/æ/g,"ae").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[’']/g," ").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
+const cmp = (a, b) => a < b ? -1 : a > b ? 1 : 0;   // même ordre que le document « Recueil validé »
+
+let LIB = {version: "", songs: []}, SONGS = [], BYID = {};
+let query = "", wakeLock = null;
+const settings = Object.assign({lang: "both", size: 20, dark: false}, store.get("settings", {}));
+let favs = new Set(store.get("favs", []));
+
+function applySettings(){
+  document.body.classList.toggle("dark", !!settings.dark);
+  document.documentElement.style.setProperty("--lyrics-size", settings.size + "px");
+  document.querySelector('meta[name="theme-color"]').content = settings.dark ? "#08131F" : "#0F2A47";
+  store.set("settings", settings);
+}
+function toast(msg){ const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 2600) }
+function firstLine(s){ const st = (s.fr[0] || s.en[0] || []); return st[0] || "" }
+function letterOf(t){ const n = norm(t); const c = n.charAt(0).toUpperCase(); return /[A-Z]/.test(c) ? c : "#" }
+
+function loadLib(lib){
+  LIB = lib;
+  SONGS = lib.songs.slice().sort((a, b) => cmp(norm(a.title), norm(b.title)));
+  BYID = {}; SONGS.forEach((s, i) => { s._i = i; s._key = s.id || ("t" + i); BYID[s._key] = s;
+    s._n = norm(s.title); s._body = norm([].concat(...s.fr, ...s.en).join(" ")) });
+  route();
+}
+
+// ---------- Vues ----------
+function rowHtml(s, hl){
+  let sub = esc(firstLine(s));
+  if (hl && !s._n.includes(hl)){
+    const lines = [].concat(...s.fr, ...s.en); const hit = lines.find(l => norm(l).includes(hl));
+    if (hit) sub = "« " + esc(hit) + " »";
+  }
+  return `<button class="row" data-song="${esc(s._key)}"><div class="t"><b>${esc(s.title)}</b><span>${sub}</span></div>${favs.has(s._key) ? '<span class="star">★</span>' : ""}</button>`;
+}
+function renderList(){
+  setTop("Song Leader Ministry", `${SONGS.length} cantique${SONGS.length > 1 ? "s" : ""}`, false);
+  let html = "";
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  const standalone = window.navigator.standalone || matchMedia("(display-mode: standalone)").matches;
+  if (isIOS && !standalone && !window.Capacitor && !store.get("iosHint", false))
+    html += `<div class="hint"><b>📲 Installer sur l'iPhone</b>Dans Safari, touchez Partager puis « Sur l'écran d'accueil ».<br><button id="hintOk">Compris</button></div>`;
+  html += `<div class="search${query ? " has" : ""}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input id="q" type="search" placeholder="Titre ou paroles…" value="${esc(query)}" autocomplete="off"><button class="clear" id="qclear" aria-label="Effacer">×</button></div><div id="results"></div>`;
+  view.innerHTML = html;
+  const q = $("#q");
+  q.addEventListener("input", () => { query = q.value; q.parentNode.classList.toggle("has", !!query); renderResults() });
+  $("#qclear").onclick = () => { query = ""; q.value = ""; q.parentNode.classList.remove("has"); renderResults(); q.focus() };
+  const ok = $("#hintOk"); if (ok) ok.onclick = () => { store.set("iosHint", true); ok.parentNode.remove() };
+  renderResults();
+}
+function renderResults(){
+  const box = $("#results"); if (!box) return;
+  const words = norm(query).split(" ").filter(Boolean);
+  const list = words.length ? SONGS.filter(s => words.every(w => s._n.includes(w) || s._body.includes(w))) : SONGS;
+  // titres trouvés d'abord, puis paroles
+  if (words.length) list.sort((a, b) => (words.every(w => b._n.includes(w)) - words.every(w => a._n.includes(w))) || a._i - b._i);
+  let html = words.length ? `<div class="count">${list.length} résultat${list.length > 1 ? "s" : ""}</div>` : "";
+  if (!list.length) html += `<div class="empty">Aucun cantique ne correspond à « ${esc(query)} ».</div>`;
+  let cur = "", letters = new Set();
+  html += `<div class="list-wrap">`;
+  list.forEach(s => {
+    const L = letterOf(s.title);
+    if (!words.length && L !== cur){ cur = L; letters.add(L); html += `<div class="letter" id="L-${L}">${L}</div>` }
+    html += rowHtml(s, words.join(" "));
+  });
+  html += `</div>`;
+  if (!words.length && SONGS.length > 12){
+    html += `<div class="az">` + "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(l => `<button data-l="${l}" class="${letters.has(l) ? "" : "off"}">${l}</button>`).join("") + `</div>`;
+  }
+  box.innerHTML = html;
+  box.querySelectorAll(".az button").forEach(b => b.onclick = () => {
+    const ls = [...letters]; let t = b.dataset.l;
+    if (!letters.has(t)) t = ls.find(x => x > t) || ls[ls.length - 1];
+    const el = document.getElementById("L-" + t); if (el) window.scrollTo({top: el.getBoundingClientRect().top + scrollY - 64, behavior: "smooth"});
+  });
+}
+function stanzaHtml(st){
+  const ref = /^refrain|^chorus|^ch(œ|oe)ur/i.test(st[0] || "");
+  return `<p class="stanza${ref ? " refrain" : ""}">${st.map(esc).join("<br>")}</p>`;
+}
+function renderSong(key){
+  const s = BYID[key]; if (!s){ location.hash = ""; return }
+  setTop(s.title, s.id, true, key);
+  const hasFr = s.fr.length > 0, hasEn = s.en.length > 0;
+  let lang = settings.lang;
+  if (lang === "fr" && !hasFr) lang = "en"; if (lang === "en" && !hasEn) lang = "fr";
+  const prev = SONGS[s._i - 1], next = SONGS[s._i + 1];
+  let html = `<div class="s-head">${s.id ? `<div class="s-id">${esc(s.id)}</div>` : ""}<h1 class="s-title">${esc(s.title)}</h1>
+    <div class="tools">${hasFr && hasEn ? `<div class="seg"><button data-lang="fr" class="${lang === "fr" ? "on" : ""}">Français</button><button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button><button data-lang="both" class="${lang === "both" ? "on" : ""}">Les deux</button></div>` : ""}
+    <button class="mini" data-size="-1" aria-label="Texte plus petit">A−</button><button class="mini" data-size="1" aria-label="Texte plus grand">A+</button></div></div>`;
+  if (hasFr && lang !== "en") html += `<section class="lang fr">${lang === "both" && hasEn ? "<h4>Français</h4>" : ""}${s.fr.map(stanzaHtml).join("")}</section>`;
+  if (hasEn && lang !== "fr") html += `<section class="lang en">${lang === "both" && hasFr ? "<h4>English</h4>" : ""}${s.en.map(stanzaHtml).join("")}</section>`;
+  html += `<div class="nav-songs">${prev ? `<button data-song="${esc(prev._key)}">‹ Précédent<b>${esc(prev.title)}</b></button>` : "<span style='flex:1'></span>"}${next ? `<button data-song="${esc(next._key)}">Suivant ›<b>${esc(next.title)}</b></button>` : "<span style='flex:1'></span>"}</div>`;
+  view.innerHTML = html;
+  view.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => { settings.lang = b.dataset.lang; applySettings(); renderSong(key) });
+  view.querySelectorAll("[data-size]").forEach(b => b.onclick = () => { settings.size = Math.max(14, Math.min(34, settings.size + 2 * b.dataset.size)); applySettings() });
+  window.scrollTo(0, 0);
+  keepAwake(true);
+}
+function renderFavs(){
+  setTop("Favoris", `${favs.size} cantique${favs.size > 1 ? "s" : ""}`, false);
+  const list = SONGS.filter(s => favs.has(s._key));
+  view.innerHTML = list.length ? list.map(s => rowHtml(s, "")).join("") : `<div class="empty">Aucun favori pour l'instant.<br>Ouvrez un cantique et touchez l'étoile en haut pour l'ajouter ici.</div>`;
+}
+function renderSettings(){
+  setTop("Réglages", "", false);
+  const d = LIB.version ? new Date(LIB.version) : null;
+  view.innerHTML = `<div class="set">
+    <div class="line"><span>Langue des paroles</span><div class="seg"><button data-l="fr" class="${settings.lang === "fr" ? "on" : ""}">FR</button><button data-l="en" class="${settings.lang === "en" ? "on" : ""}">EN</button><button data-l="both" class="${settings.lang === "both" ? "on" : ""}">Les deux</button></div></div>
+    <div class="line"><span>Taille du texte</span><div><button class="mini" data-size="-1">A−</button> <b style="display:inline-block;width:34px;text-align:center">${settings.size}</b> <button class="mini" data-size="1">A+</button></div></div>
+    <div class="line"><span>Mode nuit</span><button class="mini ${settings.dark ? "on" : ""}" id="dk">${settings.dark ? "Activé" : "Désactivé"}</button></div>
+  </div>
+  <div class="about"><b>Song Leader Ministry</b><br>${SONGS.length} cantiques validés · mis à jour le ${d && !isNaN(d) ? d.toLocaleDateString("fr-FR", {day: "numeric", month: "long", year: "numeric"}) : "—"}.<br>Le recueil est enregistré sur le téléphone et fonctionne sans Internet. Les nouveaux cantiques arrivent automatiquement dès que le téléphone est connecté.</div>`;
+  view.querySelectorAll("[data-l]").forEach(b => b.onclick = () => { settings.lang = b.dataset.l; applySettings(); renderSettings() });
+  view.querySelectorAll("[data-size]").forEach(b => b.onclick = () => { settings.size = Math.max(14, Math.min(34, settings.size + 2 * b.dataset.size)); applySettings(); renderSettings() });
+  $("#dk").onclick = () => { settings.dark = !settings.dark; applySettings(); renderSettings() };
+}
+
+// ---------- Navigation ----------
+function setTop(title, sub, isSong, key){
+  $("#brand").innerHTML = `${esc(title)}${sub ? `<small>${esc(sub)}</small>` : ""}`;
+  $("#back").style.display = isSong ? "grid" : "none";
+  const f = $("#fav");
+  f.style.display = isSong ? "grid" : "none";
+  if (isSong){
+    const on = favs.has(key);
+    f.innerHTML = `<svg viewBox="0 0 24 24" fill="${on ? "#F3D27A" : "none"}" stroke="${on ? "#F3D27A" : "currentColor"}" stroke-width="2" stroke-linejoin="round"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>`;
+    f.onclick = () => { favs.has(key) ? favs.delete(key) : favs.add(key); store.set("favs", [...favs]); setTop(title, sub, true, key); toast(favs.has(key) ? "Ajouté aux favoris" : "Retiré des favoris") };
+  }
+  document.querySelectorAll(".tabbar button").forEach(b => b.classList.toggle("on", b.dataset.tab === (currentTab || "list")));
+}
+let currentTab = "list", lastListScroll = 0;
+function route(){
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (!h.startsWith("song/")) keepAwake(false);
+  if (h.startsWith("song/")) return renderSong(h.slice(5));
+  if (h === "favs"){ currentTab = "favs"; return renderFavs() }
+  if (h === "settings"){ currentTab = "settings"; return renderSettings() }
+  currentTab = "list"; renderList(); requestAnimationFrame(() => window.scrollTo(0, lastListScroll));
+}
+window.addEventListener("hashchange", route);
+view.addEventListener("click", e => {
+  const b = e.target.closest("[data-song]"); if (!b) return;
+  if (!location.hash.startsWith("#song/")) lastListScroll = scrollY;
+  const target = "#song/" + encodeURIComponent(b.dataset.song);
+  if (location.hash.startsWith("#song/")) location.replace(target); else { openedFromApp = true; location.hash = target }
+});
+document.querySelectorAll(".tabbar button").forEach(b => b.onclick = () => { lastListScroll = 0; location.hash = b.dataset.tab === "list" ? "" : b.dataset.tab });
+let openedFromApp = false;
+$("#back").onclick = () => { if (openedFromApp){ openedFromApp = false; history.back() } else location.hash = "" };
+$("#theme").onclick = () => { settings.dark = !settings.dark; applySettings(); if (currentTab === "settings" && !location.hash.startsWith("#song/")) renderSettings() };
+// balayage gauche / droite pour passer au cantique voisin
+let tx = 0, ty = 0;
+view.addEventListener("touchstart", e => { tx = e.touches[0].clientX; ty = e.touches[0].clientY }, {passive: true});
+view.addEventListener("touchend", e => {
+  if (!location.hash.startsWith("#song/")) return;
+  const dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty;
+  if (Math.abs(dx) < 80 || Math.abs(dy) > 60) return;
+  const s = BYID[decodeURIComponent(location.hash.slice(6))]; if (!s) return;
+  const t = SONGS[s._i + (dx < 0 ? 1 : -1)]; if (t) location.replace("#song/" + encodeURIComponent(t._key));
+}, {passive: true});
+// écran allumé pendant la lecture d'un cantique
+async function keepAwake(on){
+  try{
+    if (on && "wakeLock" in navigator && !wakeLock){ wakeLock = await navigator.wakeLock.request("screen"); wakeLock.addEventListener("release", () => wakeLock = null) }
+    if (!on && wakeLock){ await wakeLock.release(); wakeLock = null }
+  }catch(e){}
+}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && location.hash.startsWith("#song/")) keepAwake(true) });
+
+// ---------- Chargement et mises à jour ----------
+const CFG = window.SLM_CONFIG || {};
+async function cachedLib(){
+  try{ if (window.caches){ const r = await (await caches.open("slm-data")).match("cantiques-cache.json"); if (r) return await r.json() } }catch(e){}
+  try{ const t = localStorage.getItem("slm:lib"); return t ? JSON.parse(t) : null }catch(e){ return null }
+}
+async function saveLib(lib){
+  const txt = JSON.stringify(lib);
+  try{ if (window.caches){ await (await caches.open("slm-data")).put("cantiques-cache.json", new Response(txt, {headers: {"Content-Type": "application/json"}})); return } }catch(e){}
+  try{ localStorage.setItem("slm:lib", txt) }catch(e){}
+}
+async function checkUpdate(){
+  if (!CFG.remoteLibrary || !navigator.onLine) return;
+  try{
+    const r = await fetch(CFG.remoteLibrary + "?v=" + Date.now(), {cache: "no-store"});
+    if (!r.ok) return;
+    const lib = await r.json();
+    if (lib.version > LIB.version){
+      const before = new Set(LIB.songs.map(s => s.id || s.title));
+      const added = lib.songs.filter(s => !before.has(s.id || s.title)).length;
+      await saveLib(lib); loadLib(lib);
+      toast(added > 0 ? `${added} nouveau${added > 1 ? "x" : ""} cantique${added > 1 ? "s" : ""} ajouté${added > 1 ? "s" : ""}` : "Recueil mis à jour");
+    }
+  }catch(e){}
+}
+applySettings();
+fetch("cantiques.json").then(r => r.json()).then(async bundled => {
+  const c = await cachedLib();
+  loadLib(c && c.version > (bundled.version || "") ? c : bundled);
+  checkUpdate();
+}).catch(async () => { const c = await cachedLib(); if (c) loadLib(c); else view.innerHTML = `<div class="empty">Impossible de charger le recueil.</div>` });
+window.addEventListener("online", checkUpdate);
+if ("serviceWorker" in navigator && location.protocol === "https:" && !window.Capacitor){
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "appId": "ci.bigintanalytics.songleaderministry",
+  "appName": "Song Leader Ministry",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0F2A47"
+  }
+}

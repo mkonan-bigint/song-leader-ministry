@@ -1,0 +1,7 @@
+node_modules/
+android/
+*.keystore
+*.jks
+__pycache__/
+*.base64.txt
+SECRETS-*.txt
