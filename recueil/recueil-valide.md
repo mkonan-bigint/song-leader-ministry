@@ -794,6 +794,50 @@ I’ve a mansion over there\
 And when free from toil and care\
 I'm going where the Lamb is the light
 
+## Dans de tels moments
+
+ID : C0268
+
+**Français**\
+Dans de tels moments, j'élève ma voix\
+Pour chanter mon amour à Jésus\
+Dans de tels moments, je lève mes mains\
+Je lève mes mains vers le Ciel
+
+Refrain\
+Combien je t'aime Seigneur\
+Combien je t'aime Seigneur\
+Combien je t'aime Seigneur\
+Je t'aime\
+Chantons Alléluia\
+Chantons Alléluia\
+Chantons Alléluia\
+Alléluia
+
+**English**\
+In moments like these, I sing out a song\
+I sing out a love song to Jesus\
+In moments like these, I lift up my hands\
+I lift up my hands to the Lord
+
+Refrain\
+Singing I love You Lord\
+Singing I love You Lord\
+Singing I love You Lord\
+I love You
+
+**Espagnol**\
+En momentos así, yo canto canción\
+Canción de amor a mi Cristo\
+En momentos así, levanto mi ser\
+Elevo mi alma a Dios
+
+Refrain\
+Canto te amo, Dios\
+Canto te amo, Dios\
+Canto te amo, Dios\
+Te amo
+
 ## Dans la présence de Jéhovah
 
 ID : C0209
@@ -810,6 +854,50 @@ In the presence of Jehovah\
 God almighty, prince of peace\
 Troubles vanish, hearts are mended\
 In the presence of the king
+
+## Dans le Nom de Jésus
+
+ID : C0211
+
+**Français**\
+Dans le Nom de Jésus (2x)\
+Nous avons la victoire\
+Dans le Nom de Jésus (2x)\
+Les démons prennent la fuite
+
+Quand nous venons dans le nom de Jésus\
+Dites moi qui peut résister\
+Dans le précieux nom de Jésus\
+Nous avons la victoire
+
+**English**\
+In the name of Jesus (2x)\
+We have the victory\
+In the name of Jesus (2x)\
+All demons will have to flee
+
+When we come in the name of Jesus\
+Tell me who can stand before\
+In the precious name of Jesus\
+We have the victory
+
+## Dans ma vie, sois glorifié
+
+ID : C0214
+
+**Français**\
+Dans ma vie, Père\
+Sois glorifié (2x)
+
+Dans mon cœur…\
+Dans Ta parole…
+
+**English**\
+In my life, Lord\
+Be glorified (2x)
+
+In my heart…\
+In your word…
 
 ## Dans peu de temps, le matin viendra
 
@@ -844,6 +932,364 @@ By and by, when the morning comes\
 When the saints of God are gathered home\
 We will tell the story how we've overcome\
 We will understand it better by and by
+
+## Dans Ta présence
+
+ID : C0215
+
+**Français**\
+J’aime me cacher\
+Où l’esprit du mal ne peut me trouver\
+Là où ton Sang me recouvre\
+Oui je veux être\
+Où la ronde des ténèbres ne me touche pas\
+Dans Ta présence, Seigneur
+
+Refrain\
+Dans Ta présence, Seigneur, je suis fort\
+Dans Ta présence, Seigneur, mon Dieu\
+Dans Ta présence, je veux me cacher\
+Cherchant Ta face, touchant Ta grâce\
+Dans le creux du Rocher\
+Dans Ta présence Seigneur
+
+**English**\
+I want to go\
+Where the rivers cannot overflow me\
+Where my feet are on the rock\
+I want to hide\
+Where the blazing\
+Fire cannot burn me\
+In Your presence O God
+
+Refrain\
+In Your presence\
+That's where I am strong\
+In Your presence O Lord my God\
+In Your presence\
+That's where I belong\
+Seeking Your face\
+Touching Your grace\
+In the cleft of the Rock\
+In Your presence O God
+
+## Descends doux chariot
+
+ID : C0224
+
+**Français**\
+1\. Je regarde au loin, au-delà du Jourdain\
+Venant m'amener à la maison\
+Une cohorte d'Anges qui vienne me chercher\
+Venant m'amener à la maison
+
+Refrain\
+Descends, doux chariot,\
+Venant m'amener à la maison\
+Descends, doux chariot,\
+Venant m'amener à la maison
+
+2\. Si tu entres là-bas avant mon arrivée\
+Venant m'amener à la maison\
+Dis à tous les Saints que je viendrai bientôt\
+Venant m'amener à la maison
+
+**English**\
+Refrain\
+Swing low, sweet chariot\
+Coming for to carry me home\
+Swing low, sweet chariot\
+Coming for to carry me home
+
+## Déverse Ton Esprit
+
+ID : C0225
+
+**Français**\
+1\. O Seigneur je T'aime pour toujours\
+Car Tu as toujours été là\
+Oui je T'aimerai pour toujours\
+Je Te suivrai jusqu'à la fin
+
+2\. Quand j'étais dans le monde, Tu m'appelas\
+J'étais brisé dans mon péché\
+Mais Tu m'as oint de Ton Esprit\
+Et mis un nouveau cœur en moi
+
+Refrain\
+Déverse Ton Esprit (x3) en moi\
+Envoie Ton Esprit (x3) en moi
+
+3\. Que ma vie brûle comme un sacrifice\
+Comme une réelle offrande pour Toi\
+J'ai de la joie à souffrir pour Toi\
+Que Ta vie s'écoule en moi
+
+4\. Je serai toujours reconnaissant\
+Tu es resté à mes côtés\
+Je proclamerai Tu es fidèle\
+Et Tu reviens prendre Ton Epouse
+
+**English**\
+1\. O Lord, I love You forever\
+You have always been my friend\
+Yes, I will love You forever\
+And follow You until the end
+
+2\. You laid Your life down on the altar\
+You endured hostility\
+You drank the cup of the Father\
+While I was still Your enemy
+
+Refrain\
+Pour out Your Spirit (x3) on me\
+I need Your Spirit (x3) in me
+
+3\. When I was far away You called me\
+When I was broken in my sin\
+You brought Your Spirit upon me\
+And put a new heart within
+
+4\. Oh may my life burn as an offering\
+That is pleasing unto Thee\
+I'll count it joy to share Your suffering\
+That Your life may flow from me
+
+5\. Yes, I will be forever grateful\
+For You are always by my side\
+I will proclaim that You are faithful\
+And (One day) You're returning for a bride
+
+## Dieu est si bon
+
+ID : C0234
+
+**Français**\
+Dieu est si bon (3x)\
+Il est bon pour moi
+
+Je l'aime tant…\
+Louons son Nom…
+
+**English**\
+God is so good (3x)\
+He is so good to me
+
+I love Him so…\
+Let's praise His name…
+
+## Dieu n'est pas mort
+
+ID : C0235
+
+**Français**\
+Dieu n'est pas mort, il est vivant (3x)\
+Je le sens dans mes mains\
+Je le sens dans mes pieds\
+Je le sens dans mon cœur\
+Je le sens tout autour de moi.
+
+**English**\
+God's not dead, He is alive (3x)\
+I feel Him in my hands\
+I feel Him in my feet\
+I feel Him in my heart\
+I feel Him all over me.
+
+## Dieu ouvre un chemin
+
+ID : C0238
+
+**Français**\
+Dieu ouvre un chemin\
+Là où tout semble fermé\
+Il ouvre pour toi dans le secret\
+Il ouvre un chemin pour toi
+
+Il sera ton guide\
+En marchant tout près de toi\
+Avec amour, force et sagesse\
+Il ouvre un chemin (2x)
+
+**English**\
+God will make a way\
+Where there seems to be no way\
+He works in ways we cannot see\
+He will make a way for me
+
+He will be my guide\
+Hold me closely to His side\
+With love and strength for each new day\
+He will make a way (2x)
+
+## Dieu peut le faire encore
+
+ID : C0241
+
+**Français**\
+Dieu peut le faire encore\
+Et encore et encore\
+Il n'y a pas à douter\
+Dieu peut le faire encore
+
+Hier, aujourd'hui et demain\
+Il est toujours le même\
+Il n'y a pas à douter\
+Dieu peut le faire encore
+
+**English**\
+God can do it again\
+And again, and again\
+There's no reason to doubt\
+God can do it again
+
+Yesterday and the day before\
+He is always the same\
+There's no reason to doubt\
+God can do it again
+
+## Dieu prépare moi
+
+ID : C0242
+
+**Français**\
+Dieu prépare moi à être un sanctuaire\
+Pur et saint et en vérité\
+Avec reconnaissance\
+Je veux être un vivant Sanctuaire, Dieu, pour Toi
+
+**English**\
+Lord prepare me to be a sanctuary\
+Pure and Holy, tried and true\
+With thanksgiving\
+I'll be a living sanctuary Lord for You
+
+## Donnez moi l'ancien Évangile
+
+ID : C0249
+
+**Français**\
+1\. C'est encore l’ancien Saint-Esprit\
+Et satan ne peut l’approcher\
+C’est pourquoi les hommes le craignent\
+Mais il est si bon pour moi
+
+Refrain\
+Donnez moi l’ancien Évangile (3x)\
+Il est si bon pour moi
+
+2\. Il mettra fin à tes mensonges\
+Il te sauvera de la mort\
+Il fera s’enfuir les démons\
+Il est si bon pour moi
+
+3\. Il est bon, je n’en veux d’autre\
+Car il me fait aimer mon frère\
+Il met toute chose à découvert\
+Il est si bon pour moi
+
+4\. Ce fut bon pour Chadrac et Méchak\
+Ce fut bon pour Abed-Nego\
+Ce fut bon pour Paul et Silas\
+Il est si bon pour moi
+
+**English**\
+Refrain\
+Give me that old time religion (3x)\
+It's good enough for me
+
+It was good for Shadrach and Meshach\
+It was good for Abed-Nego\
+It was good for Paul and Silas\
+It's good enough for me
+
+## Down the valley, up the mountain
+
+ID : C0210
+
+**English**\
+Down the valley, up the mountain, Jerusalem is my home (2x)
+
+Refrain\
+Oooo sweet home, Jerusalem is my home\
+Oooo sweet home, Jerusalem is my home
+
+## El Ela Elohim
+
+ID : C0258
+
+**Français**\
+Père, nous venons pour T'adorer\
+Peu importe les circonstances\
+Peu importe les situations\
+Nous levons nos mains vers Toi
+
+Refrain\
+El Ela Elohim, Père, nous aimons T'adorer (2x)
+
+**English**\
+Lord, we come to You in worship\
+No matter what the circumstance\
+No matter what the situation\
+We will lift up our holy hands
+
+Refrain\
+El Ela Elohim, Lord we love to worship You (2x)
+
+## Emmène moi dans le Saint lieu
+
+ID : C0264
+
+**Français**\
+1\. Je veux traverser le parvis\
+Et le lieu Saint\
+Aller au-delà de l'autel\
+Seigneur je veux voir ta face\
+Je veux traverser les foules\
+Et les sacrificateurs\
+Père j'ai faim et soif de ta justice\
+Qui se trouve qu'en un seul lieu
+
+Refrain\
+Emmène moi dans le Saint lieu des Saints lieux\
+Emmène moi par le sang de l'agneau\
+Emmène moi dans le Saint lieu des Saints lieux\
+Prends la braise, touche mes lèvres\
+Que là je sois
+
+2\. Dans le parvis justifié\
+Et ton sang m'a sanctifié\
+Mais dans le Saint lieu des saints lieux\
+C'est le Saint Esprit Lui-même\
+C'est la présence de Jéhovah\
+Et moi, prisonnier d'amour\
+Père je prie que Tu élèves en moi\
+La Pierre de faîte d'amour
+
+**English**\
+1\. Take me past the outer courts\
+Through the holy place\
+Past the brazen altar\
+Lord I want to see your face\
+Take me past the crowds of people\
+And the priests who sing your praise\
+I hunger and thirst for your righteousness\
+But it's only found in one place
+
+Refrain\
+Take me into the Holy of Holies\
+Take me in by the blood of the Lamb\
+Take me into the Holy of Holies\
+Take the coal, cleanse my lips, here I am
+
+2\. In the outer court I'm justified\
+In the holy place made clean\
+But in the holy of holies\
+It's the Holy Ghost itself\
+The mighty presence of Jehovah\
+And I, a prisoner of love\
+Lord help me so you rise in me\
+A capstone of love
 
 ## Grâce infinie de notre Dieu
 
@@ -911,6 +1357,26 @@ He reigns from Heaven above\
 With wisdom, power and love\
 Our God is an awesome God
 
+## Mon Dieu peut faire toute chose
+
+ID : C0240
+
+**Français**\
+Mon Dieu peut faire toutes choses\
+Toutes choses, toutes choses\
+Mon Dieu peut faire toutes choses pour moi\
+Il est l'Alpha et l'Oméga\
+Le commencement et la fin\
+Mon Dieu peut faire toutes choses pour moi
+
+**English**\
+My God can do anything\
+Anything, anything\
+My God can do anything for me\
+He's the Alpha, the Omega\
+The Beginning and the End\
+My God can do anything for me
+
 ## Nous Te bénissons Dieu Tout-Puissant
 
 ID : C0068
@@ -938,6 +1404,44 @@ Blessed be the Lord God Almighty\
 Who was and is and is to come\
 Blessed be the Lord God Almighty\
 Who reigns forevermore
+
+## Oh Comme je L'aime
+
+ID : C0253
+
+**Français**\
+Quittant Son trône de gloire\
+C'est une histoire d'amour\
+Mon Sauveur est venu\
+Et Jésus est Son nom\
+Né dans une mangeoire\
+Rejeté par les Siens\
+Un homme de douleur et d'agonie
+
+Refrain\
+Oh comme je L’aime\
+Oh comme je L’adore\
+Mon souffle, mon soleil\
+Mon tout en tout\
+Le grand Créateur devenu mon Sauveur\
+En Lui habita la plénitude
+
+**English**\
+Down from His glory\
+Ever living story\
+My God and Savior came\
+And Jesus was His name\
+Born in a manger\
+To His own a stranger\
+A Man of sorrows, tears and agony
+
+Refrain\
+O how I love Him\
+O How I adore Him\
+My breath, my Sunshine\
+My all in all\
+The great Creator became my Savior\
+And all God’s fulness dwelleth in Him
 
 ## Pour cet immense bonheur
 
