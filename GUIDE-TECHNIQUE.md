@@ -119,13 +119,20 @@ Une strophe qui commence par « Refrain » est mise en valeur par un trait doré
 
 ---
 
-## 5. Sécurité et sauvegardes
+## 5. Sélections (prestations)
+
+- Onglet **Sélections** : créer une sélection (ex. « Culte du dimanche »), y ajouter des cantiques, les remettre dans l'ordre (↑ ↓) ou les retirer (✕).
+- Depuis un cantique : bouton **+ Sélection** pour l'ajouter à une sélection existante ou nouvelle.
+- Ouvert depuis une sélection, un cantique affiche « Nom · 2 / 6 » ; Précédent / Suivant et le balayage restent dans la sélection ; **Retour à la sélection** (ou la flèche en haut) y revient en un geste.
+- Les sélections sont enregistrées sur le téléphone de chaque utilisateur. Elles ne sont ni partagées ni sauvegardées en ligne.
+
+## 6. Sécurité et sauvegardes
 
 - **`signature-android.keystore` et son mot de passe** : à sauvegarder **hors du PC**. S'ils sont perdus, aucune mise à jour de l'APK ne pourra s'installer par-dessus l'ancienne version.
 - Ne **jamais** publier ces fichiers sur GitHub : ils sont exclus par `.gitignore`.
 - Le dépôt étant public, les paroles sont consultables par tous, comme la version web.
 
-## 6. Dépannage
+## 7. Dépannage
 
 | Problème | Solution |
 |---|---|
@@ -135,3 +142,9 @@ Une strophe qui commence par « Refrain » est mise en valeur par un trait doré
 | La tâche **android** échoue à l'étape « Signature » | Recopier **tout** le contenu de `signature-android.keystore.base64.txt` dans le secret |
 | « Application non installée » sur Android | Désinstaller l'ancienne version (signée avec une autre clé), puis réinstaller |
 | Les nouveaux cantiques n'apparaissent pas | Vérifier l'onglet Actions, puis rouvrir l'application avec Internet |
+
+## Langues des paroles
+
+Dans le document Claude, chaque langue commence par une ligne en gras seule : **Français**, **English**, puis n'importe quelle autre langue (**Zoulou**, **Afrikaans**, **Espagnol**, **Swahili**…).
+L'import (`tools/extract.py`) range le français et l'anglais à part ; toutes les autres langues vont dans `other`, chacune avec son nom.
+Dans l'application, le filtre propose **Français · English · Autre · Tout** (seulement les langues présentes dans le cantique) ; « Autre » affiche chaque langue sous son nom. La recherche porte aussi sur ces langues.

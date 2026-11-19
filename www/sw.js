@@ -1,6 +1,6 @@
 // Service worker : application disponible hors connexion.
 // Le recueil (cantiques.json) est servi « réseau d'abord » pour recevoir les nouveaux cantiques.
-const CACHE = "slm-v1";
+const CACHE = "slm-v3";
 const SHELL = ["./", "index.html", "config.js", "manifest.webmanifest", "cantiques.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png",
   "fonts/inter-latin-400-normal.woff2", "fonts/inter-latin-500-normal.woff2", "fonts/inter-latin-600-normal.woff2",

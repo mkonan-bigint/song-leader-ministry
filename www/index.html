@@ -48,6 +48,12 @@ button{background:none;border:0;cursor:pointer;padding:0}
 .search input{flex:1;border:0;outline:0;background:transparent;padding:13px 0;font-size:16px;min-width:0}
 .search .clear{color:var(--muted);font-size:20px;width:28px;height:28px;display:none}
 .search.has .clear{display:block}
+.filters{display:flex;margin:0 0 10px;overflow-x:auto}
+.filters .seg button{white-space:nowrap}
+.filters .seg button small{opacity:.7;margin-left:4px}
+.filters .seg button.off{opacity:.35;pointer-events:none}
+.row .t em{display:inline-block;font-style:normal;font-family:Inter,system-ui,sans-serif;font-size:10.5px;font-weight:600;letter-spacing:.02em;color:var(--navy);background:rgba(15,42,71,.08);border-radius:99px;padding:2px 8px;margin-top:4px}
+body.dark .row .t em{color:var(--gold);background:rgba(255,255,255,.08)}
 .count{font-size:12px;color:var(--muted);margin:0 2px 6px}
 /* Liste */
 .letter{position:sticky;top:calc(60px + var(--safe-top));z-index:5;background:var(--bg);font-family:Cinzel,serif;font-weight:700;color:var(--gold);font-size:15px;padding:10px 4px 6px;margin-right:26px}
@@ -85,6 +91,7 @@ body.dark .seg button.on{background:var(--gold);color:#08131F}
 .stanza{font-family:"Source Serif 4",serif;font-size:var(--lyrics-size);line-height:1.55;margin:0 0 1em}
 .stanza.refrain{border-left:3px solid var(--gold);padding-left:12px}
 .lang.en .stanza{color:var(--en);font-style:italic}
+.lang.other .stanza{color:var(--muted)}
 .nav-songs{display:flex;gap:10px;margin:26px 0 8px}
 .nav-songs button{flex:1;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;font-size:12px;color:var(--muted);min-width:0}
 .nav-songs button b{display:block;color:var(--ink);font-family:"Source Serif 4",serif;font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
@@ -169,7 +176,7 @@ const cmp = (a, b) => a < b ? -1 : a > b ? 1 : 0;   // même ordre que le docume
 
 let LIB = {version: "", songs: []}, SONGS = [], BYID = {};
 let query = "", wakeLock = null;
-const settings = Object.assign({lang: "both", size: 20, dark: false}, store.get("settings", {}));
+const settings = Object.assign({lang: "all", filter: "all", size: 20, dark: false}, store.get("settings", {}));
 let favs = new Set(store.get("favs", []));
 
 function applySettings(){
@@ -179,14 +186,18 @@ function applySettings(){
   store.set("settings", settings);
 }
 function toast(msg){ const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 2600) }
-function firstLine(s){ const st = (s.fr[0] || s.en[0] || []); return st[0] || "" }
+function otherLines(s){ return [].concat(...(s.other || []).map(o => [].concat(...o.stanzas))) }
+function firstLine(s){ const st = (s.fr[0] || s.en[0] || ((s.other || [])[0] || {stanzas: []}).stanzas[0] || []); return st[0] || "" }
+const FILTERS = {all: "Tous", fr: "Français", en: "English", other: "Autre"};
+function hasLang(s, f){ return f === "fr" ? s.fr.length > 0 : f === "en" ? s.en.length > 0 : f === "other" ? s.other.length > 0 : true }
 function letterOf(t){ const n = norm(t); const c = n.charAt(0).toUpperCase(); return /[A-Z]/.test(c) ? c : "#" }
 
 function loadLib(lib){
   LIB = lib;
   SONGS = lib.songs.slice().sort((a, b) => cmp(norm(a.title), norm(b.title)));
   BYID = {}; SONGS.forEach((s, i) => { s._i = i; s._key = s.id || ("t" + i); BYID[s._key] = s;
-    s._n = norm(s.title); s._body = norm([].concat(...s.fr, ...s.en).join(" ")) });
+    s.fr = s.fr || []; s.en = s.en || []; s.other = s.other || [];
+    s._n = norm(s.title); s._body = norm([].concat(...s.fr, ...s.en, otherLines(s)).join(" ")) });
   route();
 }
 
@@ -194,10 +205,10 @@ function loadLib(lib){
 function rowHtml(s, hl){
   let sub = esc(firstLine(s));
   if (hl && !s._n.includes(hl)){
-    const lines = [].concat(...s.fr, ...s.en); const hit = lines.find(l => norm(l).includes(hl));
+    const lines = [].concat(...s.fr, ...s.en, otherLines(s)); const hit = lines.find(l => norm(l).includes(hl));
     if (hit) sub = "« " + esc(hit) + " »";
   }
-  return `<button class="row" data-song="${esc(s._key)}"><div class="t"><b>${esc(s.title)}</b><span>${sub}</span></div>${favs.has(s._key) ? '<span class="star">★</span>' : ""}</button>`;
+  return `<button class="row" data-song="${esc(s._key)}"><div class="t"><b>${esc(s.title)}</b><span>${sub}</span>${s.other.length ? `<em>${esc(s.other.map(o => o.lang).join(" · "))}</em>` : ""}</div>${favs.has(s._key) ? '<span class="star">★</span>' : ""}</button>`;
 }
 function renderList(){
   setTop("Song Leader Ministry", `${SONGS.length} cantique${SONGS.length > 1 ? "s" : ""}`, false);
@@ -206,22 +217,25 @@ function renderList(){
   const standalone = window.navigator.standalone || matchMedia("(display-mode: standalone)").matches;
   if (isIOS && !standalone && !window.Capacitor && !store.get("iosHint", false))
     html += `<div class="hint"><b>📲 Installer sur l'iPhone</b>Dans Safari, touchez Partager puis « Sur l'écran d'accueil ».<br><button id="hintOk">Compris</button></div>`;
-  html += `<div class="search${query ? " has" : ""}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input id="q" type="search" placeholder="Titre ou paroles…" value="${esc(query)}" autocomplete="off"><button class="clear" id="qclear" aria-label="Effacer">×</button></div><div id="results"></div>`;
+  html += `<div class="search${query ? " has" : ""}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input id="q" type="search" placeholder="Titre ou paroles…" value="${esc(query)}" autocomplete="off"><button class="clear" id="qclear" aria-label="Effacer">×</button></div><div class="filters"><div class="seg">${Object.keys(FILTERS).map(f => { const n = SONGS.filter(x => hasLang(x, f)).length; return `<button data-f="${f}" class="${settings.filter === f ? "on" : ""}${n ? "" : " off"}">${FILTERS[f]}<small>${n}</small></button>` }).join("")}</div></div><div id="results"></div>`;
   view.innerHTML = html;
   const q = $("#q");
   q.addEventListener("input", () => { query = q.value; q.parentNode.classList.toggle("has", !!query); renderResults() });
   $("#qclear").onclick = () => { query = ""; q.value = ""; q.parentNode.classList.remove("has"); renderResults(); q.focus() };
+  view.querySelectorAll("[data-f]").forEach(b => b.onclick = () => { settings.filter = b.dataset.f; store.set("settings", settings);
+    view.querySelectorAll("[data-f]").forEach(x => x.classList.toggle("on", x === b)); renderResults() });
   const ok = $("#hintOk"); if (ok) ok.onclick = () => { store.set("iosHint", true); ok.parentNode.remove() };
   renderResults();
 }
 function renderResults(){
   const box = $("#results"); if (!box) return;
   const words = norm(query).split(" ").filter(Boolean);
-  const list = words.length ? SONGS.filter(s => words.every(w => s._n.includes(w) || s._body.includes(w))) : SONGS;
+  const base = SONGS.filter(s => hasLang(s, settings.filter || "all"));
+  const list = words.length ? base.filter(s => words.every(w => s._n.includes(w) || s._body.includes(w))) : base;
   // titres trouvés d'abord, puis paroles
   if (words.length) list.sort((a, b) => (words.every(w => b._n.includes(w)) - words.every(w => a._n.includes(w))) || a._i - b._i);
   let html = words.length ? `<div class="count">${list.length} résultat${list.length > 1 ? "s" : ""}</div>` : "";
-  if (!list.length) html += `<div class="empty">Aucun cantique ne correspond à « ${esc(query)} ».</div>`;
+  if (!list.length) html += `<div class="empty">${words.length ? `Aucun cantique ne correspond à « ${esc(query)} ».` : "Aucun cantique dans cette langue."}</div>`;
   let cur = "", letters = new Set();
   html += `<div class="list-wrap">`;
   list.forEach(s => {
@@ -230,7 +244,7 @@ function renderResults(){
     html += rowHtml(s, words.join(" "));
   });
   html += `</div>`;
-  if (!words.length && SONGS.length > 12){
+  if (!words.length && list.length > 12){
     html += `<div class="az">` + "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(l => `<button data-l="${l}" class="${letters.has(l) ? "" : "off"}">${l}</button>`).join("") + `</div>`;
   }
   box.innerHTML = html;
@@ -256,16 +270,23 @@ function renderSong(key, selId){
   const s = BYID[key]; if (!s){ location.hash = ""; return }
   const nb = selNeighbours(s, selId); const inSel = !!nb.sel; const sid = inSel ? nb.sel.id : "";
   setTop(s.title, inSel ? `${nb.sel.name} · ${nb.i + 1}/${nb.n}` : s.id, true, key);
-  const hasFr = s.fr.length > 0, hasEn = s.en.length > 0;
+  const avail = [];
+  if (s.fr.length) avail.push("fr"); if (s.en.length) avail.push("en"); if (s.other.length) avail.push("other");
   let lang = settings.lang;
-  if (lang === "fr" && !hasFr) lang = "en"; if (lang === "en" && !hasEn) lang = "fr";
+  if (lang === "both") lang = "all";
+  if (lang !== "all" && !avail.includes(lang)) lang = avail.includes("fr") ? "fr" : avail[0];
+  const multi = avail.length > 1, showAll = lang === "all" || !multi;
+  const LBL = {fr: "Français", en: "English", other: "Autre"};
   const prev = nb.prev, next = nb.next;
   let html = inSel ? `<div class="selbar"><span>☰ ${esc(nb.sel.name)} · ${nb.i + 1} / ${nb.n}</span><button id="toSel">Retour à la sélection</button></div>` : "";
   html += `<div class="s-head">${s.id ? `<div class="s-id">${esc(s.id)}</div>` : ""}<h1 class="s-title">${esc(s.title)}</h1>
-    <div class="tools">${hasFr && hasEn ? `<div class="seg"><button data-lang="fr" class="${lang === "fr" ? "on" : ""}">Français</button><button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button><button data-lang="both" class="${lang === "both" ? "on" : ""}">Les deux</button></div>` : ""}
+    <div class="tools">${multi ? `<div class="seg">${avail.map(l => `<button data-lang="${l}" class="${lang === l ? "on" : ""}">${LBL[l]}</button>`).join("")}<button data-lang="all" class="${lang === "all" ? "on" : ""}">Tout</button></div>` : ""}
     <button class="mini" data-size="-1" aria-label="Texte plus petit">A−</button><button class="mini" data-size="1" aria-label="Texte plus grand">A+</button><button class="mini" id="addSel" aria-label="Ajouter à une sélection">+ Sélection</button></div></div>`;
-  if (hasFr && lang !== "en") html += `<section class="lang fr">${lang === "both" && hasEn ? "<h4>Français</h4>" : ""}${s.fr.map(stanzaHtml).join("")}</section>`;
-  if (hasEn && lang !== "fr") html += `<section class="lang en">${lang === "both" && hasFr ? "<h4>English</h4>" : ""}${s.en.map(stanzaHtml).join("")}</section>`;
+  const head = t => showAll && multi ? `<h4>${esc(t)}</h4>` : "";
+  if (s.fr.length && (showAll || lang === "fr")) html += `<section class="lang fr">${head("Français")}${s.fr.map(stanzaHtml).join("")}</section>`;
+  if (s.en.length && (showAll || lang === "en")) html += `<section class="lang en">${head("English")}${s.en.map(stanzaHtml).join("")}</section>`;
+  if (s.other.length && (showAll || lang === "other")) s.other.forEach(o => {
+    html += `<section class="lang other"><h4>${esc(o.lang)}</h4>${o.stanzas.map(stanzaHtml).join("")}</section>` });
   const sa = sid ? ` data-sel="${esc(sid)}"` : "";
   html += `<div class="nav-songs">${prev ? `<button data-song="${esc(prev._key)}"${sa}>‹ Précédent<b>${esc(prev.title)}</b></button>` : "<span style='flex:1'></span>"}${next ? `<button data-song="${esc(next._key)}"${sa}>Suivant ›<b>${esc(next.title)}</b></button>` : "<span style='flex:1'></span>"}</div>`;
   view.innerHTML = html;
@@ -359,7 +380,7 @@ function renderSettings(){
   setTop("Réglages", "", false);
   const d = LIB.version ? new Date(LIB.version) : null;
   view.innerHTML = `<div class="set">
-    <div class="line"><span>Langue des paroles</span><div class="seg"><button data-l="fr" class="${settings.lang === "fr" ? "on" : ""}">FR</button><button data-l="en" class="${settings.lang === "en" ? "on" : ""}">EN</button><button data-l="both" class="${settings.lang === "both" ? "on" : ""}">Les deux</button></div></div>
+    <div class="line"><span>Langue des paroles</span><div class="seg"><button data-l="fr" class="${settings.lang === "fr" ? "on" : ""}">FR</button><button data-l="en" class="${settings.lang === "en" ? "on" : ""}">EN</button><button data-l="other" class="${settings.lang === "other" ? "on" : ""}">Autre</button><button data-l="all" class="${settings.lang === "all" || settings.lang === "both" ? "on" : ""}">Tout</button></div></div>
     <div class="line"><span>Taille du texte</span><div><button class="mini" data-size="-1">A−</button> <b style="display:inline-block;width:34px;text-align:center">${settings.size}</b> <button class="mini" data-size="1">A+</button></div></div>
     <div class="line"><span>Mode nuit</span><button class="mini ${settings.dark ? "on" : ""}" id="dk">${settings.dark ? "Activé" : "Désactivé"}</button></div>
   </div>

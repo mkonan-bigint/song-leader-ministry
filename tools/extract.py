@@ -13,6 +13,7 @@ from datetime import datetime
 from pathlib import Path
 
 LANGS = {"francais": "fr", "français": "fr", "english": "en", "anglais": "en"}
+# Toute autre langue (Zoulou, Afrikaans, Espagnol, Swahili…) va dans "other", avec son nom.
 
 
 def sort_key(title):
@@ -37,7 +38,10 @@ def parse(text):
     def flush():
         nonlocal stanza
         if cur is not None and lang and stanza:
-            cur[lang].append(stanza)
+            if lang in ("fr", "en"):
+                cur[lang].append(stanza)
+            else:
+                cur["other"][-1]["stanzas"].append(stanza)
         stanza = []
 
     for raw in text.splitlines():
@@ -47,7 +51,7 @@ def parse(text):
             flush()
             title = clean(m.group(1))
             title = re.sub(r"^C\d{4}\s*[·\-–]\s*", "", title)  # au cas où l'ID est dans le titre
-            cur = {"id": "", "title": title, "fr": [], "en": []}
+            cur = {"id": "", "title": title, "fr": [], "en": [], "other": []}
             songs.append(cur)
             lang = None
             continue
@@ -62,17 +66,25 @@ def parse(text):
             continue
         if re.match(r"^\s*Statut\s*:", clean(line)):
             continue
-        m = re.match(r"^\*\*(Français|Francais|English|Anglais)\*\*\s*\\?\s*$", line.strip(), re.I)
+        m = re.match(r"^\*\*([^*\\]+?)\*\*\s*\\?\s*$", line.strip().replace("****", ""))
         if m:
             flush()
-            lang = LANGS[m.group(1).lower()]
+            name = m.group(1).strip()
+            lang = LANGS.get(name.lower())
+            if not lang:
+                lang = "other"
+                cur["other"].append({"lang": name[:1].upper() + name[1:], "stanzas": []})
             continue
         if lang:
             c = clean(line)
             if c:
                 stanza.append(c)
     flush()
-    return [s for s in songs if s["fr"] or s["en"]]
+    for s in songs:
+        s["other"] = [o for o in s["other"] if o["stanzas"]]
+        if not s["other"]:
+            del s["other"]
+    return [s for s in songs if s["fr"] or s["en"] or s.get("other")]
 
 
 def main():
@@ -97,6 +109,8 @@ def main():
             flags.append("sans français")
         if not s["en"]:
             flags.append("sans anglais")
+        if s.get("other"):
+            flags.append("autres langues : " + ", ".join(o["lang"] for o in s["other"]))
         print(f"  {s['id'] or '-----'}  {s['title']}" + (f"   ({', '.join(flags)})" if flags else ""))
     old = []
     if out.exists():
