@@ -102,6 +102,37 @@ body.dark .tabbar button.on{color:var(--gold-soft)}
 .set .line:last-child{border-bottom:0}
 .set .line span{font-size:14.5px}
 .about{font-size:12.5px;color:var(--muted);line-height:1.6;padding:4px 4px 20px}
+/* Sélections */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:var(--navy);color:#fff;border-radius:12px;padding:11px 16px;font-weight:600;font-size:14px}
+body.dark .btn{background:var(--gold);color:#08131F}
+.btn.ghost{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.btn.danger{background:var(--card);color:#B42318;border:1px solid var(--line)}
+.newsel{display:flex;gap:8px;margin-bottom:14px}
+.newsel input{flex:1;min-width:0;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:11px 12px;font-size:15px;outline:0}
+.selcard{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:14px;padding:13px 14px;margin-bottom:8px}
+.selcard b{display:block;font-size:16px}
+.selcard span{font-size:12.5px;color:var(--muted)}
+.sel-actions{display:flex;gap:8px;flex-wrap:wrap;margin:4px 0 14px}
+.srow{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 6px 6px 12px;margin-bottom:8px}
+.srow .num{font-family:Cinzel,serif;font-weight:700;color:var(--gold);width:22px;text-align:center;flex:none}
+.srow .go{flex:1;text-align:left;padding:8px 0;min-width:0}
+.srow .go b{display:block;font-family:"Source Serif 4",serif;font-weight:600;font-size:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.srow .go span{font-size:12px;color:var(--muted)}
+.srow .ed{display:flex;gap:2px}
+.srow .ed button{width:34px;height:34px;border-radius:50%;color:var(--muted);font-size:16px}
+.srow .ed button:active{background:var(--line)}
+.pick{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:8px}
+.pick .box{width:24px;height:24px;border-radius:7px;border:2px solid var(--line);display:grid;place-items:center;flex:none;color:#fff;font-size:15px}
+.pick.on .box{background:var(--navy-3);border-color:var(--navy-3)}
+.pick b{font-family:"Source Serif 4",serif;font-weight:600;font-size:16px}
+.selbar{display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--navy);color:#fff;border-radius:14px;padding:10px 12px;margin:0 0 12px}
+body.dark .selbar{background:#16365C}
+.selbar span{font-size:13px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.selbar button{background:var(--gold);color:#08131F;font-weight:600;font-size:13px;border-radius:99px;padding:8px 12px;flex:none}
+.sheet-bg{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:60;display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--bg);width:100%;max-width:760px;border-radius:20px 20px 0 0;padding:18px 16px calc(18px + var(--safe-bot));max-height:75vh;overflow:auto}
+.sheet h3{margin:0 0 12px;font-size:16px}
+.donebar{position:sticky;bottom:calc(70px + var(--safe-bot));display:flex;justify-content:center;padding:10px 0}
 .toast{position:fixed;left:50%;bottom:calc(84px + var(--safe-bot));transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 16px;border-radius:99px;font-size:13.5px;z-index:50;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:0;transition:opacity .25s;pointer-events:none}
 .toast.show{opacity:1}
 </style>
@@ -118,6 +149,7 @@ body.dark .tabbar button.on{color:var(--gold-soft)}
 </div>
 <nav class="tabbar"><div class="in">
   <button data-tab="list"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>Cantiques</button>
+  <button data-tab="sels"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg>Sélections</button>
   <button data-tab="favs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>Favoris</button>
   <button data-tab="settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>Réglages</button>
 </div></nav>
@@ -212,24 +244,111 @@ function stanzaHtml(st){
   const ref = /^refrain|^chorus|^ch(œ|oe)ur/i.test(st[0] || "");
   return `<p class="stanza${ref ? " refrain" : ""}">${st.map(esc).join("<br>")}</p>`;
 }
-function renderSong(key){
+function songHash(key, selId){ return "#song/" + encodeURIComponent(key) + (selId ? "/sel/" + encodeURIComponent(selId) : "") }
+function parseSongHash(h){ const m = h.match(/^song\/([^/]+)(?:\/sel\/([^/]+))?$/); return m ? {key: m[1], sel: m[2] || ""} : null }
+function selNeighbours(s, selId){
+  const sel = selId && getSel(selId);
+  if (sel){ const keys = sel.songs.filter(k => BYID[k]); const i = keys.indexOf(s._key);
+    if (i >= 0) return {sel, i, n: keys.length, prev: BYID[keys[i - 1]], next: BYID[keys[i + 1]]} }
+  return {sel: null, prev: SONGS[s._i - 1], next: SONGS[s._i + 1]};
+}
+function renderSong(key, selId){
   const s = BYID[key]; if (!s){ location.hash = ""; return }
-  setTop(s.title, s.id, true, key);
+  const nb = selNeighbours(s, selId); const inSel = !!nb.sel; const sid = inSel ? nb.sel.id : "";
+  setTop(s.title, inSel ? `${nb.sel.name} · ${nb.i + 1}/${nb.n}` : s.id, true, key);
   const hasFr = s.fr.length > 0, hasEn = s.en.length > 0;
   let lang = settings.lang;
   if (lang === "fr" && !hasFr) lang = "en"; if (lang === "en" && !hasEn) lang = "fr";
-  const prev = SONGS[s._i - 1], next = SONGS[s._i + 1];
-  let html = `<div class="s-head">${s.id ? `<div class="s-id">${esc(s.id)}</div>` : ""}<h1 class="s-title">${esc(s.title)}</h1>
+  const prev = nb.prev, next = nb.next;
+  let html = inSel ? `<div class="selbar"><span>☰ ${esc(nb.sel.name)} · ${nb.i + 1} / ${nb.n}</span><button id="toSel">Retour à la sélection</button></div>` : "";
+  html += `<div class="s-head">${s.id ? `<div class="s-id">${esc(s.id)}</div>` : ""}<h1 class="s-title">${esc(s.title)}</h1>
     <div class="tools">${hasFr && hasEn ? `<div class="seg"><button data-lang="fr" class="${lang === "fr" ? "on" : ""}">Français</button><button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button><button data-lang="both" class="${lang === "both" ? "on" : ""}">Les deux</button></div>` : ""}
-    <button class="mini" data-size="-1" aria-label="Texte plus petit">A−</button><button class="mini" data-size="1" aria-label="Texte plus grand">A+</button></div></div>`;
+    <button class="mini" data-size="-1" aria-label="Texte plus petit">A−</button><button class="mini" data-size="1" aria-label="Texte plus grand">A+</button><button class="mini" id="addSel" aria-label="Ajouter à une sélection">+ Sélection</button></div></div>`;
   if (hasFr && lang !== "en") html += `<section class="lang fr">${lang === "both" && hasEn ? "<h4>Français</h4>" : ""}${s.fr.map(stanzaHtml).join("")}</section>`;
   if (hasEn && lang !== "fr") html += `<section class="lang en">${lang === "both" && hasFr ? "<h4>English</h4>" : ""}${s.en.map(stanzaHtml).join("")}</section>`;
-  html += `<div class="nav-songs">${prev ? `<button data-song="${esc(prev._key)}">‹ Précédent<b>${esc(prev.title)}</b></button>` : "<span style='flex:1'></span>"}${next ? `<button data-song="${esc(next._key)}">Suivant ›<b>${esc(next.title)}</b></button>` : "<span style='flex:1'></span>"}</div>`;
+  const sa = sid ? ` data-sel="${esc(sid)}"` : "";
+  html += `<div class="nav-songs">${prev ? `<button data-song="${esc(prev._key)}"${sa}>‹ Précédent<b>${esc(prev.title)}</b></button>` : "<span style='flex:1'></span>"}${next ? `<button data-song="${esc(next._key)}"${sa}>Suivant ›<b>${esc(next.title)}</b></button>` : "<span style='flex:1'></span>"}</div>`;
   view.innerHTML = html;
-  view.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => { settings.lang = b.dataset.lang; applySettings(); renderSong(key) });
+  view.querySelectorAll("[data-lang]").forEach(b => b.onclick = () => { settings.lang = b.dataset.lang; applySettings(); renderSong(key, selId) });
   view.querySelectorAll("[data-size]").forEach(b => b.onclick = () => { settings.size = Math.max(14, Math.min(34, settings.size + 2 * b.dataset.size)); applySettings() });
+  const ts = $("#toSel"); if (ts) ts.onclick = () => goSel(sid);
+  $("#addSel").onclick = () => pickSelection(key);
   window.scrollTo(0, 0);
   keepAwake(true);
+}
+
+// ---------- Sélections ----------
+let sels = store.get("sels", []);
+const saveSels = () => store.set("sels", sels);
+const getSel = id => sels.find(x => x.id === id);
+const plural = (n, w) => `${n} ${w}${n > 1 ? "s" : ""}`;
+function goSel(id){ location.hash = "#sel/" + encodeURIComponent(id) }
+function newSel(name){
+  const d = new Date();
+  const sel = {id: "s" + d.getTime().toString(36), name: (name || "").trim() || "Prestation du " + d.toLocaleDateString("fr-FR", {day: "numeric", month: "long"}), created: d.toISOString(), songs: []};
+  sels.unshift(sel); saveSels(); return sel;
+}
+function renderSels(){
+  setTop("Sélections", plural(sels.length, "sélection"), false);
+  let html = `<div class="newsel"><input id="selName" placeholder="Nom (ex. Culte du dimanche)" maxlength="60"><button class="btn" id="mkSel">Créer</button></div>`;
+  html += sels.length ? sels.map(x => `<button class="selcard" data-selid="${esc(x.id)}"><b>${esc(x.name)}</b><span>${plural(x.songs.filter(k => BYID[k]).length, "cantique")} · ${new Date(x.created).toLocaleDateString("fr-FR", {day: "numeric", month: "short", year: "numeric"})}</span></button>`).join("")
+    : `<div class="empty">Préparez ici la liste des cantiques d'une prestation.<br>Donnez-lui un nom, ajoutez les cantiques dans l'ordre, puis ouvrez-les un par un pendant le service.</div>`;
+  view.innerHTML = html;
+  $("#mkSel").onclick = () => { const x = newSel($("#selName").value); location.hash = "#sel/" + encodeURIComponent(x.id) + "/add" };
+  $("#selName").onkeydown = e => { if (e.key === "Enter") $("#mkSel").click() };
+  view.querySelectorAll("[data-selid]").forEach(b => b.onclick = () => goSel(b.dataset.selid));
+}
+function renderSel(id){
+  const sel = getSel(id); if (!sel){ location.hash = "#sels"; return }
+  sel.songs = sel.songs.filter(k => BYID[k]);
+  setTop(sel.name, plural(sel.songs.length, "cantique"), false);
+  $("#back").style.display = "grid";
+  let html = `<div class="sel-actions"><button class="btn" id="addSongs">+ Ajouter des cantiques</button><button class="btn ghost" id="renSel">Renommer</button><button class="btn danger" id="delSel">Supprimer</button></div>`;
+  html += sel.songs.length ? sel.songs.map((k, i) => { const s = BYID[k];
+    return `<div class="srow"><span class="num">${i + 1}</span><button class="go" data-song="${esc(k)}" data-sel="${esc(id)}"><b>${esc(s.title)}</b><span>${esc(firstLine(s))}</span></button>
+      <div class="ed"><button data-mv="${i}" data-d="-1" aria-label="Monter">↑</button><button data-mv="${i}" data-d="1" aria-label="Descendre">↓</button><button data-rm="${i}" aria-label="Retirer">✕</button></div></div>` }).join("")
+    : `<div class="empty">Cette sélection est vide.<br>Touchez « Ajouter des cantiques ».</div>`;
+  view.innerHTML = html;
+  $("#addSongs").onclick = () => location.hash = "#sel/" + encodeURIComponent(id) + "/add";
+  $("#renSel").onclick = () => { const n = prompt("Nouveau nom de la sélection", sel.name); if (n && n.trim()){ sel.name = n.trim(); saveSels(); renderSel(id) } };
+  $("#delSel").onclick = () => { if (confirm(`Supprimer la sélection « ${sel.name} » ?`)){ sels = sels.filter(x => x.id !== id); saveSels(); location.hash = "#sels" } };
+  view.querySelectorAll("[data-mv]").forEach(b => b.onclick = () => { const i = +b.dataset.mv, j = i + (+b.dataset.d); if (j < 0 || j >= sel.songs.length) return;
+    [sel.songs[i], sel.songs[j]] = [sel.songs[j], sel.songs[i]]; saveSels(); renderSel(id) });
+  view.querySelectorAll("[data-rm]").forEach(b => b.onclick = () => { sel.songs.splice(+b.dataset.rm, 1); saveSels(); renderSel(id) });
+}
+let pickQuery = "";
+function renderSelAdd(id){
+  const sel = getSel(id); if (!sel){ location.hash = "#sels"; return }
+  setTop("Ajouter à « " + sel.name + " »", plural(sel.songs.length, "cantique") + " choisi" + (sel.songs.length > 1 ? "s" : ""), false);
+  $("#back").style.display = "grid";
+  view.innerHTML = `<div class="search${pickQuery ? " has" : ""}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><input id="pq" type="search" placeholder="Rechercher un cantique…" value="${esc(pickQuery)}" autocomplete="off"><button class="clear" id="pqc">×</button></div><div id="picks"></div><div class="donebar"><button class="btn" id="done">Terminé</button></div>`;
+  const draw = () => {
+    const words = norm(pickQuery).split(" ").filter(Boolean);
+    const list = words.length ? SONGS.filter(s => words.every(w => s._n.includes(w) || s._body.includes(w))) : SONGS;
+    $("#picks").innerHTML = list.map(s => { const pos = sel.songs.indexOf(s._key);
+      return `<button class="pick${pos >= 0 ? " on" : ""}" data-k="${esc(s._key)}"><span class="box">${pos >= 0 ? pos + 1 : ""}</span><b>${esc(s.title)}</b></button>` }).join("") || `<div class="empty">Aucun cantique trouvé.</div>`;
+    $("#picks").querySelectorAll("[data-k]").forEach(b => b.onclick = () => { const k = b.dataset.k, i = sel.songs.indexOf(k);
+      i >= 0 ? sel.songs.splice(i, 1) : sel.songs.push(k); saveSels(); draw();
+      setTop("Ajouter à « " + sel.name + " »", plural(sel.songs.length, "cantique") + " choisi" + (sel.songs.length > 1 ? "s" : ""), false); $("#back").style.display = "grid" });
+  };
+  const q = $("#pq");
+  q.oninput = () => { pickQuery = q.value; q.parentNode.classList.toggle("has", !!pickQuery); draw() };
+  $("#pqc").onclick = () => { pickQuery = ""; q.value = ""; q.parentNode.classList.remove("has"); draw() };
+  $("#done").onclick = () => { pickQuery = ""; location.replace("#sel/" + encodeURIComponent(id)) };
+  draw();
+}
+function pickSelection(key){
+  const bg = document.createElement("div"); bg.className = "sheet-bg";
+  const row = x => { const has = x.songs.includes(key);
+    return `<button class="pick${has ? " on" : ""}" data-sid="${esc(x.id)}"><span class="box">${has ? "✓" : ""}</span><div><b>${esc(x.name)}</b><div style="font-size:12px;color:var(--muted)">${plural(x.songs.length, "cantique")}</div></div></button>` };
+  bg.innerHTML = `<div class="sheet"><h3>Ajouter à une sélection</h3><div class="newsel"><input id="sn" placeholder="Nouvelle sélection…" maxlength="60"><button class="btn" id="sc">Créer</button></div><div id="sl">${sels.map(row).join("")}</div><button class="btn ghost" id="sx" style="width:100%;margin-top:6px">Fermer</button></div>`;
+  document.body.appendChild(bg);
+  const close = () => bg.remove();
+  bg.onclick = e => { if (e.target === bg) close() };
+  bg.querySelector("#sx").onclick = close;
+  bg.querySelector("#sc").onclick = () => { const x = newSel(bg.querySelector("#sn").value); x.songs.push(key); saveSels(); close(); toast(`Ajouté à « ${x.name} »`) };
+  bg.querySelectorAll("[data-sid]").forEach(b => b.onclick = () => { const x = getSel(b.dataset.sid); const i = x.songs.indexOf(key);
+    i >= 0 ? x.songs.splice(i, 1) : x.songs.push(key); saveSels(); close(); toast(i >= 0 ? `Retiré de « ${x.name} »` : `Ajouté à « ${x.name} »`) });
 }
 function renderFavs(){
   setTop("Favoris", `${favs.size} cantique${favs.size > 1 ? "s" : ""}`, false);
@@ -267,7 +386,10 @@ let currentTab = "list", lastListScroll = 0;
 function route(){
   const h = decodeURIComponent(location.hash.slice(1));
   if (!h.startsWith("song/")) keepAwake(false);
-  if (h.startsWith("song/")) return renderSong(h.slice(5));
+  if (h.startsWith("song/")){ const p = parseSongHash(location.hash.slice(1)); return p ? renderSong(decodeURIComponent(p.key), decodeURIComponent(p.sel)) : renderList() }
+  if (h === "sels"){ currentTab = "sels"; return renderSels() }
+  if (h.startsWith("sel/")){ currentTab = "sels"; const parts = location.hash.slice(5).split("/"); const id = decodeURIComponent(parts[0]);
+    return parts[1] === "add" ? renderSelAdd(id) : renderSel(id) }
   if (h === "favs"){ currentTab = "favs"; return renderFavs() }
   if (h === "settings"){ currentTab = "settings"; return renderSettings() }
   currentTab = "list"; renderList(); requestAnimationFrame(() => window.scrollTo(0, lastListScroll));
@@ -276,12 +398,18 @@ window.addEventListener("hashchange", route);
 view.addEventListener("click", e => {
   const b = e.target.closest("[data-song]"); if (!b) return;
   if (!location.hash.startsWith("#song/")) lastListScroll = scrollY;
-  const target = "#song/" + encodeURIComponent(b.dataset.song);
+  const target = songHash(b.dataset.song, b.dataset.sel || "");
   if (location.hash.startsWith("#song/")) location.replace(target); else { openedFromApp = true; location.hash = target }
 });
 document.querySelectorAll(".tabbar button").forEach(b => b.onclick = () => { lastListScroll = 0; location.hash = b.dataset.tab === "list" ? "" : b.dataset.tab });
 let openedFromApp = false;
-$("#back").onclick = () => { if (openedFromApp){ openedFromApp = false; history.back() } else location.hash = "" };
+$("#back").onclick = () => {
+  const h = location.hash.slice(1), p = parseSongHash(h);
+  if (p && p.sel){ goSel(decodeURIComponent(p.sel)); return }          // une seule action pour revenir à la sélection
+  if (h.startsWith("sel/") && h.endsWith("/add")){ pickQuery = ""; location.replace("#" + h.slice(0, -4)); return }
+  if (h.startsWith("sel/")){ location.hash = "#sels"; return }
+  if (openedFromApp){ openedFromApp = false; history.back() } else location.hash = "";
+};
 $("#theme").onclick = () => { settings.dark = !settings.dark; applySettings(); if (currentTab === "settings" && !location.hash.startsWith("#song/")) renderSettings() };
 // balayage gauche / droite pour passer au cantique voisin
 let tx = 0, ty = 0;
@@ -290,8 +418,10 @@ view.addEventListener("touchend", e => {
   if (!location.hash.startsWith("#song/")) return;
   const dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty;
   if (Math.abs(dx) < 80 || Math.abs(dy) > 60) return;
-  const s = BYID[decodeURIComponent(location.hash.slice(6))]; if (!s) return;
-  const t = SONGS[s._i + (dx < 0 ? 1 : -1)]; if (t) location.replace("#song/" + encodeURIComponent(t._key));
+  const p = parseSongHash(location.hash.slice(1)); if (!p) return;
+  const s = BYID[decodeURIComponent(p.key)]; if (!s) return;
+  const nb = selNeighbours(s, decodeURIComponent(p.sel)); const t = dx < 0 ? nb.next : nb.prev;
+  if (t) location.replace(songHash(t._key, nb.sel ? nb.sel.id : ""));
 }, {passive: true});
 // écran allumé pendant la lecture d'un cantique
 async function keepAwake(on){

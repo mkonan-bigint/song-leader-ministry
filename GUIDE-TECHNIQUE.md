@@ -53,10 +53,12 @@ www\cantiques.json  ── git push ──►  GitHub
 | `ANDROID_KEY_ALIAS` | `songleader` |
 | `ANDROID_KEYSTORE_BASE64` | **tout** le contenu de `signature-android.keystore.base64.txt` |
 
-4. Premier envoi :
+4. Premier envoi. Le fichier de compilation a été livré dans `tools\build.yml` ; la deuxième et la troisième commande le placent dans `.github\workflows\`, où GitHub l'attend :
 
 ```
 cd "C:\Dev Projects\Song Leader Ministry"
+New-Item -ItemType Directory -Force .github\workflows | Out-Null
+Move-Item tools\build.yml .github\workflows\build.yml
 git init -b main
 git add .
 git commit -m "Song Leader Ministry : application du recueil de cantiques (web + Android)"
