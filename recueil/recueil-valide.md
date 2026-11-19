@@ -24,7 +24,7 @@ ID : C0003
 A Dieu soit la Gloire (3x)\
 Pour les choses qu’Il a faites
 
-Par Son Sang, Il m’a sauvé\
+Par Son Sang, Il m’a lavé\
 Par sa puissance, il m'a relevé\
 A Dieu soit la Gloire\
 Pour les choses qu’Il a faites
@@ -167,6 +167,18 @@ Alléluia Hosanna (4x)
 He didn't let the devil win (3x), Hosana\
 Hallelujah Hosanna (4x)
 
+## Alléluia, que mon Cœur te chante
+
+ID : C0032
+
+**Français**\
+Alléluia (2x)\
+Que mon cœur te chante ainsi
+
+**English**\
+Hallelujah (2x)\
+Let's my heart sing song to You
+
 ## Au-delà du pont
 
 ID : C0049
@@ -253,6 +265,72 @@ Most High\] (2x)
 &#91;The Name of the Lord is a strong tower\
 The righteous ran into, and they are saved\] (2x)
 
+## Bénis Dieu oh mon âme
+
+ID : C0070
+
+**Français**\
+Bénis Dieu oh mon âme, ooo mon âme\
+Bénis Melchisédek\
+Loue le comme jamais, ooo mon âme\
+Bénis Melchisédek
+
+**English**\
+Bless the Lord o my soul, ooo my soul\
+Worship His holy name\
+Sing like never before, ooo my soul\
+Worship His holy name
+
+## Grâce infinie de notre Dieu
+
+ID : C0036
+
+**Français**\
+1\. Grâce infinie de notre Dieu\
+Qui un jour m'a sauvé\
+J'étais perdu, mais retrouvé\
+Aveugle, maintenant je vois
+
+2\. Quand tombera cette robe de chair\
+Ma vie mortelle cessera\
+Je posséderai dans l'au-delà\
+Une vie de joie et paix
+
+Refrain\
+Loué soit Dieu… Amen\
+Alléluia… Amen
+
+**English**\
+1\. Amazing grace, How sweet the sound\
+That saved a wretch like me\
+I once was lost but now am found\
+Was blind but now I see
+
+2\. Yes, when this flesh and heart shall fail\
+And mortal life shall cease\
+I shall possess, within the veil\
+A life of joy and peace
+
+Refrain\
+Praise God… Praise God\
+Hallelujah… Amen
+
+## Grâce infinie qui m'a sauvé
+
+ID : C0037
+
+**Français**\
+Grâce infinie de notre Dieu\
+Qui un jour m'a sauvé\
+J'étais perdu, mais retrouvé\
+Aveugle, maintenant je vois
+
+**English**\
+Amazing grace, How sweet the sound\
+That saved a wretch like me\
+I once was lost but now am found\
+Was blind but now I see
+
 ## Nous Te bénissons Dieu Tout-Puissant
 
 ID : C0068
@@ -280,3 +358,69 @@ Blessed be the Lord God Almighty\
 Who was and is and is to come\
 Blessed be the Lord God Almighty\
 Who reigns forevermore
+
+## Pour cet immense bonheur
+
+ID : C0038
+
+**Français**\
+1\. Pour cet immense bonheur, alléluia !\
+Que tu as mis dans mon cœur, alléluia !\
+Je veux te chanter Seigneur, alléluia !\
+Oui, Jésus est mon Sauveur, alléluia !
+
+Refrain\
+Amen, Amen\
+Amen, Amen, Amen
+
+2\. Je le redirai encore, alléluia !\
+Que pour moi, Jésus est mort, alléluia !\
+Voilà pourquoi je l'adore, alléluia !\
+Lui seul est tout mon trésor, alléluia !
+
+3\. Que chaque jour, à chaque heure, alléluia !\
+En moi tu aies ta demeure, alléluia !\
+Que ma vie soit une fleur, alléluia !\
+Un parfum pour toi, Seigneur, alléluia !
+
+## Tire-moi plus près
+
+ID : C0047
+
+**Français**\
+1\. A Toi j'appartiens\
+Quand j'entends Ta voix\
+Qui me parle d'un ton si doux,\
+Mon désir Seigneur, c'est de Te servir\
+Et me rapprocher de Toi
+
+Refrain\
+Tire-moi plus près\
+Plus près Oh Seigneur\
+De la croix de Golgotha\
+Tire-moi plus près\
+Plus près Oh Seigneur\
+C'est le désir de mon cœur
+
+2\. Consacre-moi Seigneur à Ton saint service\
+Par la puissance de Ta grâce\
+Que mon âme n'espère en nul autre que Toi\
+Que Ta volonté soit mienne
+
+**English**\
+1\. I am Thine, O Lord,\
+I have heard Thy voice\
+And it told Thy love to me\
+But I ling to rise in the arms of faith\
+And be closer drawn to Thee
+
+Refrain\
+Draw me nearer, nearer blessed Lord\
+To the cross where thou hast died\
+Draw me nearer, nearer blessed Lord\
+To thy precious bleeding side
+
+2\. Consecrate me now to Thy service Lord\
+By the power of your grace divine\
+Let my soul look up with a steadfast hope\
+And my will be lost in Thine
