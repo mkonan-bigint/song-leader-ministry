@@ -281,6 +281,123 @@ Worship His holy name\
 Sing like never before, ooo my soul\
 Worship His holy name
 
+## Bénis Dieu oh mon âme (2)
+
+ID : C0075
+
+**Français**\
+&#91;Bénis Dieu oh mon âme,\
+Que tout ce qui est en moi\
+Bénisse son saint nom] (2x)
+
+Il fait des merveilles (3x)\
+Béni soit son nom
+
+**English**\
+&#91;Bless the Lord, O my soul\
+And all that is within me\
+Bless His holy name] (2x)
+
+He has done great things (3x)\
+Bless His holy name
+
+## Bénissez le Seigneur
+
+ID : C0071
+
+**Français**\
+Bénissez le Seigneur\
+Vous tous serviteurs du Seigneur\
+Qui demeurez dans la maison de Dieu\
+Durant les heures de la nuit\
+Levez les mains vers lui, Alléluia !\
+Bénissez votre Dieu, Alléluia !\
+Que le Seigneur soit béni de Sion\
+Lui qui fît le ciel et la terre
+
+## Bientôt, très bientôt
+
+ID : C0074
+
+**Français**\
+&#91;Bientôt, très bientôt\
+Nous irons rencontrer le Roi] (3x)\
+Alléluia, alléluia\
+Nous irons rencontrer le Roi
+
+&#91;Plus de séparation\
+Nous serons avec Jésus] (3x)\
+Alléluia, alléluia\
+Nous serons avec Jésus
+
+**English**\
+&#91;Soon and very soon\
+We are going to see the King] (3x)\
+Hallelujah, hallelujah\
+We are going to see the King
+
+&#91;No more parting there,\
+we are going to see the King] (3x)\
+Hallelujah, Hallelujah\
+We are going to see the King
+
+## Burn, burn, Holy Spirit
+
+ID : C0086
+
+**English**\
+Burn, burn, Holy Spirit, burn in me\
+Set my heart on fire\
+Fill me with the Holy Ghost\
+And God’s full desire
+
+Make me like the Christ of old\
+Healing and raising the dead\
+Give me the power that Jesus had\
+Through the blood that was shed
+
+## C'est la vie derrière le nom
+
+ID : C0099
+
+**Français**\
+C'est la vie derrière le Nom\
+Qui fait trembler les démons\
+C'est la vie derrière le Nom\
+Un tonnerre contre l'ennemi\
+La vie même de Jésus-Christ\
+En nous c'est le Saint-Esprit\
+C'est la vie que nous vivons\
+Qui fait trembler les démons
+
+**English**\
+It's the life behind the name\
+That makes the demons tremble\
+It's the life behind the name\
+That makes the proud heart humble\
+It was God who devised the plan\
+That in all things as a man\
+He could live, so He could give\
+Give us the life behind the name
+
+## C'est le Sauveur de mon âme
+
+ID : C0103
+
+**Français**\
+C'est le Sauveur de mon âme\
+Mon Jésus, mon Jésus\
+C'est le Sauveur de mon âme (2x)\
+Jésus, Jésus, Jésus, mon Jésus\
+C'est le Sauveur de mon âme (2x)
+
+**English**\
+He's the Saviour of my soul\
+My Jesus, my Jesus\
+He's the Saviour of my soul (2x)\
+Jesus, Jesus, Jesus, my Jesus\
+He's the Saviour of my soul (2x)
+
 ## C'est le temps de la moisson
 
 ID : C0104
@@ -351,7 +468,7 @@ Dit is 'n genade (2x), Dit is 'n genade om die Here te dien
 It's grace, it's grace to serve the Lord\
 It's grace (2x), it's grace to serve the Lord
 
-## Cache moi sous le Roc
+## Cache-moi sous le Roc
 
 ID : C0120
 
@@ -443,6 +560,21 @@ C'est Jésus qui vit en moi] (2x)\
 En moi, en moi, c'est Jésus qui vit en moi\
 Ce n'est plus moi qui vis alléluia !\
 C'est Jésus qui vit en moi
+
+## Ce vieux monde
+
+ID : C0138
+
+**Français**\
+Ce vieux monde ne peut rien sur moi\
+Car bientôt, je m'en irai\
+Je suis déjà consacré\
+Et je porte mon habit de noce
+
+Moi je vole au-delà du temps\
+Là-haut dans les courants d'air\
+Par le message de mon temps\
+Je ne crains rien, toujours triomphant
 
 ## Cette joie que j'ai
 
@@ -574,6 +706,26 @@ Refrain\
 Ha… lle lu… jah (3x)\
 Hallelu, Hallelujah!
 
+## Christ est réel pour moi
+
+ID : C0162
+
+**Français**\
+Christ est réel, Il est réel pour moi\
+Je l'aime, Il me donne la victoire\
+Beaucoup de gens doutent\
+Mais je ne peux vivre sans Lui\
+C'est pourquoi je l'aime tant\
+Il est réel pour moi
+
+**English**\
+Real, real, Christ is so real to me\
+I love Him, He gives me victory\
+Many people doubt Him\
+But I can't live without Him\
+That is why I love Him so\
+He is so real to me
+
 ## Combien Dieu est grand
 
 ID : C0168
@@ -700,7 +852,7 @@ It's what we long to do\
 Communion, holy communion\
 Lord we long to commune with You
 
-## Conduis moi
+## Conduis-moi
 
 ID : C0187
 
@@ -1148,12 +1300,12 @@ He is always the same\
 There's no reason to doubt\
 God can do it again
 
-## Dieu prépare moi
+## Dieu prépare-moi
 
 ID : C0242
 
 **Français**\
-Dieu prépare moi à être un sanctuaire\
+Dieu prépare-moi à être un sanctuaire\
 Pur et saint et en vérité\
 Avec reconnaissance\
 Je veux être un vivant Sanctuaire, Dieu, pour Toi
@@ -1164,7 +1316,7 @@ Pure and Holy, tried and true\
 With thanksgiving\
 I'll be a living sanctuary Lord for You
 
-## Donnez moi l'ancien Évangile
+## Donnez-moi l'ancien Évangile
 
 ID : C0249
 
@@ -1175,7 +1327,7 @@ C’est pourquoi les hommes le craignent\
 Mais il est si bon pour moi
 
 Refrain\
-Donnez moi l’ancien Évangile (3x)\
+Donnez-moi l’ancien Évangile (3x)\
 Il est si bon pour moi
 
 2\. Il mettra fin à tes mensonges\
@@ -1236,7 +1388,7 @@ We will lift up our holy hands
 Refrain\
 El Ela Elohim, Lord we love to worship You (2x)
 
-## Emmène moi dans le Saint lieu
+## Emmène-moi dans le Saint lieu
 
 ID : C0264
 
@@ -1251,9 +1403,9 @@ Père j'ai faim et soif de ta justice\
 Qui se trouve qu'en un seul lieu
 
 Refrain\
-Emmène moi dans le Saint lieu des Saints lieux\
-Emmène moi par le sang de l'agneau\
-Emmène moi dans le Saint lieu des Saints lieux\
+Emmène-moi dans le Saint lieu des Saints lieux\
+Emmène-moi par le sang de l'agneau\
+Emmène-moi dans le Saint lieu des Saints lieux\
 Prends la braise, touche mes lèvres\
 Que là je sois
 
@@ -1290,6 +1442,164 @@ The mighty presence of Jehovah\
 And I, a prisoner of love\
 Lord help me so you rise in me\
 A capstone of love
+
+## En feu, en feu, en feu
+
+ID : C0269
+
+**Français**\
+En feu, en feu, en feu\
+Mon âme est en feu (3x)\
+Cela brûle tout le temps\
+Alléluia, quel Sauveur\
+Mon âme (2x), mon âme est en feu
+
+**English**\
+Fire, fire, fire\
+My soul's on fire (3x)\
+It burns out other nature\
+Hallelujah, what a Savior\
+My soul (2x), my soul's on fire
+
+## En toute chose, donne Lui gloire
+
+ID : C0273
+
+**Français**\
+En toute chose, donne Lui toute la gloire\
+En toute chose, donne Lui gloire\
+Quand tout va bien, loue Son nom\
+Quand tout va mal, fais de même\
+En toute chose, donne au Roi des rois toute la gloire
+
+**English**\
+In everything, give thanks, give Him thanks\
+In everything, give Him thanks\
+In the good times, praise His name\
+In the bad times, Do the same\
+In everything, give the King of kings all the thanks
+
+## Entoure-moi
+
+ID : C0280
+
+**Français**\
+Entoure-moi Seigneur (3x)\
+Et que Ta présence remplisse ce lieu
+
+**English**\
+Surround me Oh Lord (3x)\
+And let your presence fill this place
+
+## Entre tes mains, j'abandonne
+
+ID : C0282
+
+**Français**\
+1\. Entre Tes mains j'abandonne\
+Tout ce que j'appelle mien\
+Oh ne permets à personne\
+Seigneur d'en reprendre rien
+
+2\. Je n'ai pas peur de Te suivre\
+Sur le chemin de la croix\
+C'est pour Toi que je veux vivre\
+Je connais, j'aime Ta voix
+
+Refrain\
+Oui, prends tout, Seigneur (2x)\
+Entre Tes mains j'abandonne\
+Tout avec bonheur
+
+**English**\
+1\. All to Jesus I surrender\
+All to Him I freely give\
+I will ever love and trust Him\
+In His presence daily live
+
+2\. All to Jesus I surrender\
+Humbly at His feet I bow\
+Worldly pleasures all forsaken\
+Fill me with Your love and power
+
+Refrain\
+I surrender all (2x)\
+All to Thee, my blessed Savior\
+I surrender all
+
+## Envoie la pluie Seigneur
+
+ID : C0286
+
+**Français**\
+Envoie la pluie Seigneur (2x)\
+La pluie de l’arrière-saison
+
+**English**\
+Send down the rain Lord (2x)\
+Send down the latter rain
+
+## Esprit du Dieu vivant
+
+ID : C0291
+
+**Français**\
+Esprit du Dieu vivant règne en moi (2x)\
+Brise-moi, modèle-moi, remplis-moi, utilise-moi\
+Esprit du Dieu vivant règne en moi
+
+**English**\
+Spirit of the living God, fall afresh on me (2x)\
+Break me, mold me, fill me, and use me\
+Spirit of the living God, fall afresh on me
+
+## Etre comme Jésus
+
+ID : C0300
+
+**Français**\
+Etre comme Jésus (2x)\
+Mon désir, c'est d'être comme Lui\
+Durant mon voyage\
+Terrestre vers la gloire\
+Mon désir, c'est d'être comme Lui
+
+**English**\
+To be like Jesus (2x)\
+All I ask is to be like Him\
+All through life's journey\
+From earth to glory\
+All I ask is to be like Him
+
+## Etre comme Toi
+
+ID : C0301
+
+**Français**\
+Etre comme Toi\
+Jésus, Je veux être comme Toi\
+Donne-moi un cœur rempli d'amour\
+Pour être comme Toi
+
+**English**\
+Make me more like Thee\
+Jesus, Make me more like Thee\
+Give me a heart that’s filled with love\
+And make me more like Thee
+
+## Father, let the fire fall
+
+ID : C0308
+
+**Français**\
+Seigneur, fais tomber le feu (2x)\
+Fais tomber le feu (2x)\
+Comme au jour de la Pentecôte
+
+**English**\
+Father, let the fire fall (2x)\
+Let the fire fall (2x)\
+Let the Pentecost fire fall
 
 ## Grâce infinie de notre Dieu
 
@@ -1340,6 +1650,20 @@ Amazing grace, How sweet the sound\
 That saved a wretch like me\
 I once was lost but now am found\
 Was blind but now I see
+
+## Jésus est vivant
+
+ID : C0767
+
+**Français**\
+Jésus est vivant (2x)\
+Le péché et la mort sont vaincus\
+Car Jésus est vivant
+
+**English**\
+Jesus is alive (2x)\
+Sin and death must go, They are conquered\
+For Jesus is alive
 
 ## Mon Dieu est un Dieu Puissant
 
@@ -1443,6 +1767,20 @@ My all in all\
 The great Creator became my Savior\
 And all God’s fulness dwelleth in Him
 
+## Père, unis-nous
+
+ID : C0309
+
+**Français**\
+Père, unis-nous (2x)\
+Que le monde sache que Tu es venu\
+Père, unis-nous
+
+**English**\
+Father, make us one (2x)\
+That the world may know That thou sent Thy son\
+Father, make us one
+
 ## Pour cet immense bonheur
 
 ID : C0038
@@ -1466,6 +1804,22 @@ Lui seul est tout mon trésor, alléluia !
 En moi tu aies ta demeure, alléluia !\
 Que ma vie soit une fleur, alléluia !\
 Un parfum pour toi, Seigneur, alléluia !
+
+## Remplis-moi
+
+ID : C0311
+
+**Français**\
+Remplis-moi (2x)\
+Jésus viens et remplis-moi\
+Remplis-moi de ta sainte présence\
+Viens, Oh viens et remplis-moi
+
+**English**\
+Fill me now (2x)\
+Jesus come and fill me now\
+Fill me with Thy hallowed presence\
+Come, O come and fill me now
 
 ## Tire-moi plus près
 
