@@ -4,29 +4,29 @@ Nov 20, 2026 · @Michael
 
 Cantiques au statut « Validé » dans le recueil de travail, classés par ordre alphabétique. Chaque cantique garde son ID (feuille Base de chants) pour faire le lien avec l'application.
 
-## A Celui qui est sur le Trône
+## À Celui qui est sur le Trône
 
 ID : C0001
 
 **Français**\
-A Celui qui est sur le Trône et à l’Agneau (3x)\
+À Celui qui est sur le Trône et à l’Agneau (3x)\
 Sois béni et loué, honoré, exalté à jamais (3x)
 
 **English**\
 To Him who sits on the Throne and unto the Lamb (3x)\
 Be blessings and glory and honour and power for ever (3x)
 
-## A Dieu soit la gloire
+## À Dieu soit la gloire
 
 ID : C0003
 
 **Français**\
-A Dieu soit la Gloire (3x)\
+À Dieu soit la Gloire (3x)\
 Pour les choses qu’Il a faites
 
 Par Son Sang, Il m’a lavé\
-Par sa puissance, il m'a relevé\
-A Dieu soit la Gloire\
+Par sa puissance, il m'a racheté\
+À Dieu soit la Gloire\
 Pour les choses qu’Il a faites
 
 Oui je veux vivre ma vie,\
@@ -34,12 +34,12 @@ Pour le Seigneur, Oui pour Lui\
 Et si je gagne quelques gloires\
 Tout sera pour Jésus Christ
 
-Par Son Sang, Il m’a sauvé\
-Par sa puissance, il m'a relevé\
-A Dieu soit la Gloire\
+Par Son Sang, Il m’a lavé\
+Par sa puissance, il m'a racheté\
+À Dieu soit la Gloire\
 Pour les choses qu’Il a faites
 
-A Dieu soit la Gloire (3x)\
+À Dieu soit la Gloire (3x)\
 Pour les choses qu’Il a faites
 
 **English**\
@@ -439,7 +439,7 @@ La flamme du saint lieu
 
 2\. J'abandonne ma vie,\
 Sans regret ni frayeur\
-A ta grâce infinie,\
+À ta grâce infinie,\
 O mon Libérateur
 
 3\. Qu'un feu nouveau s'allume\
@@ -449,7 +449,7 @@ Ce qui n'est pas à toi
 
 4\. Viens, Jésus sois mon maître\
 Par ton sang racheté\
-A toi seul je veux être\
+À toi seul je veux être\
 Et pour l'éternité
 
 ## C'est une grâce de servir Dieu
@@ -790,18 +790,18 @@ ID : C0173
 
 **Français**\
 Venez avec moi\
-A la maison de mon Père (3x)…\
+À la maison de mon Père (3x)…\
 Venez avec moi à la maison de mon Père\
 Il y a la joie, joie, joie
 
 Plus de maladie,\
-A la maison de mon Père (3x)…
+À la maison de mon Père (3x)…
 
 Plus de tentation,\
-A la maison de mon Père (3x)…
+À la maison de mon Père (3x)…
 
 Jésus sera là\
-A la maison de mon Père (3x)…
+À la maison de mon Père (3x)…
 
 **English**\
 Come and go with me\
@@ -1180,7 +1180,7 @@ Que Ta vie s'écoule en moi
 4\. Je serai toujours reconnaissant\
 Tu es resté à mes côtés\
 Je proclamerai Tu es fidèle\
-Et Tu reviens prendre Ton Epouse
+Et Tu reviens prendre Ton Épouse
 
 **English**\
 1\. O Lord, I love You forever\
@@ -1553,12 +1553,12 @@ Spirit of the living God, fall afresh on me (2x)\
 Break me, mold me, fill me, and use me\
 Spirit of the living God, fall afresh on me
 
-## Etre comme Jésus
+## Être comme Jésus
 
 ID : C0300
 
 **Français**\
-Etre comme Jésus (2x)\
+Être comme Jésus (2x)\
 Mon désir, c'est d'être comme Lui\
 Durant mon voyage\
 Terrestre vers la gloire\
@@ -1571,12 +1571,12 @@ All through life's journey\
 From earth to glory\
 All I ask is to be like Him
 
-## Etre comme Toi
+## Être comme Toi
 
 ID : C0301
 
 **Français**\
-Etre comme Toi\
+Être comme Toi\
 Jésus, Je veux être comme Toi\
 Donne-moi un cœur rempli d'amour\
 Pour être comme Toi
@@ -1620,6 +1620,18 @@ ID : C0317
 **English**\
 Fire rain, Fire rain on me (4x)\
 As in the day of Pentecost, rain on me (2x)
+
+## Gloire Gloire Alléluia
+
+ID : C0327
+
+**Français**\
+Gloire, gloire, alléluia (3x)\
+Chantez, louez Jésus
+
+**English**\
+Glory, glory, hallelujah (3x)\
+His truth is marching on
 
 ## Glory Glory Hallelujah (2)
 
@@ -1863,6 +1875,221 @@ Jesus, You be lifted\
 higher, higher\
 You be lifted higher
 
+## Hosanna béni soit le roc
+
+ID : C0397
+
+**Français**\
+Venez glorifier Son nom\
+Car Il est digne de louange\
+Venez magnifier Son nom\
+Car Il est digne de louange
+
+Refrain\
+Hosanna, béni soit le roc\
+Béni soit le rocher de mon salut\
+Hosanna, Jésus est le roc\
+Jésus est le rocher de mon salut
+
+**English**\
+Come let's magnify the Lord\
+For He is worthy to be praised\
+Come let's glorify the Lord\
+For He is worthy to be praised
+
+Refrain\
+Hosanna, blessed be the rock\
+Blessed be the rock of my salvation\
+Hosanna, Jesus is the rock\
+Jesus is the rock of my salvation
+
+## I am broken
+
+ID : C0408
+
+**English**\
+I am broken, I am thisrty\
+I am longing for You\
+Holy Spirit, Come and fill me\
+While I am waiting for You
+
+## I am so glad
+
+ID : C0413
+
+**Français**\
+Je suis heureux, Jésus m'a libéré (3x)\
+Je chante gloire, alléluia\
+Jésus m’a libéré
+
+Satan m'avait lié, Jésus m'a libéré (3x)\
+Je chante gloire, alléluia\
+Jésus m’a libéré
+
+Je suis en route pour le ciel, je chante la victoire (3x)\
+Je chante gloire, alléluia\
+Jésus m’a libéré
+
+**English**\
+I'm so glad, Jesus set me free (3x)\
+Singing Glory hallelujah\
+Jesus set me free
+
+Satan had me bound (3x)\
+Jesus set me free\
+Singing Glory hallelujah\
+Jesus set me free
+
+I'm on my way to heaven, shouting victory (3x)\
+Singing Glory hallelujah\
+Jesus set me free
+
+## I beseech thee Lord
+
+ID : C0414
+
+**English**\
+I beseech Thee Lord, I seek thy face\
+I beseech Thee Lord, make your glory known\
+I seek thy face with all my heart\
+I beseech Thee Lord, show me thy glory
+
+I beseech Thee Lord, fill my heart\
+I beseech Thee Lord, make your glory known\
+I seek thy face with all my heart\
+I beseech Thee Lord, show me thy glory
+
+## I bless your name
+
+ID : C0415
+
+**Français**\
+Béni sois-tu, Béni sois-tu\
+Reçois l'honneur et la louange\
+Tu es la vie, la vérité\
+Béni sois-tu, Béni sois-tu
+
+**English**\
+I bless Your Name, I bless Your Name\
+I give You honor, give You praise\
+You are the Life, the Truth, the Way\
+I bless Your Name, I bless Your Name
+
+## I can hear my Savior calling
+
+ID : C0416
+
+**English**\
+I can hear my Savior calling (3x) :\
+Take thy cross and follow, follow Me
+
+Where He leads me I will follow (3x)\
+I'll go with Him, with Him all the way
+
+I'll go with Him through the judgment (3x)\
+I'll go with Him, with Him all the way
+
+He will give me grace and glory (3x)\
+And go with me, with me all the way
+
+## I don't mind waiting
+
+ID : C0419
+
+**Français**\
+Je veux m'attendre (3x) au Seigneur\
+Je veux m'attendre (3x) au Seigneur
+
+**English**\
+I don't mind waiting (3x) on the Lord\
+I don't mind waiting (3x) on the Lord
+
+## I enter the Holy of holies
+
+ID : C0420
+
+**Français**\
+J'entre dans le Saint des Saints\
+J'entre par le sang de l'Agneau\
+J'entre pour T'adorer Toi seul\
+J'entre pour honorer Jésus
+
+Refrain\
+Seigneur, je T'adore, oui je T'adore (2x)\
+Car Ton Nom est Saint Saint\
+Ton Nom est Saint Saint, Seigneur\
+Car Ton Nom est Saint Saint\
+Ton Nom est Saint Saint, Seigneur
+
+**English**\
+I enter the Holy of holies\
+I enter through the blood of the Lamb\
+I enter to worship You only\
+I enter to honour I am
+
+Refrain\
+Lord I worship You, I worship You (2x)\
+For Your Name is Holy\
+Your Name is Holy, Lord\
+For Your Name is Holy\
+Your Name is Holy, Lord
+
+## I Feel Jesus in This Place
+
+ID : C0423
+
+**Français**\
+Jésus est là (3x), Dans ce lieu\
+Oui mon âme Est enflammée\
+Jésus est là Dans ce lieu
+
+**English**\
+I feel Jesus (3x), In this place\
+Yes my soul does, Burn within me\
+I feel Jesus, In this place
+
+## I love Him
+
+ID : C0440
+
+**Français**\
+Oh je L'aime, oui je L'aime\
+Car Il m'a tant aimé\
+Et Il a acquis mon salut\
+À Golgotha
+
+**English**\
+I love Him (2x)\
+Because He first loved me\
+And purchased my salvation\
+On Calvary’s tree
+
+## I love Him too much
+
+ID : C0441
+
+**Français**\
+Je L'aime trop, pour Le laisser\
+Je L'aime trop, pour briser mon vœu\
+Car j'ai promis au Seigneur, de m'accrocher à Lui\
+Et je L'aime trop, pour Le laisser
+
+**English**\
+I love him too much, to fail Him now\
+Too much to break my vow\
+For I promised the Lord, I would make it somehow\
+And now I love him too much, to fail him now
+
+## I'm happy today
+
+ID : C0449
+
+**English**\
+I'm happy today, So happy today\
+With Jesus my Lord I'm happy today\
+He has taken all my sins away\
+And that's why I'm happy today
+
 ## Il est merveilleux
 
 ID : C0380
@@ -2090,7 +2317,7 @@ They will never pass away.
 ID : C0047
 
 **Français**\
-1\. A Toi j'appartiens\
+1\. À Toi j'appartiens\
 Quand j'entends Ta voix\
 Qui me parle d'un ton si doux,\
 Mon désir Seigneur, c'est de Te servir\
