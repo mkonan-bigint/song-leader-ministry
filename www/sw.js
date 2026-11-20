@@ -1,7 +1,7 @@
 // Service worker : application disponible hors connexion.
 // Le recueil (cantiques.json) est servi « réseau d'abord » pour recevoir les nouveaux cantiques.
 const CACHE = "slm-v4";
-const SHELL = ["./", "index.html", "config.js", "manifest.webmanifest", "cantiques.json",
+const SHELL = ["./", "index.html", "config.js", "manifest.webmanifest", "cantiques.json", "audios.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png",
   "fonts/inter-latin-400-normal.woff2", "fonts/inter-latin-500-normal.woff2", "fonts/inter-latin-600-normal.woff2",
   "fonts/cinzel-latin-700-normal.woff2",
@@ -15,7 +15,7 @@ self.addEventListener("activate", e => {
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
-  const networkFirst = url.pathname.endsWith("cantiques.json") || url.pathname.endsWith("index.html") || url.pathname.endsWith("/") || url.pathname.endsWith("config.js");
+  const networkFirst = url.pathname.endsWith("cantiques.json") || url.pathname.endsWith("audios.json") || url.pathname.endsWith("index.html") || url.pathname.endsWith("/") || url.pathname.endsWith("config.js");
   if (networkFirst){
     e.respondWith(fetch(e.request).then(r => { const copy = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); return r })
       .catch(() => caches.match(e.request, {ignoreSearch: true})));

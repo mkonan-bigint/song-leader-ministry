@@ -144,6 +144,18 @@ body.dark .selbar{background:#16365C}
 .donebar{position:sticky;bottom:calc(70px + var(--safe-bot));display:flex;justify-content:center;padding:10px 0}
 .toast{position:fixed;left:50%;bottom:calc(84px + var(--safe-bot));transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 16px;border-radius:99px;font-size:13.5px;z-index:50;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:0;transition:opacity .25s;pointer-events:none}
 .toast.show{opacity:1}
+.aud{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:10px 0 2px}
+.aud .lbl{font-size:12px;color:var(--muted);font-weight:600;margin-right:2px}
+.aud button{font-size:13px;font-weight:500;padding:7px 12px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.aud button.on{background:var(--navy);border-color:var(--navy);color:#fff}
+body.dark .aud button.on{background:var(--gold);border-color:var(--gold);color:#08131F}
+.player{position:fixed;left:50%;transform:translateX(-50%);width:min(760px,100%);bottom:calc(62px + var(--safe-bot));z-index:25;background:var(--card);border-top:1px solid var(--line);box-shadow:0 -4px 14px rgba(0,0,0,.12);padding:8px 12px;display:flex;align-items:center;gap:8px}
+.player[hidden]{display:none}
+.player b{font-size:12.5px;color:var(--muted);font-weight:600;max-width:34%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.player audio{flex:1;min-width:0;height:40px}
+.player .x{font-size:20px;color:var(--muted);width:32px;height:32px;flex:none}
+body.playing .view{padding-bottom:64px}
+body.playing .toast{bottom:calc(132px + var(--safe-bot))}
 </style>
 </head>
 <body>
@@ -180,6 +192,7 @@ let LIB = {version: "", songs: []}, SONGS = [], BYID = {};
 let query = "", wakeLock = null;
 const settings = Object.assign({lang: "all", filter: "all", size: 20, dark: false}, store.get("settings", {}));
 let favs = new Set(store.get("favs", []));
+let AUD = {version: "", base: "", items: {}};   // audios des cantiques (audios.json)
 
 function applySettings(){
   document.body.classList.toggle("dark", !!settings.dark);
@@ -268,9 +281,33 @@ function selNeighbours(s, selId){
     if (i >= 0) return {sel, i, n: keys.length, prev: BYID[keys[i - 1]], next: BYID[keys[i + 1]]} }
   return {sel: null, prev: SONGS[s._i - 1], next: SONGS[s._i + 1]};
 }
+function audiosOf(s){ return s.id && AUD.base ? [].concat(AUD.items[s.id] || []) : [] }
+function audioHtml(list){
+  if (!list.length) return "";
+  return `<div class="aud"><span class="lbl">♪ Écouter :</span>${list.map((a, i) => `<button data-au="${i}">${esc(a.l || "Audio")}</button>`).join("")}</div>
+    <div class="player" id="player" hidden><b id="plbl"></b><audio id="paudio" controls preload="none"></audio><button class="x" id="pclose" aria-label="Fermer le lecteur">×</button></div>`;
+}
+function bindAudio(list){
+  if (!list.length) return;
+  const box = $("#player"), au = $("#paudio"), btns = view.querySelectorAll("[data-au]");
+  let cur = -1;
+  const mark = () => btns.forEach(b => b.classList.toggle("on", +b.dataset.au === cur));
+  btns.forEach(b => b.onclick = () => {
+    const i = +b.dataset.au;
+    if (i === cur){ au.paused ? au.play().catch(() => {}) : au.pause(); return }
+    cur = i; mark();
+    au.src = AUD.base.replace(/\/+$/, "") + "/" + encodeURIComponent(list[i].f);
+    $("#plbl").textContent = list[i].l || "Audio";
+    box.hidden = false; document.body.classList.add("playing");
+    au.play().catch(() => {});
+  });
+  au.onerror = () => { if (au.getAttribute("src")) toast(navigator.onLine ? "Audio introuvable" : "Audio indisponible hors connexion") };
+  $("#pclose").onclick = () => { au.pause(); au.removeAttribute("src"); au.load(); cur = -1; mark(); box.hidden = true; document.body.classList.remove("playing") };
+}
 function renderSong(key, selId){
   const s = BYID[key]; if (!s){ location.hash = ""; return }
   const nb = selNeighbours(s, selId); const inSel = !!nb.sel; const sid = inSel ? nb.sel.id : "";
+  const audList = audiosOf(s); document.body.classList.remove("playing");
   setTop(s.title, inSel ? `${nb.sel.name} · ${nb.i + 1}/${nb.n}` : s.id, true, key);
   const avail = [];
   if (s.fr.length) avail.push("fr"); if (s.en.length) avail.push("en"); if (s.other.length) avail.push("other");
@@ -283,7 +320,7 @@ function renderSong(key, selId){
   let html = inSel ? `<div class="selbar"><span>☰ ${esc(nb.sel.name)} · ${nb.i + 1} / ${nb.n}</span><button id="toSel">Retour à la sélection</button></div>` : "";
   html += `<div class="s-head">${s.id ? `<div class="s-id">${esc(s.id)}</div>` : ""}<h1 class="s-title">${esc(s.title)}</h1>
     <div class="tools">${multi ? `<div class="seg">${avail.map(l => `<button data-lang="${l}" class="${lang === l ? "on" : ""}">${LBL[l]}</button>`).join("")}<button data-lang="all" class="${lang === "all" ? "on" : ""}">Tout</button></div>` : ""}
-    <button class="mini" data-size="-1" aria-label="Texte plus petit">A−</button><button class="mini" data-size="1" aria-label="Texte plus grand">A+</button><button class="mini" id="addSel" aria-label="Ajouter à une sélection">+ Sélection</button></div></div>`;
+    <button class="mini" data-size="-1" aria-label="Texte plus petit">A−</button><button class="mini" data-size="1" aria-label="Texte plus grand">A+</button><button class="mini" id="addSel" aria-label="Ajouter à une sélection">+ Sélection</button></div>${audioHtml(audList)}</div>`;
   const head = t => showAll && multi ? `<h4>${esc(t)}</h4>` : "";
   if (s.fr.length && (showAll || lang === "fr")) html += `<section class="lang fr">${head("Français")}${s.fr.map(stanzaHtml).join("")}</section>`;
   if (s.en.length && (showAll || lang === "en")) html += `<section class="lang en">${head("English")}${s.en.map(stanzaHtml).join("")}</section>`;
@@ -296,6 +333,7 @@ function renderSong(key, selId){
   view.querySelectorAll("[data-size]").forEach(b => b.onclick = () => { settings.size = Math.max(14, Math.min(34, settings.size + 2 * b.dataset.size)); applySettings() });
   const ts = $("#toSel"); if (ts) ts.onclick = () => goSel(sid);
   $("#addSel").onclick = () => pickSelection(key);
+  bindAudio(audList);
   window.scrollTo(0, 0);
   keepAwake(true);
 }
@@ -409,7 +447,7 @@ function setTop(title, sub, isSong, key){
 let currentTab = "list", lastListScroll = 0;
 function route(){
   const h = decodeURIComponent(location.hash.slice(1));
-  if (!h.startsWith("song/")) keepAwake(false);
+  if (!h.startsWith("song/")){ keepAwake(false); document.body.classList.remove("playing") }
   if (h.startsWith("song/")){ const p = parseSongHash(location.hash.slice(1)); return p ? renderSong(decodeURIComponent(p.key), decodeURIComponent(p.sel)) : renderList() }
   if (h === "sels"){ currentTab = "sels"; return renderSels() }
   if (h.startsWith("sel/")){ currentTab = "sels"; const parts = location.hash.slice(5).split("/"); const id = decodeURIComponent(parts[0]);
@@ -481,6 +519,25 @@ async function checkUpdate(){
     }
   }catch(e){}
 }
+// ---------- Audios ----------
+function setAud(a, rerender){
+  if (!a || !a.items) return;
+  AUD = a;
+  if (rerender && SONGS.length && location.hash.startsWith("#song/") && !($("#paudio") && !$("#paudio").paused)) route();
+}
+async function loadAudios(){
+  let bundled = null, cached = store.get("aud", null);
+  try{ bundled = await (await fetch("audios.json")).json() }catch(e){}
+  const best = [bundled, cached].filter(Boolean).sort((a, b) => cmp(String(b.version), String(a.version)))[0];
+  if (best) setAud(best, true);
+  if (!CFG.remoteLibrary || !navigator.onLine) return;
+  try{
+    const r = await fetch(CFG.remoteLibrary.replace(/cantiques\.json.*$/, "audios.json") + "?v=" + Date.now(), {cache: "no-store"});
+    if (!r.ok) return;
+    const a = await r.json();
+    if (String(a.version) > String(AUD.version || "")){ store.set("aud", a); setAud(a, true) }
+  }catch(e){}
+}
 applySettings();
 fetch("cantiques.json").then(r => r.json()).then(async bundled => {
   const c = await cachedLib();
@@ -488,6 +545,8 @@ fetch("cantiques.json").then(r => r.json()).then(async bundled => {
   checkUpdate();
 }).catch(async () => { const c = await cachedLib(); if (c) loadLib(c); else view.innerHTML = `<div class="empty">Impossible de charger le recueil.</div>` });
 window.addEventListener("online", checkUpdate);
+window.addEventListener("online", loadAudios);
+loadAudios();
 if ("serviceWorker" in navigator && location.protocol === "https:" && !window.Capacitor){
   navigator.serviceWorker.register("sw.js").catch(() => {});
 }
