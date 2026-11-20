@@ -1,6 +1,6 @@
 # Recueil validé – Song Leader Ministry
 
-Nov 19, 2026 · @Michael
+Nov 20, 2026 · @Michael
 
 Cantiques au statut « Validé » dans le recueil de travail, classés par ordre alphabétique. Chaque cantique garde son ID (feuille Base de chants) pour faire le lien avec l'application.
 
@@ -73,7 +73,7 @@ Tout l'honneur, la gloire, la puissance à Toi (3x)\
 Père éternel, nous T'adorons\
 Précieux Jésus, mon Sauveur\
 Saint Esprit vient, nous T'attendons (3x)\
-Enflamme nous (3x)
+Enflamme-nous (3x)
 
 **English**\
 All honour, all glory, all power to You (3x)\
@@ -131,7 +131,7 @@ ID : C0023
 Alléluia, à Toi la gloire\
 Alléluia, amen\
 Alléluia, à Toi la gloire\
-Réveille nous encore
+Réveille-nous encore
 
 **English**\
 Hallelujah, Thine the glory\
@@ -146,7 +146,7 @@ ID : C0011
 **Français**\
 Alléluia, alléluia (4x)\
 Jésus mourut pour mon salut (4x)\
-Adorons Le, Il est vivant (4x)\
+Adorons-Le, Il est vivant (4x)\
 Merci Jésus, Merci Jésus (4x)
 
 **English**\
@@ -272,7 +272,7 @@ ID : C0070
 **Français**\
 Bénis Dieu oh mon âme, ooo mon âme\
 Bénis Melchisédek\
-Loue le comme jamais, ooo mon âme\
+Loue-le comme jamais, ooo mon âme\
 Bénis Melchisédek
 
 **English**\
@@ -742,7 +742,7 @@ Au son de Sa voix.
 
 Refrain\
 Combien Dieu est grand\
-Chantons le : combien Dieu est grand\
+Chantons-le : combien Dieu est grand\
 Et tous verront combien\
 Combien Dieu est grand
 
@@ -1601,6 +1601,75 @@ Father, let the fire fall (2x)\
 Let the fire fall (2x)\
 Let the Pentecost fire fall
 
+## Fire fall on me
+
+ID : C0315
+
+**Français**\
+Saint feu (3x), saint feu tombe sur moi (2x)\
+Comme au jour de la Pentecôte, saint feu tombe sur moi (2x)
+
+**English**\
+Fire, fire, fire, fire fall on me (2x)\
+As in the day of Pentecost, fire fall on me (2x)
+
+## Fire rain on me
+
+ID : C0317
+
+**English**\
+Fire rain, Fire rain on me (4x)\
+As in the day of Pentecost, rain on me (2x)
+
+## Glory Glory Hallelujah (2)
+
+ID : C0330
+
+**Français**\
+Je chante gloire, alléluia\
+Depuis qu'Il m'a libéré\
+Je chante gloire, alléluia\
+Depuis qu'Il m'a libéré
+
+Je me sens bien, tellement bien…
+
+**English**\
+Glory, Glory hallelujah\
+Since I laid my burdens down\
+Glory, Glory hallelujah\
+Since I laid my burdens down
+
+Yes I'm feeling so much better…\
+Yes I'm feeling just like shouting…
+
+## Going home
+
+ID : C0339
+
+**English**\
+Going home, I'm going home\
+There is nothing to hold me here\
+I've caught a glimpse of that Heavenly land\
+Praise God, I'm going home
+
+## Grâce, Grâce
+
+ID : C0344
+
+**Français**\
+Grâce, grâce, divine grâce\
+Grâce qui nous pardonne\
+Et nous rend purs\
+Grâce, grâce, divine grâce\
+Grâce qui est plus grande que nos péchés
+
+**English**\
+Grace, grace, God's grace\
+Grace that will pardon\
+And cleanses within\
+Grace, grace, God's grace\
+Grace that is greater than all our sins
+
 ## Grâce infinie de notre Dieu
 
 ID : C0036
@@ -1650,6 +1719,165 @@ Amazing grace, How sweet the sound\
 That saved a wretch like me\
 I once was lost but now am found\
 Was blind but now I see
+
+## Hallelujah, Let's Praise the Lord
+
+ID : C0356
+
+**Français**\
+Alléluia (3x), louons le Seigneur (2x)\
+Le monde derrière moi (3x), louons le Seigneur
+
+**English**\
+Hallelujah (3x), let's praise the Lord (2x)\
+No more turning back (3x), let's praise the Lord
+
+## He's coming down
+
+ID : C0373
+
+**Français**\
+Le Saint-Esprit descend (2x)\
+Il descend maintenant pour nous bénir\
+Quand les Saints commencent à prier\
+Pour chercher Sa volonté\
+Le Saint-Esprit descend pour nous bénir
+
+**English**\
+It's coming down, down, down (2x)\
+The Spirit of the Lord is coming down\
+When the Saints begin to pray\
+For the Lord to have His way\
+The Spirit of the Lord is coming down
+
+## He's done so much for me
+
+ID : C0374
+
+**Français**\
+Ce que Dieu a fait pour moi\
+Je ne peux l'expliquer (3x)\
+Ce que Dieu a fait pour moi\
+Je ne peux l'expliquer\
+Il a ôté tous mes vieux péchés
+
+**English**\
+He's done so much for me\
+I cannot tell it all (3x)\
+He's done so much for me\
+I cannot tell it all\
+He has taken all my sins away
+
+## He's the Mighty One of Israel
+
+ID : C0377
+
+**Français**\
+Il est le puissant d'Israël (2x)\
+Sa voix tonnera, Sa Parole s'accomplira\
+Il est le puissant d'Israël
+
+**English**\
+He's the mighty one of Israel (2x)\
+His voice shall be heard, In the power of His Word\
+The mighty one of Israel
+
+## Healing rain
+
+ID : C0385
+
+**Français**\
+La pluie de guérison descend (2x)\
+Je n'ai pas peur (2x)
+
+**English**\
+Healing rain is falling down (2x)\
+I'm not afraid (2x)
+
+## Holy is the Lord
+
+ID : C0391
+
+**Français**\
+Saint Saint, Saint Saint\
+Saint est le Seigneur\
+Saint Saint, Saint Saint\
+Saint est le Seigneur
+
+**English**\
+Holy, Holy\
+Holy is the Lord\
+Holy, Holy\
+Holy is the Lord
+
+## Holy, You are holy
+
+ID : C0392
+
+**Français**\
+Saint Saint, Tu es Saint Saint\
+Roi des rois, Tout-puissant\
+Tu es Saint Saint
+
+Saint Saint, Tu es Saint Saint\
+Roi des rois, Tout-puissant\
+Nous T'adorons
+
+**English**\
+Holy, You are holy\
+King of kings, Lord of lords\
+You are holy
+
+Holy, You are holy\
+King of kings, Lord of lords\
+I worship You
+
+**Espagnol**\
+Santo, Tú eres Santo\
+Rey de reyes, y Señor\
+Tú eres Santo
+
+Santo, Tú eres Santo\
+Rey de reyes, y Señor\
+Te adoro a Ti
+
+## Hosanna au plus haut des cieux
+
+ID : C0396
+
+**Français**\
+Hosanna au plus haut des cieux\
+Que notre Roi soit glorifié\
+Hosanna
+
+Jésus nous T'élevons\
+Plus haut, plus haut\
+Nous t'élevons plus haut
+
+**English**\
+Hosanna in the highest\
+Let our King be lifted up\
+Hosanna
+
+Jesus, You be lifted\
+higher, higher\
+You be lifted higher
+
+## Il est merveilleux
+
+ID : C0380
+
+**Français**\
+Il est merveilleux, merveilleux (2x)\
+Il est glorieux, glorieux (2x)
+
+**English**\
+He's wonderful, wonderful (2x)\
+He's glorious, glorious (2x)
+
+**Espagnol**\
+Maravilloso, maravilloso (2x)\
+Es glorioso, glorioso (2x)
 
 ## Jésus est vivant
 
@@ -1820,6 +2048,42 @@ Fill me now (2x)\
 Jesus come and fill me now\
 Fill me with Thy hallowed presence\
 Come, O come and fill me now
+
+## Tiens l'immuable main de Dieu
+
+ID : C0388
+
+**Français**\
+1\. Le temps est plein de transitions\
+Rien sur terre ne peut rester\
+Espère en des choses éternelles\
+Tiens l'immuable main de Dieu
+
+Refrain\
+Tiens l’immuable main de Dieu (2x)\
+Espère en des choses éternelles\
+Tiens l’immuable main de Dieu
+
+2\. Ne convoite pas les richesses vaines\
+Qui pourrissent rapidement\
+Cherche les trésors célestes\
+Qui ne passeront jamais
+
+**English**\
+1\. Time is filled with swift transition\
+Naught of earth unmoved can stand\
+Build your hopes on things eternal\
+Hold to God’s unchanging hand
+
+Refrain\
+Hold to God’s unchanging hand (2x)\
+Build your hopes on things eternal\
+Hold to God’s unchanging hand
+
+2\. Covet not this world’s vain riches\
+That so rapidly decay,\
+Seek to gain the heav’nly treasures,\
+They will never pass away.
 
 ## Tire-moi plus près
 
