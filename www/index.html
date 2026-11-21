@@ -63,6 +63,8 @@ body.dark .row .t em{color:var(--gold);background:rgba(255,255,255,.08)}
 .row .t b{display:block;font-family:"Source Serif 4",serif;font-weight:600;font-size:17px;line-height:1.3}
 .row .t span{display:block;font-size:12.5px;color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .star{color:var(--gold);font-size:16px}
+.mus{display:inline-flex;flex:none;align-items:center;color:var(--gold);font-style:normal}
+.mus svg{width:18px;height:18px}
 .row mark{background:#FBE7A7;color:inherit;border-radius:3px;padding:0 1px}
 body.dark .row mark{background:#5A4510}
 .list-wrap{padding-right:26px;position:relative}
@@ -217,13 +219,15 @@ function loadLib(lib){
 }
 
 // ---------- Vues ----------
+const MUS = `<i class="mus" title="Audio disponible" aria-label="Audio disponible"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></i>`;
+const musOf = s => audiosOf(s).length ? MUS : "";
 function rowHtml(s, hl){
   let sub = esc(firstLine(s));
   if (hl && !s._n.includes(hl)){
     const lines = [].concat(...s.fr, ...s.en, otherLines(s)); const hit = lines.find(l => norm(l).includes(hl));
     if (hit) sub = "« " + esc(hit) + " »";
   }
-  return `<button class="row" data-song="${esc(s._key)}"><div class="t"><b>${esc(s.title)}</b><span>${sub}</span>${s.other.length ? `<em>${esc(s.other.map(o => o.lang).join(" · "))}</em>` : ""}</div>${favs.has(s._key) ? '<span class="star">★</span>' : ""}</button>`;
+  return `<button class="row" data-song="${esc(s._key)}"><div class="t"><b>${esc(s.title)}</b><span>${sub}</span>${s.other.length ? `<em>${esc(s.other.map(o => o.lang).join(" · "))}</em>` : ""}</div>${favs.has(s._key) ? '<span class="star">★</span>' : ""}${musOf(s)}</button>`;
 }
 function renderList(){
   setTop("Song Leader Ministry", `${SONGS.length} cantique${SONGS.length > 1 ? "s" : ""}`, false);
@@ -366,7 +370,7 @@ function renderSel(id){
   $("#back").style.display = "grid";
   let html = `<div class="sel-actions"><button class="btn" id="addSongs">+ Ajouter des cantiques</button><button class="btn ghost" id="renSel">Renommer</button><button class="btn danger" id="delSel">Supprimer</button></div>`;
   html += sel.songs.length ? sel.songs.map((k, i) => { const s = BYID[k];
-    return `<div class="srow"><span class="num">${i + 1}</span><button class="go" data-song="${esc(k)}" data-sel="${esc(id)}"><b>${esc(s.title)}</b><span>${esc(firstLine(s))}</span></button>
+    return `<div class="srow"><span class="num">${i + 1}</span><button class="go" data-song="${esc(k)}" data-sel="${esc(id)}"><b>${esc(s.title)}</b><span>${esc(firstLine(s))}</span></button>${musOf(s)}
       <div class="ed"><button data-mv="${i}" data-d="-1" aria-label="Monter">↑</button><button data-mv="${i}" data-d="1" aria-label="Descendre">↓</button><button data-rm="${i}" aria-label="Retirer">✕</button></div></div>` }).join("")
     : `<div class="empty">Cette sélection est vide.<br>Touchez « Ajouter des cantiques ».</div>`;
   view.innerHTML = html;
@@ -523,7 +527,16 @@ async function checkUpdate(){
 function setAud(a, rerender){
   if (!a || !a.items) return;
   AUD = a;
-  if (rerender && SONGS.length && location.hash.startsWith("#song/") && !($("#paudio") && !$("#paudio").paused)) route();
+  if (!rerender || !SONGS.length) return;
+  if (location.hash.startsWith("#song/")){ if (!($("#paudio") && !$("#paudio").paused)) route(); return }
+  // listes : ajouter/retirer l'icône sans redessiner (garde la position de défilement)
+  view.querySelectorAll(".row[data-song], .srow .go[data-song]").forEach(el => {
+    const s = BYID[el.dataset.song]; if (!s) return;
+    const host = el.classList.contains("row") ? el : el.parentNode;
+    const cur = host.querySelector(":scope > .mus"), has = audiosOf(s).length > 0;
+    if (has && !cur){ if (host === el) el.insertAdjacentHTML("beforeend", MUS); else el.insertAdjacentHTML("afterend", MUS) }
+    if (!has && cur) cur.remove();
+  });
 }
 async function loadAudios(){
   let bundled = null, cached = store.get("aud", null);
