@@ -1787,9 +1787,15 @@ ID : C0356
 Alléluia (3x), louons le Seigneur (2x)\
 Le monde derrière moi (3x), louons le Seigneur
 
+Nous montons les marches…\
+Satan est tombé…
+
 **English**\
 Hallelujah (3x), let's praise the Lord (2x)\
 No more turning back (3x), let's praise the Lord
+
+We are going up…\
+Satan is falling down…
 
 ## He's coming down
 
@@ -1803,7 +1809,7 @@ Pour chercher Sa volonté\
 Le Saint-Esprit descend pour nous bénir
 
 **English**\
-It's coming down, down, down (2x)\
+He's coming down, down, down (2x)\
 The Spirit of the Lord is coming down\
 When the Saints begin to pray\
 For the Lord to have His way\

@@ -1,5 +1,5 @@
 {
-  "version": "20261121135731",
+  "version": "20261121143152",
   "base": "https://audios.songleaderministry.org",
   "items": {
     "C0001": [
@@ -398,6 +398,12 @@
         "l": "Bellomo Sr"
       }
     ],
+    "C0330": [
+      {
+        "f": "C0330_S. Oliviere.mp3",
+        "l": "S. Oliviere"
+      }
+    ],
     "C0339": [
       {
         "f": "C0339_Joe Bellomo.mp3",
@@ -468,6 +474,16 @@
       {
         "f": "C0392_Joe Bellomo (EN+ES).mp3",
         "l": "Joe Bellomo (EN+ES)"
+      }
+    ],
+    "C0396": [
+      {
+        "f": "C0396_D. Ciccone.mp3",
+        "l": "D. Ciccone"
+      },
+      {
+        "f": "C0396_Fr Firmin.mp3",
+        "l": "Fr Firmin"
       }
     ],
     "C0397": [
@@ -558,6 +574,10 @@
       {
         "f": "C0767_Inconnu (FR).mp3",
         "l": "Inconnu (FR)"
+      },
+      {
+        "f": "C0767_S. Oliviere.mp3",
+        "l": "S. Oliviere"
       }
     ]
   }
