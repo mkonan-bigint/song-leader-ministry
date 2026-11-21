@@ -1841,6 +1841,12 @@ He's the mighty one of Israel (2x)\
 His voice shall be heard, In the power of His Word\
 The mighty one of Israel
 
+**Espagnol**\
+Él es el Poderoso de Israel\
+El Poderoso de Israel\
+Su voz se oirá, nadie Lo detendrá\
+Al Poderoso de Israel
+
 ## Healing rain
 
 ID : C0385
@@ -2100,12 +2106,23 @@ I feel Jesus, In this place
 ID : C0440
 
 **Français**\
-Oh je L'aime, oui je L'aime\
+Refrain\
+Je L'aime, oui je L'aime\
 Car Il m'a tant aimé\
 Et Il a acquis mon salut\
 À Golgotha
 
 **English**\
+Once I was bound\
+But now I am set free\
+Once I was blind\
+But now the light I see\
+Once I was dead\
+But now in Christ I live\
+To tell the world around\
+The peace that He does give
+
+Refrain\
 I love Him (2x)\
 Because He first loved me\
 And purchased my salvation\
@@ -2229,10 +2246,10 @@ My God can do anything for me
 ID : C0068
 
 **Français**\
-&#91;Seigneur, notre Dieu, tu es glorieux.\
+Seigneur, notre Dieu, tu es glorieux.\
 Nous t'adorons et nous t'aimons.\
 Que ton règne s'établisse sur la terre,\
-Que tes œuvres proclament ta grandeur] (2x)
+Que tes œuvres proclament ta grandeur
 
 Refrain\
 Nous te bénissons, Dieu tout puissant,\
@@ -2241,10 +2258,10 @@ Nous te bénissons, Dieu tout puissant,\
 Ton règne est éternel.
 
 **English**\
-&#91;Father in Heaven how we love You\
+Father in Heaven how we love You\
 We lift Your Name in all the earth\
 May Your Kingdom be established in our praises\
-As Your people declare Your mighty works] (2x)
+As Your people declare Your mighty works
 
 Refrain\
 Blessed be the Lord God Almighty\

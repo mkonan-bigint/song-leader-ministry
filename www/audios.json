@@ -1,5 +1,5 @@
 {
-  "version": "20261121095615",
+  "version": "20261121135731",
   "base": "https://audios.songleaderministry.org",
   "items": {
     "C0001": [
@@ -60,6 +60,28 @@
         "l": "Moses O."
       }
     ],
+    "C0036": [
+      {
+        "f": "C0036_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      }
+    ],
+    "C0037": [
+      {
+        "f": "C0037_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      },
+      {
+        "f": "C0037_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0047": [
+      {
+        "f": "C0047_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      }
+    ],
     "C0051": [
       {
         "f": "C0051_Joe Bellomo.mp3",
@@ -84,6 +106,10 @@
       {
         "f": "C0068_Inconnu (EN).mp3",
         "l": "Inconnu (EN)"
+      },
+      {
+        "f": "C0068_Moses O..mp3",
+        "l": "Moses O."
       }
     ],
     "C0070": [
@@ -284,6 +310,12 @@
         "l": "Bellomo Sr"
       }
     ],
+    "C0253": [
+      {
+        "f": "C0253_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
     "C0258": [
       {
         "f": "C0258_Joe Bellomo.mp3",
@@ -348,16 +380,184 @@
         "l": "Bellomo Sr"
       }
     ],
+    "C0309": [
+      {
+        "f": "C0309_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      }
+    ],
+    "C0311": [
+      {
+        "f": "C0311_Chorale NY.mp3",
+        "l": "Chorale NY"
+      }
+    ],
     "C0327": [
       {
         "f": "C0327_Bellomo Sr.mp3",
         "l": "Bellomo Sr"
       }
     ],
+    "C0339": [
+      {
+        "f": "C0339_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0344": [
+      {
+        "f": "C0344_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0356": [
+      {
+        "f": "C0356_Moses O. + C. Anudu.mp3",
+        "l": "Moses O. + C. Anudu"
+      }
+    ],
+    "C0373": [
+      {
+        "f": "C0373_D. Ciccone.mp3",
+        "l": "D. Ciccone"
+      },
+      {
+        "f": "C0373_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0374": [
+      {
+        "f": "C0374_Joel Chavez + Joe Bellomo.mp3",
+        "l": "Joel Chavez + Joe Bellomo"
+      }
+    ],
+    "C0377": [
+      {
+        "f": "C0377_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      },
+      {
+        "f": "C0377_Joe Bellomo (EN+ES).mp3",
+        "l": "Joe Bellomo (EN+ES)"
+      },
+      {
+        "f": "C0377_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0380": [
+      {
+        "f": "C0380_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0385": [
+      {
+        "f": "C0385_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0388": [
+      {
+        "f": "C0388_C. Anudu.mp3",
+        "l": "C. Anudu"
+      }
+    ],
+    "C0392": [
+      {
+        "f": "C0392_Joe Bellomo (EN+ES).mp3",
+        "l": "Joe Bellomo (EN+ES)"
+      }
+    ],
+    "C0397": [
+      {
+        "f": "C0397_A. O'Brien.mp3",
+        "l": "A. O'Brien"
+      },
+      {
+        "f": "C0397_Fr François.mp3",
+        "l": "Fr François"
+      }
+    ],
+    "C0408": [
+      {
+        "f": "C0408_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0413": [
+      {
+        "f": "C0413_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0414": [
+      {
+        "f": "C0414_Kenya.mp3",
+        "l": "Kenya"
+      }
+    ],
     "C0415": [
       {
         "f": "C0415_D. Ciccone.mp3",
         "l": "D. Ciccone"
+      }
+    ],
+    "C0416": [
+      {
+        "f": "C0416_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      }
+    ],
+    "C0419": [
+      {
+        "f": "C0419_C. Anudu.mp3",
+        "l": "C. Anudu"
+      },
+      {
+        "f": "C0419_Fr Firmin.mp3",
+        "l": "Fr Firmin"
+      }
+    ],
+    "C0420": [
+      {
+        "f": "C0420_Chorale NY (EN-FR).mp3",
+        "l": "Chorale NY (EN-FR)"
+      },
+      {
+        "f": "C0420_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0423": [
+      {
+        "f": "C0423_Joel Chavez.mp3",
+        "l": "Joel Chavez"
+      }
+    ],
+    "C0440": [
+      {
+        "f": "C0440_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      }
+    ],
+    "C0441": [
+      {
+        "f": "C0441_Chorale NY.mp3",
+        "l": "Chorale NY"
+      }
+    ],
+    "C0449": [
+      {
+        "f": "C0449_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0767": [
+      {
+        "f": "C0767_Inconnu (FR).mp3",
+        "l": "Inconnu (FR)"
       }
     ]
   }

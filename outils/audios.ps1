@@ -28,7 +28,7 @@ Get-ChildItem -Path $dir -File |
   ForEach-Object {
     if ($_.BaseName -match '^([Cc]\d{4})(?:[_-](.+))?$') {
       $id  = $Matches[1].ToUpper()
-      $lbl = if ($Matches[2]) { ($Matches[2] -replace '[_-]+', ' ').Trim() } else { "Audio" }
+      $lbl = if ($Matches[2]) { ($Matches[2] -replace '_+', ' ').Trim() } else { "Audio" }
       if (-not $items.Contains($id)) { $items[$id] = New-Object System.Collections.ArrayList }
       [void]$items[$id].Add([ordered]@{ f = $_.Name; l = $lbl })
       $nb++
