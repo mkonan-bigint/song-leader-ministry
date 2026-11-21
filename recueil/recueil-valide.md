@@ -1,6 +1,6 @@
 # Recueil validé – Song Leader Ministry
 
-Nov 20, 2026 · @Michael
+Nov 21, 2026 · @Michael
 
 Cantiques au statut « Validé » dans le recueil de travail, classés par ordre alphabétique. Chaque cantique garde son ID (feuille Base de chants) pour faire le lien avec l'application.
 
@@ -52,7 +52,7 @@ To God be the glory\
 For the things He has done
 
 Just let me live my life,\
-Let it pleasing, Lord to Thee,\
+Let it be pleasing, Lord to Thee,\
 And if I gain any praise,\
 Let it go to Calvary.
 
@@ -123,21 +123,75 @@ There's a mighty Revelation\
 Of the Coming of the Lord\
 As the waters cover the sea
 
+**Espagnol**\
+Por todo lugar\
+El Espíritu se mueve\
+Por todo lugar\
+Como Joel profetizó\
+Por todo lugar\
+Hay una gran revelación\
+De la gloria del Señor\
+Como las aguas cubren el mar
+
+Por todo lugar\
+El Espíritu se mueve\
+Dentro de mi ser\
+Se mueve con grande poder\
+Dentro de mi ser\
+Revelándome los truenos\
+La venida del Señor\
+Mientras el mundo llega a su fin
+
 ## Alléluia, à Toi la gloire
 
 ID : C0023
 
 **Français**\
+Refrain\
 Alléluia, à Toi la gloire\
 Alléluia, amen\
 Alléluia, à Toi la gloire\
 Réveille-nous encore
 
 **English**\
+1\. We praise Thee, O God\
+For the Son of Thy love\
+For Jesus who died\
+And is now gone above
+
+Refrain\
 Hallelujah, Thine the glory\
 Hallelujah amen\
 Hallelujah, Thine the glory\
 Revive us again
+
+2\. The seed has been sown\
+But the times, they were dry\
+Yet Jesus is coming\
+To revive them by and by
+
+Refrain
+
+3\. The signs now declare\
+Abundant rain shall pour out\
+It's part of God's mystery\
+And it started with a shout
+
+Refrain
+
+4\. His voice now proclaims\
+My seed shall have life\
+She will bathe in my love\
+Without envy and without strife
+
+Refrain
+
+5\. Soon Christ will descend\
+A loud trumpet, it shall blow\
+With great signs of adoption\
+His glory He's gonna show
+
+Refrain
 
 ## Alléluia, Alléluia
 
@@ -379,6 +433,16 @@ It was God who devised the plan\
 That in all things as a man\
 He could live, so He could give\
 Give us the life behind the name
+
+**Espagnol**\
+Es la vida tras el nombre\
+Que hace que el diablo tiemble\
+Es la vida tras el nombre\
+Que al corazón convierte\
+Fue el hermoso, grande Dios\
+A la tierra descender\
+Y morir para ofrecer\
+La vida que en su nombre está
 
 ## C'est le Sauveur de mon âme
 
@@ -634,6 +698,10 @@ Jésus reviendra me chercher…
 Sing Hallelujah to the Lord (2x)\
 Sing Hallelujah (3x) to the Lord
 
+Jesus is risen from the dead…\
+Jesus is here now, in our midst…\
+Jesus is coming back for His bride…
+
 ## Chantons Amen, Amen, Amen
 
 ID : C0151
@@ -720,7 +788,7 @@ Il est réel pour moi
 
 **English**\
 Real, real, Christ is so real to me\
-I love Him, He gives me victory\
+I love Him, He gives me the victory\
 Many people doubt Him\
 But I can't live without Him\
 That is why I love Him so\
@@ -792,7 +860,7 @@ ID : C0173
 Venez avec moi\
 À la maison de mon Père (3x)…\
 Venez avec moi à la maison de mon Père\
-Il y a la joie, joie, joie
+Où il y a la joie, joie, joie
 
 Plus de maladie,\
 À la maison de mon Père (3x)…
@@ -807,7 +875,7 @@ Jésus sera là\
 Come and go with me\
 To my Father's house (3x)\
 Come and go with me to my Father's house\
-There is joy, joy, joy
+Where there's peace, sweet peace
 
 I'm on my way up there\
 To my Father's house (3x)…
@@ -1424,7 +1492,7 @@ Through the holy place\
 Past the brazen altar\
 Lord I want to see your face\
 Take me past the crowds of people\
-And the priests who sing your praise\
+And the priests that sing your praise\
 I hunger and thirst for your righteousness\
 But it's only found in one place
 
@@ -1632,27 +1700,6 @@ Chantez, louez Jésus
 **English**\
 Glory, glory, hallelujah (3x)\
 His truth is marching on
-
-## Glory Glory Hallelujah (2)
-
-ID : C0330
-
-**Français**\
-Je chante gloire, alléluia\
-Depuis qu'Il m'a libéré\
-Je chante gloire, alléluia\
-Depuis qu'Il m'a libéré
-
-Je me sens bien, tellement bien…
-
-**English**\
-Glory, Glory hallelujah\
-Since I laid my burdens down\
-Glory, Glory hallelujah\
-Since I laid my burdens down
-
-Yes I'm feeling so much better…\
-Yes I'm feeling just like shouting…
 
 ## Going home
 
@@ -2105,6 +2152,27 @@ He's glorious, glorious (2x)
 **Espagnol**\
 Maravilloso, maravilloso (2x)\
 Es glorioso, glorioso (2x)
+
+## Je chante gloire, Alléluia
+
+ID : C0330
+
+**Français**\
+Je chante gloire, alléluia\
+Depuis qu'Il m'a libéré\
+Je chante gloire, alléluia\
+Depuis qu'Il m'a libéré
+
+Je me sens bien, tellement bien…
+
+**English**\
+Glory, Glory hallelujah\
+Since I laid my burdens down\
+Glory, Glory hallelujah\
+Since I laid my burdens down
+
+Yes I'm feeling so much better…\
+Yes I'm feeling just like shouting…
 
 ## Jésus est vivant
 

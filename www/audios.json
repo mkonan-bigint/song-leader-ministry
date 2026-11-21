@@ -1,5 +1,5 @@
 {
-  "version": "20261121065802",
+  "version": "20261121095615",
   "base": "https://audios.songleaderministry.org",
   "items": {
     "C0001": [
@@ -30,10 +30,112 @@
         "l": "Londres"
       }
     ],
+    "C0021": [
+      {
+        "f": "C0021_Espagnol.mp3",
+        "l": "Espagnol"
+      },
+      {
+        "f": "C0021_Jeremy I. + N. Goyco.mp3",
+        "l": "Jeremy I. + N. Goyco"
+      },
+      {
+        "f": "C0021_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0023": [
+      {
+        "f": "C0023_Chorale NY.mp3",
+        "l": "Chorale NY"
+      },
+      {
+        "f": "C0023_D. Ciccone.mp3",
+        "l": "D. Ciccone"
+      }
+    ],
+    "C0026": [
+      {
+        "f": "C0026_Moses O..mp3",
+        "l": "Moses O."
+      }
+    ],
+    "C0051": [
+      {
+        "f": "C0051_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0064": [
+      {
+        "f": "C0064_Convention Cefn Lea.mp3",
+        "l": "Convention Cefn Lea"
+      },
+      {
+        "f": "C0064_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      },
+      {
+        "f": "C0064_Joel Chavez + Joe Bellomo.mp3",
+        "l": "Joel Chavez + Joe Bellomo"
+      }
+    ],
     "C0068": [
       {
-        "f": "C0068_Inconnu (EN).MP3",
+        "f": "C0068_Inconnu (EN).mp3",
         "l": "Inconnu (EN)"
+      }
+    ],
+    "C0070": [
+      {
+        "f": "C0070_Moses O..mp3",
+        "l": "Moses O."
+      }
+    ],
+    "C0075": [
+      {
+        "f": "C0075_Jeremy I..mp3",
+        "l": "Jeremy I."
+      }
+    ],
+    "C0086": [
+      {
+        "f": "C0086_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0099": [
+      {
+        "f": "C0099_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      },
+      {
+        "f": "C0099_Espagnol.mp3",
+        "l": "Espagnol"
+      }
+    ],
+    "C0104": [
+      {
+        "f": "C0104_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      },
+      {
+        "f": "C0104_Samuele P..mp3",
+        "l": "Samuele P."
+      }
+    ],
+    "C0111": [
+      {
+        "f": "C0111_Convention Cefn Lea.mp3",
+        "l": "Convention Cefn Lea"
+      },
+      {
+        "f": "C0111_Joe Bellomo 2.mp3",
+        "l": "Joe Bellomo 2"
+      },
+      {
+        "f": "C0111_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
       }
     ],
     "C0142": [
@@ -53,6 +155,12 @@
       },
       {
         "f": "C0146_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0151": [
+      {
+        "f": "C0151_Joe Bellomo.mp3",
         "l": "Joe Bellomo"
       }
     ],
@@ -130,9 +238,21 @@
         "l": "Bellomo Sr"
       }
     ],
+    "C0210": [
+      {
+        "f": "C0210_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
     "C0211": [
       {
         "f": "C0211_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0225": [
+      {
+        "f": "C0225_Joe Bellomo.mp3",
         "l": "Joe Bellomo"
       }
     ],
@@ -148,10 +268,90 @@
         "l": "Joe Bellomo"
       }
     ],
+    "C0241": [
+      {
+        "f": "C0241_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0242": [
+      {
+        "f": "C0242_Bellomo Sr 2.mp3",
+        "l": "Bellomo Sr 2"
+      },
+      {
+        "f": "C0242_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      }
+    ],
+    "C0258": [
+      {
+        "f": "C0258_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0264": [
+      {
+        "f": "C0264_Joe Bellomo (Full).mp3",
+        "l": "Joe Bellomo (Full)"
+      },
+      {
+        "f": "C0264_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
     "C0273": [
       {
         "f": "C0273_Joe Bellomo.mp3",
         "l": "Joe Bellomo"
+      }
+    ],
+    "C0280": [
+      {
+        "f": "C0280_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      }
+    ],
+    "C0282": [
+      {
+        "f": "C0282_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0286": [
+      {
+        "f": "C0286_Joe Bellomo + Bellomo Sr.mp3",
+        "l": "Joe Bellomo + Bellomo Sr"
+      }
+    ],
+    "C0291": [
+      {
+        "f": "C0291_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      }
+    ],
+    "C0300": [
+      {
+        "f": "C0300_Joe Bellomo.mp3",
+        "l": "Joe Bellomo"
+      }
+    ],
+    "C0301": [
+      {
+        "f": "C0301_Samuele P..mp3",
+        "l": "Samuele P."
+      }
+    ],
+    "C0308": [
+      {
+        "f": "C0308_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
+      }
+    ],
+    "C0327": [
+      {
+        "f": "C0327_Bellomo Sr.mp3",
+        "l": "Bellomo Sr"
       }
     ],
     "C0415": [
