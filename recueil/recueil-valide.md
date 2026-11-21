@@ -2160,6 +2160,93 @@ With Jesus my Lord I'm happy today\
 He has taken all my sins away\
 And that's why I'm happy today
 
+## I'm just nobody
+
+ID : C0450
+
+**English**\
+I'm just a nobody\
+Trying to tell everybody\
+About somebody\
+Who can save anybody\
+He can save, save, save your soul (2x)
+
+## I'm pressing on
+
+ID : C0453
+
+**Français**\
+Je marche en avant de tout mon cœur (2x)\
+Je marche en avant vers cette cité\
+Que le Seigneur m’a préparée
+
+Je rentre à la maison (2x)\
+Le diable se déchaîne de tous côtés\
+Mais je rentre à la maison
+
+**English**\
+I'm pressing on, on, with all that I know (2x)\
+I'm pressing on to that city\
+Where a mansion is prepared for me
+
+I feel like going home (2x)\
+Though trials may come on every hand\
+I feel like going home
+
+## I need Thee
+
+ID : C0455
+
+**English**\
+I need Thee, O I need Thee\
+Every hour I need Thee\
+O bless me now, my Savior\
+I come to Thee
+
+## I've got joy unspeakable
+
+ID : C0464
+
+**English**\
+I got joy unspeakable and full of glory\
+Full of glory, full of glory\
+I got joy unspeakable and full of glory\
+And the half has never yet been told
+
+## Il est la lumière du monde
+
+ID : C0492
+
+**Français**\
+Il est la lumière du monde\
+Quand Il fait briller Sa lumière\
+Il dissipe les forces des ténèbres\
+Il est la lumière du monde\
+Jésus est la lumière du monde
+
+**English**\
+He's the light of the World\
+When He shines His light upon us\
+He removes the power of darkness\
+He's the light of the World\
+Jesus is the light of the World
+
+## Il est là tout le temps
+
+ID : C0493
+
+**Français**\
+Il est là tout le temps (2x)\
+Lorsque tu penses que tes problèmes\
+Sont si lourds à supporter\
+(Sache-le) Il est là, Il est là tout le temps
+
+**English**\
+He's there all the time (2x)\
+When it seems like all your problems\
+They seem more than you can bear\
+(I know) He's there, He's there all the time
+
 ## Il est merveilleux
 
 ID : C0380
@@ -2175,6 +2262,156 @@ He's glorious, glorious (2x)
 **Espagnol**\
 Maravilloso, maravilloso (2x)\
 Es glorioso, glorioso (2x)
+
+## Il est mon bonheur
+
+ID : C0498
+
+**Français**\
+1\. J'ai de la joie dans mon cœur,\
+Quand on me dit : Allons à la maison de l'Éternel\
+Je dirai : Voici le Jour que l’Éternel a fait\
+Je me réjouis, car Il est mon bonheur
+
+Refrain\
+Il est mon bonheur (2x)\
+Je me réjouis, car Il est mon bonheur
+
+2\. J'entrerai dans ses parvis avec la joie dans mon cœur\
+J’entrerai dans ses parvis avec louange\
+Je dirai : Voici le Jour que l’Éternel a fait\
+Je me réjouis, car Il est mon bonheur
+
+Refrain\
+Il est mon bonheur (2x)\
+Je me réjouis, car Il est mon bonheur\
+Il est ma victoire (2x)\
+Je me réjouis, car Il est ma victoire\
+Jésus est vainqueur (2x)\
+Je me réjouis, car Jésus est vainqueur\
+Satan est terrassé (2x)\
+Je me réjouis, car Satan est terrassé\
+L'Éternel est bon (2x)\
+Je me réjouis, car l'Éternel est bon
+
+**English**\
+1\. I will enter His gates with thanksgiving in my heart\
+I will enter His courts with praise\
+I will say: This is the day that the Lord has made\
+I will rejoice, for He has made me glad
+
+Refrain\
+He has made me glad (2x)\
+I will rejoice, for He has made me glad\
+He has made me glad (2x)\
+I will rejoice, for He has made me glad
+
+## Il est tout autour de moi
+
+ID : C0500
+
+**Français**\
+Il est tout autour de moi\
+Il me garde vivant (3x)\
+Il est tout autour de moi\
+Il me garde vivant\
+Jésus me garde vivant
+
+C'est le Saint Esprit et le feu\
+Il me garde vivant (3x)\
+C'est le Saint Esprit et le feu\
+Il me garde vivant\
+Jésus me garde vivant
+
+**English**\
+He's all over me\
+He's keeping me alive (3x)\
+He's all over me\
+And He's keeping me alive\
+Jesus is keeping me alive
+
+He's the Holy Ghost and fire\
+He's keeping me alive (3x)\
+He's the Holy Ghost and fire\
+He’s keeping me alive\
+Jesus is keeping me alive
+
+## Il m'a sorti du fond du péché
+
+ID : C0507
+
+**Français**\
+Il m'a sorti du fond du péché\
+Il a mis mes pieds sur un roc parfait\
+Il met maintenant dans mon cœur un chant\
+Un chant de louange, Alléluia
+
+**English**\
+He brought me out of the miry clay\
+He placed my feet on the rock to stay\
+He put a song in my heart today\
+A song of praise, Hallelujah
+
+## Il m'a touché
+
+ID : C0508
+
+**Français**\
+Refrain\
+Il m'a touché, oh Il m'a touché\
+Et la joie inonde mon âme\
+Quelque chose s'est passé en moi, Et je sais\
+Qu'il m'a touché et m'a libéré
+
+**English**\
+Shackled by a heavy burden\
+'Neath a load of guilt and shame\
+Then the hand of Jesus touched me\
+And now I am no longer the same
+
+Refrain\
+He touched me, oh, He touched me\
+And oh, the joy that floods my soul\
+Something happened, and now I know\
+He touched me, and made me whole
+
+## Il n'y a personne comme Jésus
+
+ID : C0513
+
+**Français**\
+Il n'y a personne, personne comme Jésus (2x)\
+Qui donna sa vie pour libérer mon âme\
+Il n'y a personne, personne comme Jésus
+
+**English**\
+There is no one, no one like Jesus (2x)\
+Who died for me, just to set my spirit free\
+There is no one, no one like Jesus
+
+## Il ne faillit jamais
+
+ID : C0516
+
+**Français**\
+Il ne faillit jamais (2x)\
+Jésus Christ ne faillit jamais\
+Tous les jours de ma vie\
+Je veux le répéter\
+Jésus Christ ne faillit jamais
+
+Et même si je faillis\
+Il ne faillit jamais\
+Jésus Christ ne faillit jamais\
+Tous les jours de ma vie\
+Je veux le répéter\
+Jésus Christ ne faillit jamais
+
+**English**\
+He never failed me yet (2x)\
+Jesus Christ never failed me yet\
+And everywhere I go, I want the world to know\
+Jesus Christ never failed me yet
 
 ## Je chante gloire, Alléluia
 
@@ -2444,3 +2681,24 @@ To thy precious bleeding side
 By the power of your grace divine\
 Let my soul look up with a steadfast hope\
 And my will be lost in Thine
+
+## Tu es merveilleux
+
+ID : C0497
+
+**Français**\
+Tu es merveilleux\
+Ta face, je désire voir\
+Quand Ton regard se pose sur moi\
+Ta grâce abonde en moi
+
+**English**\
+1\. Lord You're beautiful\
+Your face is all I see\
+And when Your eyes are upon mine\
+Your grace abounds to me
+
+2\. Lord please light the fire\
+That once burned bright and clear\
+Replace the lamp of my first love\
+That burns with Holy fear
