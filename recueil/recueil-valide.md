@@ -2003,6 +2003,20 @@ I'm on my way to heaven, shouting victory (3x)\
 Singing Glory hallelujah\
 Jesus set me free
 
+## I am so needy Lord
+
+ID : C0577
+
+**English**\
+I am so needy Lord\
+So needy of You\
+I am so needy Lord\
+To be more like You\
+Shear all my rights away\
+In this world of sin\
+I am so needy Lord\
+Make me pure within
+
 ## I beseech thee Lord
 
 ID : C0414
@@ -2413,6 +2427,363 @@ Jesus Christ never failed me yet\
 And everywhere I go, I want the world to know\
 Jesus Christ never failed me yet
 
+## Il s'amène vers moi
+
+ID : C0519
+
+**Français**\
+Il s'amène vers moi (2x)\
+Le réveil des Sept Tonnerres\
+Il s'amène vers moi\
+Si seulement tu peux le croire\
+Et juste obéir\
+Le réveil des Sept Tonnerres\
+Il s'amène vers moi
+
+**English**\
+It's coming this way (2x)\
+Seven thunders revival\
+Is coming this way\
+If people believe it\
+Just trust and obey\
+Seven thunders revival\
+Is coming this way
+
+## Il viendra te sauver
+
+ID : C0522
+
+**Français**\
+1\. Il viendra te sauver (2x)\
+Dites à l'opprimé\
+Ton Dieu viendra sûrement\
+Il viendra te sauver
+
+2\. Il viendra te sauver (2x)\
+Tourne tes regards vers Lui\
+Il te relèvera\
+Il viendra te sauver
+
+**English**\
+1\. He will come and save you (2x)\
+Say to the weary one\
+Your God will surely come\
+He will come and save you
+
+2\. He will come and save you (2x)\
+Lift up your eyes to Him\
+You will arise again\
+He will come and save you
+
+## Il y a espoir dans la présence du Seigneur
+
+ID : C0527
+
+**Français**\
+Il y a espoir dans la présence du Seigneur (2x)\
+Cherchant sa face, Il est là dans ce lieu\
+Il y a espoir dans la présence du Seigneur
+
+Il y a puissance dans la présence du Seigneur…\
+Rien n'est semblable à la présence du Seigneur…\
+Nous sommes guéris dans la présence du Seigneur…
+
+**English**\
+There is power in the presence of the Lord (2x)\
+As we seek his face, he is here in this place\
+There is power in the presence of the Lord
+
+There is nothing like the presence of the Lord…\
+There is freedom in the presence of the Lord…\
+There is healing in the presence of the Lord…
+
+## Il y a puissance dans le Nom de Jésus
+
+ID : C0530
+
+**Français**\
+Il y a puissance dans le Nom de Jésus (3x)\
+Pour briser les chaînes, briser les chaînes\
+Briser les chaînes\
+Pour briser les chaînes, briser les chaînes\
+Briser les chaînes
+
+Il y a une armée qui s'élève (3x)\
+Pour briser les chaînes, briser les chaînes\
+Briser les chaînes\
+Pour briser les chaînes, briser les chaînes\
+Briser les chaînes
+
+Il y a une épouse qui s'élève (3x)\
+Pour stopper la mort, la maladie\
+Et le péché\
+Pour stopper la mort, la maladie\
+Et le péché
+
+**English**\
+There is power in the name of Jesus (3x)\
+To break every chain, break every chain\
+Break every chain\
+To break every chain, break every chain\
+Break every chain
+
+There is an army rising up (3x)\
+To break every chain, break every chain\
+Break every chain\
+To break every chain, break every chain\
+Break every chain
+
+## Il y a quelque chose en l'air
+
+ID : C0536
+
+**Français**\
+Il y a quelque chose dans l'air\
+Une certaine atmosphère\
+C'est la puissance de résurrection\
+Qui agit en cette saison\
+Afin que Christ soit glorifié
+
+Je glorifierai le Nom du Seigneur\
+Je glorifierai Son Nom\
+La puissance de résurrection\
+Agit en cette saison\
+Afin que Christ soit glorifié
+
+**English**\
+There's some feeling in the air,\
+That God is everywhere\
+And His resurrection power\
+Is moving in this hour\
+That Jesus might be glorified
+
+I will glorify the Name of the Lord\
+I will glorify His Name\
+For the resurrection power\
+Is moving in this hour\
+That Jesus might be glorified
+
+## Il y a un chemin pour la gloire
+
+ID : C0537
+
+**Français**
+
+Refrain\
+Il y a un chemin pour la gloire\
+Chemin de sainteté\
+Où s'avancent les rachetés\
+Un seul chemin pour la gloire\
+Nous ramène dans la présence du Roi
+
+**English**\
+If you're not walking\
+Start while I'm talking\
+Walking up the King's highway
+
+There's joy in knowing\
+With Him I'm going\
+Walking up the King's highway
+
+Refrain\
+It's a high way to Heaven\
+None can walk up there\
+But the pure in heart\
+It's a high way to Heaven\
+Walking up the King's high way
+
+## Il y a une fontaine
+
+ID : C0538
+
+**Français**\
+Il y a une fontaine remplie du Sang\
+Tiré des veines d’Emmanuel\
+Les pécheurs plongés dans ce flot\
+Perdront toutes leurs souillures (3x)\
+Les pécheurs plongés dans ce flot\
+Perdront toutes leurs souillures
+
+**English**\
+There is a fountain filled with blood\
+Drawn from Immanuel's veins\
+And sinners, plunged beneath that flood\
+Lose all their guilty stains (3x)\
+And sinners, plunged beneath that flood\
+Lose all their guilty stains
+
+## Il y a une rivière
+
+ID : C0539
+
+**Français**\
+Il y a une rivière\
+Qui coule des profondeurs\
+Il y a une fontaine\
+Libérant une âme du péché\
+Viens donc à cette eau\
+Elle coule en abondance\
+Il y a une rivière\
+Qui ne tarira jamais
+
+**English**\
+There is a river\
+That flows from deep within\
+There is a fountain\
+That frees a soul from sin\
+Come to these waters\
+There is a vast supply\
+There is a river\
+That never shall run dry
+
+## It's coming Hallelujah
+
+ID : C0559
+
+**Français**\
+Elle arrive, alléluia\
+C'est l'arche qui revient à nouveau\
+Que le peuple de Dieu pousse des cris\
+C'est l'arche qui revient à nouveau
+
+**English**\
+It’s coming, Hallelujah\
+The ark is coming down the road\
+God's people have the right to shout\
+The ark is coming down the road
+
+## J'ai décidé de suivre Jésus
+
+ID : C0565
+
+**Français**\
+J'ai décidé de suivre Jésus (3x)\
+Sans reculer (2x)
+
+La croix devant moi, le monde derrière moi (3x)\
+Sans reculer (2x)
+
+Prenez le monde, donnez-moi Jésus (3x)\
+Sans reculer (2x)
+
+**English**\
+I have decided to follow Jesus (3x)\
+No turning back (2x)
+
+The cross before me, the world behind me (3x)\
+No turning back (2x)
+
+Take this whole world, but give me Jesus (3x)\
+No turning back (2x)
+
+## J'ai été racheté
+
+ID : C0568
+
+**Français**\
+1\. J'ai été racheté par le sang de l'Agneau (3x)\
+Saint et sanctifié, je suis\
+Tous mes péchés sont sous le sang\
+J'ai été racheté
+
+2\. Si tu veux de l'amour, et encore plus (3x)\
+Chante : alléluia, gloire à Dieu\
+Tous mes péchés sont sous le sang\
+J'ai été racheté
+
+3\. Tu peux parler de moi, dire ce que tu veux (3x)\
+Je parlerai de toi sur mes genoux\
+Tous mes péchés sont sous le sang\
+J'ai été racheté
+
+4\. Et ce n'est pas tout, il y a encore plus (3x)\
+À la rivière, je fus baptisé\
+Tous mes péchés sont sous le sang\
+J'ai été racheté
+
+5\. Satan est furieux, mais je suis heureux (3x)\
+Il a perdu un prisonnier\
+Tous mes péchés sont sous le sang\
+J'ai été racheté
+
+**English**\
+I've been redeemed by the blood of the lamb (3x)\
+Saved and sanctified I am\
+All my sins are under the blood\
+I've been redeemed
+
+2\. If you want love and you want more (3x)\
+Shout Hallelujah, Praise the Lord\
+All my sins are under the blood\
+I've been redeemed
+
+3\. You can talk about me all that you please\
+You can talk about me all that you believe\
+You can talk about me all that you please\
+I will talk about you down on my knees\
+All my sins are under the blood\
+I've been redeemed
+
+4\. And that's not all, there's more beside (3x)\
+I've been at the river and I've been baptized\
+All my sins are under the blood\
+I've been redeemed
+
+5\. Now Satan is mad, but I'm so glad (3x)\
+He lost a sinner that he thought he had\
+All my sins are under the blood\
+I've been redeemed
+
+## J'ai l'assurance de mon salut
+
+ID : C0569
+
+**Français**\
+J'ai l'assurance de mon salut\
+Par la présence du Seigneur Jésus\
+Son sang m'a lavé, m'a racheté\
+Et l'Esprit Saint m'a régénéré
+
+Refrain\
+C'est mon histoire, c'est là mon chant\
+Louer mon Sauveur à chaque instant\
+C'est mon histoire, c'est là mon chant\
+Louer mon Sauveur à chaque instant
+
+**English**\
+Blessed assurance, Jesus is mine\
+O, what a foretaste of glory divine\
+Heir of salvation, purchase of God\
+Born of His Spirit, washed in His blood
+
+Refrain\
+This is my story, this is my song\
+Praising my Saviour all the day long\
+This is my story, this is my song\
+Praising my Saviour all the day long
+
+## J'ai la victoire
+
+ID : C0570
+
+**Français**\
+J'ai la victoire (2x)\
+J'ai la victoire quand je loue mon Jésus\
+Satan voudrait bien bloquer mon chemin\
+Mais la victoire m'appartient
+
+## J'ai pris ma décision de servir Dieu
+
+ID : C0574
+
+**Français**\
+J'ai pris ma décision de servir Dieu (3x)\
+Oui, j'ai pris ma décision
+
+**English**\
+I've got my mind made up to serve the Lord (3x)\
+Lord, I've got my mind made up
+
 ## Je chante gloire, Alléluia
 
 ID : C0330
@@ -2433,6 +2804,38 @@ Since I laid my burdens down
 
 Yes I'm feeling so much better…\
 Yes I'm feeling just like shouting…
+
+## Je suis fort
+
+ID : C0531
+
+**Français**\
+1\. Veux-tu briser du péché le pouvoir ?\
+La force est en Christ (2x)\
+Si dans ton cœur tu veux le recevoir\
+La force est dans le Sang de Christ
+
+Refrain\
+Je suis fort, fort\
+Oui plus que vainqueur\
+Par le Sang de Jésus\
+Je suis fort, fort\
+Oui plus que vainqueur\
+Par le Sang de Jésus mon Sauveur
+
+**English**\
+1\. Would you be free from the burden of sin?\
+There's power in the blood (2x)\
+Would you o'er evil a victory win?\
+There's wonderful power in the blood
+
+Refrain\
+There is power, power\
+Wonder-working power\
+In the Blood of the Lamb\
+There is power, power\
+Wonder-working power\
+In the precious Blood of the Lamb
 
 ## Jésus est vivant
 
