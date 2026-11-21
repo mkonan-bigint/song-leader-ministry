@@ -37,17 +37,33 @@ Get-ChildItem -Path $dir -File |
     }
   }
 
+$out  = Join-Path $root "www\audios.json"
 $obj = [ordered]@{
-  version = (Get-Date -Format "yyyyMMddHHmmss")
+  version = "__VERSION__"
   base    = $Base.TrimEnd('/')
   items   = $items
 }
 $json = ConvertTo-Json -InputObject $obj -Depth 6
-$out  = Join-Path $root "www\audios.json"
-[IO.File]::WriteAllText($out, $json, (New-Object System.Text.UTF8Encoding $false))
+
+# Même contenu qu'avant ? On garde le fichier tel quel (pas de nouveau commit inutile).
+$changed = $true
+if (Test-Path $out) {
+  try {
+    $ancien = Get-Content -Path $out -Raw -Encoding UTF8 | ConvertFrom-Json
+    $nouveau = $json | ConvertFrom-Json
+    $a = ConvertTo-Json -InputObject @($ancien.base, $ancien.items) -Depth 6 -Compress
+    $b = ConvertTo-Json -InputObject @($nouveau.base, $nouveau.items) -Depth 6 -Compress
+    if ($a -eq $b) { $changed = $false }
+  } catch { $changed = $true }
+}
+if ($changed) {
+  $json = $json.Replace("__VERSION__", (Get-Date -Format "yyyyMMddHHmmss"))
+  [IO.File]::WriteAllText($out, $json, (New-Object System.Text.UTF8Encoding $false))
+}
 
 Write-Host ""
-Write-Host "audios.json mis à jour : $nb fichier(s) pour $($items.Count) cantique(s)."
+if ($changed) { Write-Host "audios.json mis à jour : $nb fichier(s) pour $($items.Count) cantique(s)." }
+else { Write-Host "audios.json déjà à jour : $nb fichier(s) pour $($items.Count) cantique(s)." }
 Write-Host "Adresse des audios : $($obj.base)"
 if ($ignores.Count) {
   Write-Host ""
