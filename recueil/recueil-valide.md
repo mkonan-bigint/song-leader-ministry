@@ -2784,6 +2784,85 @@ Oui, j'ai pris ma décision
 I've got my mind made up to serve the Lord (3x)\
 Lord, I've got my mind made up
 
+## J'aime la vieille manière
+
+ID : C0590
+
+**Français**\
+J'aime la vieille manière de chanter\
+J'aime la vieille manière\
+J'aime la vieille manière de chanter\
+Prêcher, prier\
+J'aime la vieille manière
+
+Je loue, je loue mon Rédempteur\
+Partout où je vais\
+Amen amen, Amen amen\
+Je loue, je loue mon Rédempteur\
+Partout où je vais\
+Il y a la joie, joie dans mon cœur
+
+**English**\
+I love the old-time singing, shouting\
+I love the old-time way\
+I love the old-time singing, shouting\
+Preaching, praying\
+I love the old time way
+
+I'm singing my Redeemer\
+All along the way\
+Amen amen, Amen amen\
+I'm singing my Redeemer\
+All along the way\
+There is joy, joy in my soul
+
+## J'aime Le louer
+
+ID : C0591
+
+**Français**\
+J'aime Le louer (3x)\
+Élever Son saint Nom\
+Jésus en moi est plus grand (3x)\
+Que celui dans le monde
+
+**English**\
+I love to worship (3x)\
+And lift up His holy Name\
+Greater is He that's in me (3x)\
+Than he that's in the world
+
+## Jamais je n'oublierai
+
+ID : C0602
+
+**Français**\
+1\. Jamais je n’oublierai ce qu’Il fit pour moi\
+Jamais je n’oublierai qu’Il m’a délivré\
+Jamais je n’oublierai qu’Il m’a transformé\
+Jamais je n’oublierai, non jamais
+
+2\. Il m'a fait sortir du fond du péché\
+Il a mis mes pieds sur un roc parfait\
+Il met maintenant dans mon cœur un chant\
+Un chant de louange, Alléluia !
+
+3\. Laissez-moi crier ce qu'Il fit pour moi\
+Laissez-moi crier qu'Il m'a libéré\
+Laissez-moi crier qu'Il m'a délivré\
+Laissez-moi crier Alléluia !
+
+**English**\
+1\. Jesus I will never forget what You’ve done for me\
+Jesus I will never forget how You set me free\
+Jesus I will never forget how You brought me out\
+Jesus I will never forget, no never
+
+2\. He brought me out of the miry clay\
+He set my feet on the rock to stay\
+He put a song in my heart today\
+A song of praise, Hallelujah!
+
 ## Je chante gloire, Alléluia
 
 ID : C0330
@@ -2804,6 +2883,185 @@ Since I laid my burdens down
 
 Yes I'm feeling so much better…\
 Yes I'm feeling just like shouting…
+
+## Je connais le Maître du vent
+
+ID : C0609
+
+**Français**\
+1\. Ma vie dérive sur une mer agitée\
+Faisant toujours face à mes problèmes\
+Mais j'ai un ami qui sans cesse me protège\
+Quand le vent se change en tempête
+
+Refrain\
+Je connais le Maître du vent\
+Je connais le faiseur de la pluie\
+Il peut calmer la tempête\
+Et faire briller le soleil encore\
+Je connais le Maître du vent
+
+2\. Parfois, je me sens comme un aigle dans les airs\
+Parmi les sommets mon âme se trouve\
+Une tempête soudaine parfois peut me surprendre\
+Mais jamais je ne pourrai abandonner
+
+**English**\
+1\. My boat of life sails on a troubled sea\
+Ever there's a wind in my sail\
+But I have a friend Who watches over me\
+When the breeze turns into a gale
+
+Refrain\
+I know the master of the wind\
+I know the maker of the rain\
+He can calm the storm\
+And make the sun to shine again\
+I know the master of the Wind
+
+2\. Sometimes I soar like an eagle to the sky\
+Among the peaks my soul can be found\
+An unexpected storm may drive me from the highs\
+It may bring me low, but it will never bring me down
+
+## Je Le louerai
+
+ID : C0626
+
+**Français**
+
+Refrain\
+Je le louerai (2x)\
+Louez l'Agneau immolé\
+Donnez-Lui gloire vous tous les saints\
+Car Son sang a ôté tout péché
+
+**English**
+
+Refrain\
+I will praise Him (2x)\
+Praise the Lamb for sinners slain\
+Give Him glory all ye people\
+For His blood has washed away each stain
+
+Blessed be the name of Jesus\
+I'm so glad He took me in\
+He's forgiven my transgressions\
+He has cleansed my heart from sin
+
+## Je le sais mon Rédempteur vit
+
+ID : C0628
+
+**Français**\
+Je le sais mon Rédempteur vit (2x)\
+Toute la création le proclame\
+Et Sa vie en moi s'écrie\
+Je le sais mon Rédempteur vit
+
+**English**\
+I know my Redeemer lives (2x)\
+Let all creation testifies\
+And His life within me cries\
+I know my Redeemer lives
+
+## Je louerai mon Dieu
+
+ID : C0633
+
+**Français**\
+Je louerai mon Dieu (2x)\
+Peu importe ce que sera demain\
+Ce qu'il me réserve\
+Je sais que je louerai mon Dieu
+
+**English**\
+I will praise the Lord (2x)\
+No matter what tomorrow brings\
+What it has in store\
+I know that I will praise the Lord
+
+## Je m'abandonne à Toi
+
+ID : C0635
+
+**Français**
+
+Refrain\
+Je m'abandonne à Toi, Seigneur\
+Je m'abandonne à Toi, Seigneur modèle-moi\
+Je m'abandonne à Toi, Seigneur\
+Je m'abandonne à Toi, Seigneur modèle-moi
+
+1\. Me voici, devant Toi\
+Et ma vie est entre Tes mains\
+Oh Seigneur, Je veux voir\
+Tes promesses agir en moi
+
+2\. Prends mon cœur, prends ma vie\
+Comme un vivant sacrifice\
+Tous mes rêves, tous mes plans\
+Je les place entre Tes mains
+
+3\. Ma vie n'est pas à moi\
+À Toi seul j'appartiens\
+Je m'abandonne, Je m'abandonne à Toi\
+Ma vie n'est pas à moi\
+À Toi seul j'appartiens\
+Je m'abandonne, Je m'abandonne à Toi
+
+**English**
+
+Refrain\
+I give myself away, oh Lord\
+I give myself away, So You can use me\
+I give myself away, oh Lord\
+I give myself away, So You can use me
+
+1\. Here I am, Here I stand\
+Lord, my life is in Your hands\
+Lord, I'm longing to see\
+Your desires revealed in me
+
+2\. Take my heart, Take my life\
+As a living sacrifice\
+All my dreams all my plans\
+Lord I place them in Your hands
+
+3\. My life is not my own\
+To You I belong\
+I give myself, I give myself to You\
+Oh oh my life is not my own\
+To You I belong\
+I give myself, I give myself to You
+
+## Je m'envolerai
+
+ID : C0637
+
+**Français**\
+1\. Un beau matin, quand tout sera fini\
+Je m'envolerai\
+À la maison où habite mon Jésus\
+Je m'envolerai
+
+Refrain\
+Je m'envolerai, oh gloire\
+Je m'envolerai\
+À la fin, alléluia, tout à l'heure\
+Je m'envolerai
+
+2\. Comme un oiseau libéré de prison\
+Je m'envolerai\
+À la fin, alléluia, tout à l'heure\
+Je m'envolerai
+
+**English**
+
+Refrain\
+I'll fly away, O Glory, I'll fly away\
+I won't die, Hallelujah, by and by\
+I'll fly away
 
 ## Je suis fort
 
