@@ -3063,6 +3063,355 @@ I'll fly away, O Glory, I'll fly away\
 I won't die, Hallelujah, by and by\
 I'll fly away
 
+## Je n'ai ni or ni argent
+
+ID : C0644
+
+**Français**\
+Je n'ai ni or ni argent\
+Mais ce que j'ai, je te le donne\
+Je n'ai ni or ni argent\
+Mais ce que j'ai, je te le donne
+
+Je te dis lève-toi (4x)\
+Prends ton lit et marche\
+Je te dis lève-toi (4x)\
+Prends ton lit et marche
+
+**English**\
+Silver and gold have I none\
+But what I have, I give it unto you\
+Silver and gold have I none\
+But what I have, I give it unto you
+
+## Je ne chancelle pas
+
+ID : C0646
+
+**Français**\
+1\. Jésus est mon Sauveur, je ne chancelle pas\
+Son amour est faveur, je ne chancelle pas\
+Juste comme un arbre planté près des eaux\
+Je ne chancelle pas
+
+Refrain\
+Je ne chancelle, je ne chancelle pas\
+Je ne chancelle, je ne chancelle pas\
+Juste comme un arbre planté près des eaux\
+Je ne chancelle pas
+
+2\. Gloire alléluia, je ne chancelle pas\
+Ancré en Jéhovah, je ne chancelle pas\
+Juste comme un arbre planté près des eaux\
+Je ne chancelle pas
+
+**English**\
+1\. Jesus is my Saviour, I shall not be moved\
+In His love and favour, I shall not be moved\
+Just like a tree that's planted by the waters\
+I shall not be moved
+
+Refrain\
+I shall not, I shall not be moved (2x)\
+Just like a tree that's planted by the waters\
+I shall not be moved
+
+2\. Glory Hallelujah, I shall not be moved\
+Anchored in Jehovah, I shall not be moved\
+Just like a tree that's planted by the waters\
+I shall not be moved
+
+## Je prête allégeance à l'Agneau
+
+ID : C0651
+
+**Français**
+
+Refrain\
+Je prête allégeance à l'Agneau\
+De toutes mes forces, de toute mon âme\
+Je veux glorifier Sa sainte Parole\
+Je prête allégeance à l'Agneau
+
+**English**\
+1\. I have heard how Christians long ago\
+Were brought before a tyrant's throne\
+And they were told that he would spare their lives\
+If they would renounce the name of Christ\
+But one by one, they chose to die\
+The Son of God, they would not deny\
+Like a great angelic choir sings\
+I can almost hear their voices ring
+
+Refrain (2x)\
+I pledge allegiance to the Lamb\
+With all my strength, with all I am\
+I will seek to honor His commands\
+I pledge allegiance to the Lamb
+
+2\. Now the years have come and the years have gone\
+And the cause of Jesus still goes on\
+Now our time has come to count the cost\
+To reject this world, to embrace the cross\
+And one by one let us live our lives\
+For the One who died to give us life\
+'Til the trumpet sounds on the final day\
+Let us proudly stand and boldly say
+
+Refrain (2x)
+
+To the Lamb of God who bore my pain\
+Who took my place, who wore my shame\
+I will seek to honor His commands\
+I pledge allegiance to the Lamb
+
+Refrain (2x)
+
+## Je sais je vais y arriver
+
+ID : C0655
+
+**Français**\
+1\. Tu n'as pas à t'inquiéter\
+Et n'aie aucune crainte\
+La joie vient le matin\
+Les épreuves ne durent qu'un temps\
+Il y a un ami nommé Jésus\
+Qui essuiera toutes tes larmes\
+Et si ton cœur est brisé\
+Lève les mains et déclare
+
+Refrain\
+Je sais, je vais y arriver\
+Je sais, je vais l'atteindre\
+Peu importe ce qu'il y a sur mon chemin\
+Ma vie est dans Ses mains\
+Avec Jésus j'y arriverai\
+Avec Lui je résisterai\
+Peu importe ce qu'il y a sur mon chemin\
+Ma vie est dans Ses mains
+
+2\. Lorsque les tests, les épreuves\
+Semblent avoir le dessus\
+Lorsque parents et amis\
+Ne sont plus là pour toi\
+Souviens-toi de ton ami Jésus\
+Qui essuiera toutes tes larmes\
+Et si ton cœur est brisé\
+Lève les mains et déclare
+
+Refrain
+
+**English**\
+1\. You don't have to worry\
+And don't you be afraid\
+Joy comes in the morning\
+Troubles they don't last always\
+For there's a friend named Jesus\
+Who will wipe your tears away\
+And if your heart is broken\
+Just lift your hands and say
+
+Refrain\
+I know that I can make it\
+I know that I can stand\
+No matter what may come my way\
+My life is in Your hands\
+With Jesus I can make it\
+With Him I know I can stand\
+No matter what may come my way\
+My life is in Your hands
+
+2\. So when your tests and trials\
+They seem to get you down\
+And all your friends and loved ones\
+Are nowhere to be found\
+Remember there's a friend in Jesus\
+Who will wipe your tears away\
+And if your heart is broken\
+Just lift your hands and say
+
+Refrain
+
+## Je sais mon Dieu va m'enlever
+
+ID : C0657
+
+**Français**\
+Je sais mon Dieu va m'enlever (2x)\
+Je vais prier et faire de mon mieux\
+Je sais mon Dieu va m'enlever\
+Dans le pays promis
+
+**English**\
+I know my Lord is gonna lead me out (2x)\
+I'm gonna pray and do the best I can\
+I know my Lord is gonna lead me out\
+Of this pilgrim land
+
+## Je sais mon Jésus
+
+ID : C0658
+
+**Espagnol**\
+Yo sé que Cristo, él volverá mañana\
+Yo sé que Cristo, él volverá por mí\
+Yo sé, Yo sé, Yo sé, él volverá mañana\
+Yo sé, Yo sé, Yo sé, él volverá por mí
+
+**Français**\
+Je sais, mon Jésus, Il reviendra un matin\
+Je sais, mon Jésus, Il reviendra pour moi\
+Je sais, Je sais, Je sais, Il reviendra un matin\
+Je sais, Je sais, Je sais, Il reviendra pour moi
+
+## Je sais qu'un jour mes yeux verront Jésus
+
+ID : C0660
+
+**Français**\
+Je sais qu'un jour mes yeux verront Jésus (2x)\
+Si je marche jusqu'au bout\
+Par la foi, et malgré tout\
+Je sais qu'un jour mes yeux verront Jésus
+
+**English**\
+I know the Lord will make a way for me (2x)\
+If I live a holy life\
+Shun the wrong and do the right\
+I know the Lord will make a way for me
+
+## Je sais que c'est le Sang
+
+ID : C0661
+
+**Français**\
+1\. Je sais que c'est le Sang (2x)\
+Je sais que c'est le Sang pour moi\
+Lorsque j'étais perdu\
+À la Croix Il mourut\
+Je sais que c'est le Sang pour moi
+
+2\. Il reviendra bientôt (2x)\
+Il reviendra bientôt pour moi\
+Lorsque j'étais perdu\
+À la Croix Il mourut\
+Je sais que c'est le Sang pour moi
+
+**English**\
+1\. I know it was the Blood (2x)\
+I know it was the Blood for me\
+One day when I was lost\
+He died upon the Cross\
+I know it was the Blood for me
+
+2\. He's coming back again (2x)\
+He's coming back again for me\
+One day when I was lost\
+He died upon the Cross\
+I know it was the Blood for me
+
+## Je sais que Tu es là
+
+ID : C0663
+
+**Français**\
+Je sais que Tu es là, Elohim\
+Je sais que Tu es là\
+Je sais que Tu es là, Elohim\
+Je sais que Tu es là
+
+Refrain\
+Mon âme Te bénit (3x)\
+Car je sais que Tu es là\
+Mon âme Te chante…\
+Mon âme T'adore…\
+Mon âme T'exalte…
+
+## Je serai changé
+
+ID : C0667
+
+**Français**\
+Je serai changé (2x)\
+De la Foi parfaite jusqu'à la Charité\
+Grâce à la Parole parlée
+
+Je serai changé (2x)\
+Changé du mortel à l'immortalité\
+Grâce à la Parole parlée
+
+Je serai changé (2x)\
+Du corps de péché jusqu'au corps glorifié\
+Grâce à la Parole parlée
+
+**English**\
+We shall be changed (2x)\
+Changed from mortal to immortality\
+In a twinkling of an eye
+
+## Je serre Ta Parole
+
+ID : C0669
+
+**Français**\
+Je serre Ta Parole (2x)\
+Je serre Ta Parole dans mon cœur\
+Afin de ne pas pécher (2x)\
+Afin de ne pas pécher contre Toi
+
+## Je suis couvert
+
+ID : C0671
+
+**Français**\
+Je suis couvert, couvert, couvert par son sang\
+Et je marche par la foi, et je vis dans l'amour\
+Je suis couvert, couvert, couvert par son sang\
+Car mon Jésus m'a secouru
+
+**English**\
+I am covered, covered, covered by his blood\
+Walking by faith, living in love\
+I am covered, covered, covered by his blood\
+For my Jesus has rescued me
+
+## Je suis délivré
+
+ID : C0673
+
+**Français**\
+Je suis délivré, gloire au Seigneur\
+Je suis délivré par sa Parole\
+Auparavant j'étais lié dans les chaînes de Satan\
+Je suis délivré, gloire au Seigneur
+
+**English**\
+I am delivered, Praise the Lord\
+I am delivered, Glory to His name\
+In the past, I was bound in the chains of Satan\
+I am delivered, Praise the Lord
+
+## Je suis en route pour Canaan
+
+ID : C0677
+
+**Français**\
+Je suis en route pour Canaan (3x)\
+Je suis en route, Seigneur, pour Canaan\
+Si tu ne vas pas, ne me retiens pas (3x)\
+Je suis en route, Seigneur, pour Canaan\
+Mon frère, ma sœur, allons-y ensemble (3x)\
+Je suis en route, Seigneur, pour Canaan
+
+Je suis en route pour l'adoption…
+
+**English**\
+I'm on my way to Canaan's land (3x)\
+I'm on my way, praise God, I'm on my way\
+If you won't go, don't hinder me (3x)\
+I'm on my way, praise God, I'm on my way
+
 ## Je suis fort
 
 ID : C0531
@@ -3094,6 +3443,56 @@ In the Blood of the Lamb\
 There is power, power\
 Wonder-working power\
 In the precious Blood of the Lamb
+
+## Je suis marqué
+
+ID : C0685
+
+**Français**
+
+Refrain\
+Je suis marqué, marqué, marqué\
+Je suis marqué, partout où je vais\
+Je suis marqué, marqué, marqué\
+C'est ce que je suis, et le monde le voit\
+Je suis scellé, scellé, scellé\
+Je suis scellé par l'Esprit Divin\
+Oh Gloire à Dieu! Alléluia Amen!\
+Je suis à Lui et je sais qu'Il est à moi
+
+Ils disent j'ai ruiné ma vie\
+Et j'ai gâché mon talent\
+Ils ne comprennent pas pourquoi\
+Car j'avais des ambitions\
+Mais j'ai pris la décision\
+De suivre Jésus jusqu'au bout\
+Et j'ai eu plus de gloire\
+Que le monde ne peut offrir
+
+Refrain
+
+**English**
+
+Refrain\
+I am marked, marked, marked\
+I am marked, now wherever I go\
+I am marked, marked, marked\
+Just what I am everyone seems to know\
+I am sealed, sealed, sealed\
+I am sealed by His Spirit Divine\
+O glory to God! Hallelujah! Amen!\
+I am His and I know that He is mine
+
+Well, they say my life is ruined\
+And my talent thrown away\
+And they cannot understand it\
+For I had such plans one day\
+But I know what I surrendered\
+When I promised I’d go through\
+And I gained far more Glory\
+Since God made me over new
+
+Refrain
 
 ## Jésus est vivant
 
