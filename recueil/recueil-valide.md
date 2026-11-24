@@ -2164,6 +2164,28 @@ Too much to break my vow\
 For I promised the Lord, I would make it somehow\
 And now I love him too much, to fail him now
 
+## I love You, written in red
+
+ID : C0695
+
+**English**\
+I love You, I love You\
+That's what calvary said\
+I love You, I love You\
+I love You, written in red
+
+## I'm gonna stay on the battlefield
+
+ID : C0708
+
+**English**\
+I'm gonna stay on the battlefield (2x)\
+I'm gonna stay on the battlefield till He comes\
+I'm gonna stay on a bended knee (2x)\
+I'm gonna stay on a bended knee till He comes\
+I'm gonna watch, fight and pray (2x)\
+I'm gonna watch, fight and pray till He comes
+
 ## I'm happy today
 
 ID : C0449
@@ -3493,6 +3515,113 @@ And I gained far more Glory\
 Since God made me over new
 
 Refrain
+
+## Je suis venu pour Le louer
+
+ID : C0690
+
+**Français**\
+Je suis venu pour Le louer\
+Je suis venu pour L'adorer\
+Je suis venu pour louer le Nom du Seigneur\
+Je suis venu pour L'adorer
+
+**English**\
+I came to glorify His Name (2x)\
+I came to glorify the Name of the Lord\
+I came to glorify His Name
+
+## Je T'aime Seigneur
+
+ID : C0697
+
+**Français**\
+Je T'aime Seigneur, et j'élève ma voix\
+Pour T'adorer, Mon Sauveur, Mon Roi\
+Reçois Seigneur, Comme un doux parfum\
+L'amour et le chant, De nos cœurs reconnaissants
+
+**English**\
+I love You Lord and I lift my voice\
+Just to worship You Oh my soul rejoice\
+Take joy my King in what You hear\
+Let it be a sweet, sweet sound in Your ear
+
+## Je T'exalte
+
+ID : C0699
+
+**Français**\
+Ô Seigneur, Tu règnes sur toute la Terre\
+Tu es exalté parmi tous les autres dieux\
+Ô Seigneur, Tu règnes sur toute la Terre\
+Tu es exalté parmi tous les autres dieux
+
+Refrain\
+Je T'exalte, je T'exalte\
+Je T'exalte Seigneur\
+Tu es digne, Tu es digne\
+Tu es digne, Seigneur
+
+**English**\
+Thou, oh Lord, art high above all the earth\
+Thou art exalted far above all other gods\
+Thou, oh Lord, art high above all the earth\
+Thou art exalted far above all other gods
+
+Refrain\
+I exalt Thee, I exalt Thee\
+I exalt Thee o Lord\
+Thou art worthy, Thou art worthy\
+Thou art worthy o Lord
+
+## Je Te bénirai, mon Dieu
+
+ID : C0700
+
+**Français**\
+Je Te bénirai, mon Dieu (2x)\
+Et mon âme crie à Toi, Seigneur\
+Je Te bénirai, mon Dieu
+
+**English**\
+I will bless You Lord (2x)\
+How my soul cries out to You my God\
+I will bless You Lord
+
+## Je Te donne mon cœur
+
+ID : C0702
+
+**Français**\
+Je Te donne mon cœur\
+Je Te donne mon âme\
+Je vis pour Toi seulement\
+Chaque souffle que je prends\
+Chaque moment de ma vie\
+Fraye Ton chemin en moi
+
+**English**\
+Lord I give my heart\
+I give You my soul\
+I live for You alone\
+Every breath that I take\
+Every moment I awake\
+Lord, have Your way in me
+
+## Je vais marcher au ciel un jour
+
+ID : C0711
+
+**Français**\
+Je vais marcher au ciel un jour (4x)\
+Je vais chanter au ciel un jour (4x)\
+Moi je verrai mon Jésus un jour (4x)
+
+**English**\
+I'm gonna walk in Heaven one day (4x)\
+I'm gonna sing in Heaven one day (4x)\
+I'm gonna see my Jesus one day (4x)
 
 ## Jésus est vivant
 
