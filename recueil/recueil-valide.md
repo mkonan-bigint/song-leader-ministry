@@ -1,6 +1,6 @@
 # Recueil validé – Song Leader Ministry
 
-Nov 21, 2026 · @Michael
+Nov 28, 2026 · @Michael
 
 Cantiques au statut « Validé » dans le recueil de travail, classés par ordre alphabétique. Chaque cantique garde son ID (feuille Base de chants) pour faire le lien avec l'application.
 
@@ -306,18 +306,18 @@ Jesus is the Name...
 ID : C0064
 
 **Français**\
-&#91;Béni soit le Nom du Seigneur (3x)\
-Le très-haut] (2x)
+{ Béni soit le Nom du Seigneur (3x)\
+Le très-haut } (2x)
 
-&#91;Le Nom du Seigneur est une forteresse\
-Les justes s'y refugient et ils sont sauvés] (2x)
+{ Le Nom du Seigneur est une forteresse\
+Les justes s'y refugient et ils sont sauvés } (2x)
 
 **English**\
-&#91;Blessed be the Name of the Lord (3x)\
-Most High] (2x)
+{ Blessed be the Name of the Lord (3x)\
+Most High } (2x)
 
-&#91;The Name of the Lord is a strong tower\
-The righteous ran into, and they are saved] (2x)
+{ The Name of the Lord is a strong tower\
+The righteous ran into, and they are saved } (2x)
 
 ## Bénis Dieu oh mon âme
 
@@ -340,17 +340,17 @@ Worship His holy name
 ID : C0075
 
 **Français**\
-&#91;Bénis Dieu oh mon âme,\
+{ Bénis Dieu oh mon âme,\
 Que tout ce qui est en moi\
-Bénisse son saint nom] (2x)
+Bénisse son saint nom } (2x)
 
 Il fait des merveilles (3x)\
 Béni soit son nom
 
 **English**\
-&#91;Bless the Lord, O my soul\
+{ Bless the Lord, O my soul\
 And all that is within me\
-Bless His holy name] (2x)
+Bless His holy name } (2x)
 
 He has done great things (3x)\
 Bless His holy name
@@ -374,24 +374,24 @@ Lui qui fît le ciel et la terre
 ID : C0074
 
 **Français**\
-&#91;Bientôt, très bientôt\
-Nous irons rencontrer le Roi] (3x)\
+{ Bientôt, très bientôt\
+Nous irons rencontrer le Roi } (3x)\
 Alléluia, alléluia\
 Nous irons rencontrer le Roi
 
-&#91;Plus de séparation\
-Nous serons avec Jésus] (3x)\
+{ Plus de séparation\
+Nous serons avec Jésus } (3x)\
 Alléluia, alléluia\
 Nous serons avec Jésus
 
 **English**\
-&#91;Soon and very soon\
-We are going to see the King] (3x)\
+{ Soon and very soon\
+We are going to see the King } (3x)\
 Hallelujah, hallelujah\
 We are going to see the King
 
-&#91;No more parting there,\
-we are going to see the King] (3x)\
+{ No more parting there,\
+we are going to see the King } (3x)\
 Hallelujah, Hallelujah\
 We are going to see the King
 
@@ -619,8 +619,8 @@ Emmanuel's name so sweet
 ID : C0135
 
 **Français**\
-&#91;Ce n'est plus moi qui vis, alléluia !\
-C'est Jésus qui vit en moi] (2x)\
+{ Ce n'est plus moi qui vis, alléluia !\
+C'est Jésus qui vit en moi } (2x)\
 En moi, en moi, c'est Jésus qui vit en moi\
 Ce n'est plus moi qui vis alléluia !\
 C'est Jésus qui vit en moi
@@ -645,8 +645,8 @@ Je ne crains rien, toujours triomphant
 ID : C0142
 
 **Français**\
-&#91;Cette joie que j'ai\
-Le monde ne me l'as pas donnée] (3x)\
+{ Cette joie que j'ai\
+Le monde ne me l'as pas donnée } (3x)\
 Le monde n'a pas donné\
 Le monde ne pourra l'enlever
 
@@ -654,7 +654,7 @@ Cette paix que j'ai…\
 Le Saint Esprit que j'ai…
 
 **English**\
-&#91;This joy that I have\
+{ This joy that I have\
 The world didn't give it to me] (3x)\
 The world didn't give it\
 The world can't take it away
@@ -967,9 +967,9 @@ And renew a right spirit within me
 ID : C0197
 
 **Français**\
-&#91;Crois seulement, Crois seulement\
+{ Crois seulement, Crois seulement\
 Toutes choses sont possibles\
-Crois seulement] (2x)
+Crois seulement } (2x)
 
 Seigneur je crois…\
 Maintenant je crois…\
@@ -977,8 +977,8 @@ Jésus est là…\
 L'Esprit est là…
 
 **English**\
-&#91;Only believe, Only Believe\
-All things are possible, only believe] (2x)
+{ Only believe, Only Believe\
+All things are possible, only believe } (2x)
 
 Lord, I believe…\
 Now, I believe…\
@@ -3623,6 +3623,277 @@ I'm gonna walk in Heaven one day (4x)\
 I'm gonna sing in Heaven one day (4x)\
 I'm gonna see my Jesus one day (4x)
 
+## Je veux cette bénédiction
+
+ID : C0713
+
+**Français**\
+1\. Quand Jacob rencontra le Seigneur cette nuit-là\
+Il lutta avec l'Ange jusqu'au petit matin\
+Il remporta la victoire et son nom fut changé\
+Je veux cette bénédiction
+
+Refrain\
+Je veux, je veux cette bénédiction\
+Qui peut sauver et satisfaire mon âme\
+Je veux, je veux ce genre d'expérience\
+Face à face avec l'Ange du Seigneur
+
+3\. Voici l'année de grâce, le Consolateur vient\
+Nous sommes la race élue que notre Dieu vient chercher\
+Il attendait que tes cris parviennent à ses oreilles\
+Pour que vienne la bénédiction
+
+**English**\
+1\. When Jacob met the Lord upon that lonely night\
+And wrestled there alone until the morning light\
+He won a princely title to gird him for the right\
+I want that kind of blessing.
+
+Refrain\
+I want, I want that kind of blessing\
+That saves and keeps, and satisfies the soul\
+I want, I want that full salvation\
+Till billows of heaven o’er me roll
+
+2\. When Israel at last came into Canaan’s land\
+The Lord his riches gave so full on ev’ry hand\
+They drove their foes before them and dwelt a happy band\
+I want that kind of blessing.
+
+3\. This is the day of grace, the Comforter is here\
+We are a chosen race, our God is drawing near\
+He’s waiting to be gracious the pray’r of faith to hear\
+And then He’ll send the blessing.
+
+## Je veux m'attendre au Seigneur
+
+ID : C0724
+
+**Français**\
+Je veux m'attendre (3x) au Seigneur\
+Je veux m'attendre (3x) au Seigneur
+
+**English**\
+I don't mind waiting (3x) on the Lord\
+I don't mind waiting (3x) on the Lord
+
+## Je vois un nuage
+
+ID : C0733
+
+**Français**\
+1\. Dans un temps de sécheresse\
+Pas un nuage dans le ciel\
+Les enfants de Dieu se demandèrent pourquoi\
+Ils allaient voir le prophète\
+Car ils ne comprenaient pas\
+Elie leur dit : regardez vers les cieux
+
+2\. Alors ils ouvrirent la porte\
+La septième fois, regardèrent encore\
+Un petit nuage se levait vers la mer\
+Ils commencèrent donc à comprendre\
+Le temps de la pluie était là\
+Juste comme le prophète l'avait dit
+
+Refrain\
+Je vois un nuage comme une main d'homme (3x)\
+Et je sais qu'il va pleuvoir
+
+**English**
+
+​1. In a time when it was dry\
+Not a cloud up in the sky\
+The children of God began to reason why\
+So they went to God’s man\
+'Cause they didn’t understand\
+He said, "Go look, it’s written in the sky"
+
+​2. Now they opened up the door\
+The seventh time, look once more\
+A tiny cloud was rising from the sea\
+And they began to understand\
+The time for rain was at hand\
+Just like God said it would be
+
+​Refrain\
+I see a cloud like a man’s hand (3x)\
+And I know it’s gonna rain
+
+​3. So today, we have no fear\
+We know a cloud did appear\
+The prophet screamed, "My bride, go through the door"\
+Have faith and just believe\
+A new spirit you'll receive\
+The rain is surely gonna pour
+
+​Refrain
+
+4\. Now the bride is looking above\
+For a charity rain of love\
+To fill their hearts with peace they’ve never known\
+And soon this bride shall be\
+God’s unfolding mystery\
+The promised word has been already sown
+
+​Refrain
+
+## Jehovah Jireh my provider
+
+ID : C0736
+
+**English**\
+Jehovah Jireh, my provider\
+You are more than enough for me\
+Jehovah Rapha, You're my healer\
+By Your stripes, I have been set free
+
+Jehovah Shammah, You are with me\
+And You supply all of my needs\
+You are more than enough\
+You are more than enough\
+You are more than enough for me
+
+## Jérusalem comme tu es belle
+
+ID : C0739
+
+**Français**\
+Jérusalem, comme tu es belle\
+Avec tes rues d'or, mer de cristal\
+Jérusalem, comme tu es belle\
+Avec tes rues d'or, mer de cristal
+
+C'est dans ces rues que bientôt je marcherai\
+Dans ces rues d'or, mer de cristal\
+C'est dans ces rues que bientôt je marcherai\
+Dans ces rues d'or, mer de cristal
+
+**Espagnol**\
+Jerusalén, qué bonita eres\
+Calles de oro, mar de cristal\
+Jerusalén, qué bonita eres\
+Calles de oro, mar de cristal
+
+Por esas calles yo voy a caminar\
+Calles de oro, mar de cristal\
+Por esas calles yo voy a caminar\
+Calles de oro, mar de cristal
+
+## Jésus brise toutes les chaînes
+
+ID : C0746
+
+**Français**\
+Jésus brise toutes les chaînes (3x)\
+Il m'a libéré\
+Je m'approche de Ton autel (3x)\
+Pour me consacrer\
+Je crois en Toi mon Sauveur (3x)\
+Tu m'as purifié\
+Je crois en toutes les promesses (3x)\
+Que Tu m'as données\
+Je m'écrie alléluia (3x)\
+Il m'a libéré\
+Je suis maintenant sur l'autel (3x)\
+Préparé pour moi
+
+**English**\
+Jesus breaks every fetter (3x)\
+And He sets me free
+
+I am now on the altar (3x)\
+Which was made for me
+
+I will never doubt my Savior (3x)\
+For He cleanses me
+
+I will rest on His promise (3x)\
+Which is given to me
+
+I will shout Hallelujah (3x)\
+For He sets me free
+
+## Jésus est à l'intérieur
+
+ID : C0754
+
+**Français**\
+{ Jésus est à l'intérieur\
+Se reflétant vers l'extérieur\
+Quel changement dans ma vie } (3x)\
+Oh quel changement dans ma vie
+
+**English**\
+{ Jesus on the inside\
+Working on the outside\
+Oh what a change in my life } (3x)\
+Oh what a change in my life
+
+## Jésus est là maintenant
+
+ID : C0770
+
+**Français**\
+Jésus est là maintenant (2x)\
+Il est là pour nous bénir\
+Et libérer les captifs\
+Oooo Jésus est là maintenant
+
+**English**\
+Jesus is here right now (2x)\
+He is here to meet your needs\
+To set the captives free\
+Oooo Jesus is here right now
+
+## Jésus est le grand vainqueur
+
+ID : C0759
+
+**Français**\
+Jésus est le grand vainqueur\
+Le grand vainqueur (2x)\
+Jésus est le grand vainqueur\
+Le grand vainqueur de chaque jour\
+Le grand vainqueur (5x)\
+Le grand vainqueur (3x)\
+Le grand vainqueur de chaque jour
+
+Je me tiens du bon côté…\
+Satan tu es le grand perdant…
+
+**English**\
+Jesus is the winner one\
+The winner one (2x)\
+Jesus is the winner one\
+The winner one all the time\
+Jesus is the winner one (5x)\
+Jesus is the winner one (2x)\
+The winner one all the time
+
+I am on the winning side…\
+Satan is the loser one…
+
+## Jésus est mien
+
+ID : C0763
+
+**Français**\
+Mien mien mien, Jésus est mien (2x)\
+Jésus est mon Sauveur tous les jours\
+Mien mien mien, Jésus est mien
+
+**English**\
+Mine mine mine, Jesus is mine (2x)\
+Jesus is my savior day by day\
+Mine mine mine, Jesus is mine
+
+**Hindi**\
+Mera mera mera, Yishu mera hai (2x)\
+Yishu mera muktidata, har e ki\
+Mera mera mera, Yishu mera hai
+
 ## Jésus est vivant
 
 ID : C0767
@@ -3636,6 +3907,529 @@ Car Jésus est vivant
 Jesus is alive (2x)\
 Sin and death must go, They are conquered\
 For Jesus is alive
+
+## Jésus le plus beau Nom qui soit
+
+ID : C0761
+
+**Français**\
+Jésus est le plus beau Nom qui soit\
+Il est tout pour moi\
+Bien plus qu’un ami\
+Il est toute ma vie, Il est ma joie\
+Je ne peux pas dire tout ce qu’Il est pour moi
+
+**English**\
+Jesus is the sweetest name I know\
+And he's just the same as his holy name\
+And that's the reason why I love him so\
+For Jesus is the sweetest name I know
+
+## Jesus Lord to me
+
+ID : C0778
+
+**English**\
+Jesus, Jesus Lord to me\
+Master, Savior, Prince of peace\
+Ruler of my heart today\
+Jesus Lord to me
+
+## Jésus paya tout
+
+ID : C0791
+
+**Français**\
+Jésus paya tout, et je lui dois tout\
+De mes péchés cramoisis\
+Il m'a lavé comme neige
+
+**English**\
+Jesus paid it all, all to him I owe\
+Sin had left a crimson stain\
+He washed it white as snow
+
+## Jésus prit mes péchés
+
+ID : C0792
+
+**Français**\
+Jésus prit mes péchés\
+Et les jeta dans la mer (3x)\
+Maintenant j'ai la paix\
+Que Lui-même m'a donnée\
+Mes péchés, mes fardeaux, Il les jeta dans la mer
+
+**English**\
+Jesus took my burdens\
+And He rolled them in the sea (3x)\
+Now I have the peace\
+That He has given me\
+All my sins and burdens, He rolled them in the sea
+
+## Jésus se tient près de toi
+
+ID : C0796
+
+**Français**\
+Jésus se tient près de toi, dis-Lui ce que tu veux (3x)\
+Jésus se tient près de toi
+
+Si tu veux le Saint-Esprit...\
+Si tu veux la guérison...\
+Si tu veux la délivrance...\
+Si tu veux ton adoption...
+
+**English**\
+Jesus on the main line, tell Him what you want (3x)\
+Jesus on the main line now
+
+If you want the Holy Ghost...\
+If you want your healing...\
+If you want deliverance...\
+If you want your adoption...
+
+## Jésus sois Seigneur de tout
+
+ID : C0798
+
+**Français**\
+Jésus sois Seigneur de tous (3x)\
+Les royaumes de mon cœur\
+Jésus, je Te donne tous (3x)\
+Les royaumes de mon cœur\
+Si Tu n'es pas Seigneur de tout (3x)\
+Tu n'es pas Seigneur du tout
+
+**English**\
+Jesus be the Lord of all (3x)\
+The kingdoms of my heart\
+Jesus I surrender all (3x)\
+The kingdoms of my heart\
+If You're not Lord of everything (3x)\
+Then You're not Lord at all
+
+## Jordan roll
+
+ID : C0806
+
+**English**\
+Roll, Jordan roll (2x)\
+Lord, I want to go to heaven when I die\
+Roll, Jordan roll
+
+## Jusqu'au bout
+
+ID : C0809
+
+**Français**\
+Jusqu'au bout, j'irai jusqu'au bout (2x)\
+J'ai pris ma décision, j'irai jusqu'au bout\
+J'ai fait mon choix, j'irai jusqu'au bout\
+Sans reculer, j'irai jusqu'au bout\
+Le sais-tu ? Moi j'irai jusqu'au bout avec mon Dieu
+
+**English**\
+All the way, I'm going all the way (2x)\
+I made my decision, I'm going all the way\
+I made my choice, I'm going all the way\
+No turning back, I'm going all the way\
+Don't you know, I'm going all the way with my Lord
+
+## Keep me true
+
+ID : C0811
+
+**English**\
+1\. Keep me true, Lord Jesus keep me true (2x)\
+There's a race that I must run\
+And there are victories to be won\
+Give me power every hour to be true
+
+2\. Take my hands, Lord Jesus take my hands (2x)\
+There's a race that I must run\
+And there are victories to be won\
+Give me power every hour to be true
+
+## Know ye not
+
+ID : C0814
+
+**Français**\
+Savez-vous, savez-vous, vous êtes le temple (3x)\
+Vous êtes le temple du Saint-Esprit
+
+Oui je sais, oui je sais, je suis le temple (3x)\
+Je suis le temple du Saint-Esprit
+
+Plein de grâce, plein de force, plein de puissance (3x)\
+Vous êtes le temple du Saint-Esprit
+
+Nous montons les sept marches vers la Perfection (3x)\
+Le vrai baptême du Saint-Esprit
+
+**English**\
+Know ye not, know ye not, ye are the temple (3x)\
+Ye are the temple of the Holy Ghost
+
+Yes I know, yes I know, I'm the temple (3x)\
+I am the temple of the Holy Ghost
+
+Full of praise, full of power, full of glory (3x)\
+Ye are the temple of the Holy Ghost
+
+Walking up seven steps to perfection (3x)\
+Receive the fullness of the Holy Ghost
+
+## L'amour de Jésus est si merveilleux
+
+ID : C0819
+
+**Français**\
+L'amour de Jésus est si merveilleux (3x)\
+Oh quel amour
+
+Il est si haut, qu'on ne peut le dépasser\
+Si profond, qu'on ne peut le sonder\
+Si large, qu'on ne peut le contourner\
+Oh quel amour
+
+**English**\
+The love of Jesus is so wonderful (3x)\
+So wonderful love
+
+It's so high, you can't go over it\
+So low, you can't go under it\
+So wide, you can't go around it\
+So wonderful love
+
+## L'amour et la grâce
+
+ID : C0820
+
+**Français**\
+L'amour et la grâce m'ont libéré\
+Et je vis cet instant grâce à Ton Nom\
+Je veux Te louer, Te remercier\
+Car l'amour et la grâce m'ont libéré
+
+**English**\
+Your grace and mercy, brought me through\
+I'm living this moment because of You\
+I want to thank You, and praise You too\
+Your grace and mercy, brought me through
+
+## L'un d'entre eux
+
+ID : C0826
+
+**Français**\
+1\. Hissés dans la chambre haute\
+Ils priaient tous en Son Nom\
+La dynamique est descendue\
+La puissance pour le service\
+Ce qu'Il fit pour Ses disciples\
+Il peut le faire aujourd'hui\
+Je suis heureux, je peux dire\
+Je suis l'un d'entre eux
+
+Refrain\
+{ L'un d'entre eux (2x)\
+Je suis heureux, je peux dire\
+Je suis l'un d'entre eux } (2x)
+
+2\. Viens mon frère, oui viens ma sœur\
+Chercher ta bénédiction\
+La Dynamique est descendue\
+C'est le temps de l'adoption\
+Viens La recevoir ce matin\
+Elle te ramène à la gloire\
+Je suis heureux, je peux dire\
+Je suis l'un d'entre eux
+
+Racheté, racheté...\
+Libéré, libéré...\
+Enlevé, enlevé...
+
+**English**\
+Refrain\
+{ One of them, one of them\
+I'm so glad that I can say\
+I'm one of them } (2x)
+
+I'm redeemed...\
+I shall be changed...
+
+## La nuée de gloire avance
+
+ID : C0836
+
+**Français**\
+{ La nuée de gloire avance\
+Avance avec elle, avance avec elle } (2x)
+
+Que ton esprit s'élève\
+Que tes forces soient renouvelées\
+Avançons-nous tous ensemble\
+En suivant ce chemin là\
+Une nouvelle vie tu recevras\
+Avance avec elle, avance avec elle
+
+**English**\
+{ The cloud of glory is moving\
+Move with the cloud, move with the cloud } (2x)
+
+Let your spirit arise\
+And your strength be renewed\
+Come let us move on together\
+As we follow the way He leads\
+New life, we shall receive\
+Move with the cloud, move with the cloud
+
+## La victoire est mienne
+
+ID : C0846
+
+**Français**\
+1\. À mon réveil ce matin\
+Dans mon cœur aucun doute\
+Je savais que mon Dieu m'exaucerait\
+J'ai fléchi les genoux\
+J'ai crié au Seigneur\
+Je me suis relevé en victorieux
+
+Refrain\
+La victoire est mienne (2x)\
+La victoire aujourd'hui est mienne\
+Je dis à Satan, arrière de moi\
+La victoire aujourd'hui est mienne
+
+La joie est mienne...
+
+**English**\
+1\. I woke up this morning\
+I did have no doubt\
+I knew that the Lord brought me out\
+I went down on my knees\
+I said Lord help me please\
+I jumped up on my feet with victory
+
+Refrain\
+Victory is mine (2x)\
+Victory today is mine\
+I told Satan, get behind me\
+Victory today is mine
+
+2\. I woke up this morning\
+I did have no doubt\
+I knew that the Lord brought me out\
+All my sins confessed\
+My hardened soul is blessed\
+And all my life is filled with happiness
+
+Refrain\
+Happiness is mine (2x)\
+Happiness today is mine\
+I told Satan, get behind me\
+Happiness today is mine
+
+## Laisse qu'il pleuve
+
+ID : C0853
+
+**Français**\
+Laisse qu'il pleuve (2x)\
+Ouvre les écluses du ciel
+
+**English**\
+Let it rain (2x)\
+Open the flood gates of Heaven
+
+## Le Saint Esprit est là
+
+ID : C0873
+
+**Français**\
+1\. Le grand jour s’est levé\
+Dieu nous a visités\
+Voici des temps nouveaux\
+Chantons gloire à l’Agneau\
+Nous recevons de Christ\
+Ce qu’Il avait promis\
+Le Saint-Esprit est là
+
+Refrain\
+Le Saint-Esprit est là (2x)\
+La mort a disparu\
+Dieu donne un plein salut\
+Et sur le monde entier\
+Le grand jour s’est levé\
+Le Saint-Esprit est là
+
+2\. L’obscurité s’enfuit\
+La lumière a jailli\
+Chassée des cœurs troublés\
+Toute incrédulité\
+Car Christ, le Roi des rois\
+Répand l’Esprit de foi\
+Le Saint-Esprit est là
+
+3\. Le grand consolateur\
+Vient remplir tous les cœurs\
+L’Esprit de vérité\
+Nous met en liberté\
+Il ouvre les prisons\
+Répand la guérison\
+Le Saint-Esprit est là
+
+4\. Que tous les rachetés\
+Chantent leur liberté\
+Christ a tout accompli\
+Il a donné l’Esprit\
+Voyez trembler l’enfer\
+Car dans tout l’univers\
+Le Saint-Esprit est là
+
+## Le Seigneur a fait pour nous de grandes choses
+
+ID : C0876
+
+**Français**\
+{ Le Seigneur a fait pour nous de grandes choses\
+C'est pour cela que nous sommes dans la joie } (2x)
+
+{ Allons en disant parmi les nations\
+Le Seigneur a fait pour nous de grandes choses } (2x)
+
+## Le vent souffle à nouveau
+
+ID : C0881
+
+**Français**\
+Le vent souffle à nouveau (4x)\
+Tout comme au jour de la Pentecôte\
+Le vent souffle à nouveau
+
+**English**\
+The wind is blowing again (4x)\
+As in the day of Pentecost\
+The wind is blowing again
+
+## Leaning on everlasting arms
+
+ID : C0883
+
+**English**\
+1\. What a fellowship, what a joy divine\
+Leaning on the everlasting arms\
+What a blessedness, what a peace is mine\
+Leaning on the everlasting arms
+
+Refrain\
+Leaning, leaning,\
+Safe and secure from all alarms\
+Leaning, leaning,\
+Leaning on the everlasting arms
+
+2\. Oh, how sweet to walk in this pilgrim way\
+Leaning on the everlasting arms\
+Oh, how bright the path grows from day to day\
+Leaning on the everlasting arms
+
+3\. What have I to dread, what have I to fear\
+Leaning on the everlasting arms?\
+I have blessed peace with my Lord so near\
+Leaning on the everlasting arms
+
+## Les écluses du ciel sont ouvertes
+
+ID : C0886
+
+**Français**\
+Les écluses du ciel sont ouvertes\
+Les bénédictions pleuvent ce soir\
+Il y a joie, joie, joie dans mon cœur\
+Car Jésus a tout arrangé
+
+Je Lui ai donné ma robe de péché\
+Il m'a donné Sa robe blanche\
+Et Il me nourrit de Sa manne\
+C'est ce qui me rend tout heureux
+
+**English**\
+The windows of heaven are open\
+The blessings are falling tonight\
+There is joy, joy, joy in my soul\
+For Jesus made everything right\
+There is joy, joy, joy in my soul\
+For Jesus made everything right
+
+I gave Him my old tattered garment\
+He gave me a robe of pure white\
+I'm feasting on the manna from heaven\
+And that's why I'm happy tonight
+
+## Let the death angel pass
+
+ID : C0897
+
+**Français**\
+1\. Dieu parla à Moïse, lui donna un message\
+Pour les enfants d'Israël, vivant à Goshen\
+Tue l'agneau, prends le sang, applique-le à ta porte\
+Je passerai en Égypte cette nuit, pour frapper les premiers-nés
+
+Refrain (2x)\
+L'ange de la mort passe\
+L'Épouse est en sûreté\
+Par le Signe qu'Il donna\
+Que nous soyons sauvés\
+Oh Alléluia, Gloire au Seigneur\
+Le Sang est appliqué, Son Esprit demeure\
+L'ange de la mort passe
+
+2\. Le Seigneur est parmi nous, Écoute sa Voix aujourd'hui\
+Ne vois-tu pas mon enfant, que Je suis passé\
+Ne Me rejette pas, c'est le dernier appel\
+Viens vite Me rencontrer, abandonne-toi à Moi
+
+Refrain (2x)
+
+3\. Le doux Saint-Esprit est le Signe aujourd'hui\
+Et ceux qui le recevront, seront épargnés\
+En dehors de ce Signe, l'ange sera sans pitié\
+Tu veux sauver ta famille, applique le signe maintenant
+
+Refrain (2x)
+
+**English**\
+1\. The Lord spoke to Moses, and told him what to say\
+To the children of Israel, in Goshen that day\
+Slay the lamb, take the blood, strike the posts of the door\
+For I'll pass through Egypt this night, and smite all the firstborn
+
+Refrain (2x)\
+Let the death angel pass\
+God's Bride's safe at last\
+In the Token He gave\
+That we would be saved\
+Oh Hallelujah, and glory to God\
+The Blood's been applied, His Spirit abides\
+Let the death angel pass
+
+2\. Lord is among us, Hear His voice now today\
+Don't you see My children I've been passing your way\
+Please don't reject Me, This could be the last call\
+Run quickly to meet Me, you must give Me your all
+
+Refrain (2x)
+
+3\. The sweet Holy Spirit is the Token today\
+And all who are under it, God said would be saved\
+Outside of this token, all the lost will be found\
+If you want your loved ones saved, you better get them in now
+
+Refrain (2x)
 
 ## Mon Dieu est un Dieu Puissant
 
